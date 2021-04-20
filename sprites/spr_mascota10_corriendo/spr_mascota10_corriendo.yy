@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e947e892-1097-4a03-8ac4-2a4bd48ef7e8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "MASCOTAS",
-    "path": "folders/Sprites/VESTIMENTA/MASCOTAS.yy",
+    "name": "Mascotas",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Mascotas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_mascota10_corriendo",

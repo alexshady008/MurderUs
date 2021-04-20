@@ -818,8 +818,8 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Fonts",
-    "path": "folders/Fonts.yy",
+    "name": "Letras Medianas",
+    "path": "folders/Fonts/Letras Medianas.yy",
   },
   "resourceVersion": "1.0",
   "name": "fnt_normal",

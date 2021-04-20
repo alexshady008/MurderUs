@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Personaje 32 Vision",
-    "path": "folders/Sprites/PERSONAJES/Personaje 32 Vision.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 32 Vision.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers32_corriendo",

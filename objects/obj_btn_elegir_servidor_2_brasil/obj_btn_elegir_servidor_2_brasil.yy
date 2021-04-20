@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "config",
-    "path": "folders/Objects/INTERFAZ/config.yy",
+    "name": "Config",
+    "path": "folders/Objects/Interfaces - Botones/Config.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_elegir_servidor_2_brasil",

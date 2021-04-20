@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 30 Thanos",
-    "path": "folders/Sprites/PERSONAJES/Personaje 30 Thanos.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 30 Thanos.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers30_muerto_parado",

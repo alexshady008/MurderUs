@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a9142f12-30fc-4237-af58-5f01df86ef04","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Tareas",
-    "path": "folders/Sprites/OBJETOS/Tareas.yy",
+    "name": "Mapa 1",
+    "path": "folders/Sprites/Objetos de Escenarios/Tareas/Mapa 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tarea1",

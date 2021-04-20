@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Lobby",
-    "path": "folders/Objects/OBJETOS/Construcciones/Lobby.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Lobby.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_puerta_nave",

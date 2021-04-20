@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Reservorio",
-    "path": "folders/Sprites/OBJETOS/Objetos/Mapa 3/Reservorio.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Reservorio.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_planta_reservorio",

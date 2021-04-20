@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Menu",
-    "path": "folders/Sprites/INTERFACES/Menu.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_beta",

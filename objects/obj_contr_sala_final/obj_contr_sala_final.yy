@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CONTROLADORES",
-    "path": "folders/Objects/CONTROLADORES.yy",
+    "name": "Otros",
+    "path": "folders/Objects/Controladores/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_sala_final",

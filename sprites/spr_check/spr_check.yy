@@ -73,7 +73,7 @@
   ],
   "parent": {
     "name": "Salas",
-    "path": "folders/Sprites/INTERFACES/Salas.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Salas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_check",

@@ -1,19 +1,19 @@
-/// Letras con bordes
-function draw_text_outline2(argument0, argument1, argument2, argument3, argument4, argument5, argument6) {
+/// Letras con bordes medianos
+function draw_text_outline2(valor, posX, posY, c_borde, alfa_borde, alfa_letra, c_letra) {
 
-	draw_set_alpha(argument4)
-	draw_set_colour(argument3)
-	draw_text(argument1+2,argument2+2,string(argument0))
-	draw_text(argument1-2,argument2-2,string(argument0))
-	draw_text(argument1,argument2+2,string(argument0))
-	draw_text(argument1+2,argument2,string(argument0))
-	draw_text(argument1,argument2-2,string(argument0))
-	draw_text(argument1-2,argument2,string(argument0))
-	draw_text(argument1-2,argument2+2,string(argument0))
-	draw_text(argument1+2,argument2-2,string(argument0))
-	draw_set_alpha(argument5)
-	draw_set_colour(argument6)
-	draw_text(argument1,argument2,string(argument0))
+	draw_set_alpha(alfa_borde)
+	draw_set_colour(c_borde)
+	draw_text(posX+2,posY+2,string(valor))
+	draw_text(posX-2,posY-2,string(valor))
+	draw_text(posX,posY+2,string(valor))
+	draw_text(posX+2,posY,string(valor))
+	draw_text(posX,posY-2,string(valor))
+	draw_text(posX-2,posY,string(valor))
+	draw_text(posX-2,posY+2,string(valor))
+	draw_text(posX+2,posY-2,string(valor))
+	draw_set_alpha(alfa_letra)
+	draw_set_colour(c_letra)
+	draw_text(posX,posY,string(valor))
 
 
 

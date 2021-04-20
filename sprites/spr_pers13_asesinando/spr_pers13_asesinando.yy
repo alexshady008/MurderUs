@@ -77,7 +77,7 @@
   ],
   "parent": {
     "name": "Personaje 13 Aquaman",
-    "path": "folders/Sprites/PERSONAJES/Personaje 13 Aquaman.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 13 Aquaman.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers13_asesinando",

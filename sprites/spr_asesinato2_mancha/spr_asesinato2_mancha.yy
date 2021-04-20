@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Asesinato",
-    "path": "folders/Sprites/INTERFACES/Cutscenes/Asesinato.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Asesinato.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_asesinato2_mancha",

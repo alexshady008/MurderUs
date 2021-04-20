@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Escalera",
-    "path": "folders/Sprites/OBJETOS/Construcciones/Escalera.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Escalera.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_escalera2",

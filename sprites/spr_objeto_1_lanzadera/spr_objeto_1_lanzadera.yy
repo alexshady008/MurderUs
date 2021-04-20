@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Lanzadera",
-    "path": "folders/Sprites/OBJETOS/Objetos/Mapa 3/Lanzadera.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Lanzadera.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_objeto_1_lanzadera",

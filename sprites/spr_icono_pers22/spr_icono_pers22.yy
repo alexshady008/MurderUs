@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 22 Goku",
-    "path": "folders/Sprites/PERSONAJES/Personaje 22 Goku.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 22 Goku.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_icono_pers22",

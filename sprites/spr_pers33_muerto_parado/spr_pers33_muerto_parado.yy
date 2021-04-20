@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 33 Wolverine",
-    "path": "folders/Sprites/PERSONAJES/Personaje 33 Wolverine.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 33 Wolverine.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers33_muerto_parado",

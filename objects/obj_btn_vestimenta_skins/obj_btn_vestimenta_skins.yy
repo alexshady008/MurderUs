@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Cambiar vestimenta",
-    "path": "folders/Objects/INTERFAZ/Cambiar vestimenta.yy",
+    "path": "folders/Objects/Interfaces - Botones/Cambiar vestimenta.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_vestimenta_skins",

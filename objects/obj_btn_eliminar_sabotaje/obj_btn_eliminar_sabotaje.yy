@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Minimapa - Sabotaje",
-    "path": "folders/Objects/INTERFAZ/Juego/Minimapa - Sabotaje.yy",
+    "path": "folders/Objects/Interfaces - Botones/Juego/Minimapa - Sabotaje.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_eliminar_sabotaje",

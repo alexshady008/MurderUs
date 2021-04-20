@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Hongo_escaner",
-    "path": "folders/Sprites/OTROS/Hongo_escaner.yy",
+    "path": "folders/Sprites/Otros/Hongo_escaner.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_hongo_escaner",

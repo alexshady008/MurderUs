@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Completar 3",
-    "path": "folders/Sprites/INTERFACES/TAREAS NUEVAS/Completar/Completar 3.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Completar/Completar 3.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fondo_completar_3",

@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Recoleccion 1",
-    "path": "folders/Sprites/INTERFACES/TAREAS NUEVAS/Recoleccion/Recoleccion 1.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Recoleccion/Recoleccion 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fondo_recoleccion_1",

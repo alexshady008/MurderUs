@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Interactivos",
-    "path": "folders/Objects/OBJETOS/Otros/Interactivos.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Interactivos.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_cambiar_vestimenta",

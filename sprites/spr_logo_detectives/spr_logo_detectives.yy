@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Logos",
-    "path": "folders/Sprites/INTERFACES/Juego/Logos.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Juego/Logos.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_logo_detectives",

@@ -36,7 +36,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Jardin Inicial",
-    "path": "folders/Objects/OBJETOS/Objetos/Jardines/Jardin Inicial.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Jardines/Jardin Inicial.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_hormiguero",

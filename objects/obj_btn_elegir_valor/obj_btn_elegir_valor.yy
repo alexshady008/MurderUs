@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Interfaces Mapa1y2",
-    "path": "folders/Objects/TAREAS/Interfaces/Interfaces Mapa1y2.yy",
+    "path": "folders/Objects/Interfaces - Botones/Tareas/Interfaces Mapa1y2.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_elegir_valor",

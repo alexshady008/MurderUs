@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Mapas",
-    "path": "folders/Objects/INTERFAZ/Crear sala/Mapas.yy",
+    "path": "folders/Objects/Interfaces - Botones/Salas/Crear sala/Mapas.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_elegir_mapa_3",

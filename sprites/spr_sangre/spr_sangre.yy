@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Animaciones",
-    "path": "folders/Sprites/INTERFACES/Animaciones.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Animaciones.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_sangre",

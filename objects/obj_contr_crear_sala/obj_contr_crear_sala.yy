@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MULTIJUGADOR",
-    "path": "folders/Objects/CONTROLADORES/MULTIJUGADOR.yy",
+    "name": "Controlador de Salas",
+    "path": "folders/Objects/Controladores/Juego Multijugador/Controlador de Salas.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_crear_sala",

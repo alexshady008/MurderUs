@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Electricidad",
-    "path": "folders/Objects/OBJETOS/Objetos/Electricidad.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Electricidad.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_linterna",

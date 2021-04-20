@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MULTIJUGADOR",
-    "path": "folders/Objects/CONTROLADORES/MULTIJUGADOR.yy",
+    "name": "Cutscences",
+    "path": "folders/Objects/Controladores/Juego Multijugador/Cutscences.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_animacion_muerte",

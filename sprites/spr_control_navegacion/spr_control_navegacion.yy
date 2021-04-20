@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Comandos",
-    "path": "folders/Sprites/OBJETOS/Objetos/Comandos.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Comandos.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_control_navegacion",

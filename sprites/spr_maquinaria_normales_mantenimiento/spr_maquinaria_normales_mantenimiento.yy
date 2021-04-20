@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Mantenimiento 3",
-    "path": "folders/Sprites/INTERFACES/TAREAS NUEVAS/Mantenimiento/Mantenimiento 3.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Mantenimiento/Mantenimiento 3.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_maquinaria_normales_mantenimiento",

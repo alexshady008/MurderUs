@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Lyra",
-    "path": "folders/Sprites/INTERFACES/Cutscenes/Votacion/Lyra.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Votacion/Lyra.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_enredadera_votacion_lyra",

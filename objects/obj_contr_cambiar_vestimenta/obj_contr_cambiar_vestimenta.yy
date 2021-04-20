@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MULTIJUGADOR",
-    "path": "folders/Objects/CONTROLADORES/MULTIJUGADOR.yy",
+    "name": "Elegir Vestimenta",
+    "path": "folders/Objects/Controladores/Elegir Vestimenta.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_cambiar_vestimenta",

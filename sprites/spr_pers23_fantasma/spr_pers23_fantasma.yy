@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 23 Harley",
-    "path": "folders/Sprites/PERSONAJES/Personaje 23 Harley.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 23 Harley.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers23_fantasma",

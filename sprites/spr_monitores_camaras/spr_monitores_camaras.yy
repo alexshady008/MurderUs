@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"013ccf98-c4eb-4af0-b7ba-39cef6676c64","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "OTROS",
-    "path": "folders/Sprites/OBJETOS/OTROS.yy",
+    "name": "Interactivos",
+    "path": "folders/Sprites/Objetos de Escenarios/Interactivos.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_monitores_camaras",

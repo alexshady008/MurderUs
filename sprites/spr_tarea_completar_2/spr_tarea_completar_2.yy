@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"54feb322-b8c9-49b6-9e7f-104dc2d13e03","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Nuevas_tareas",
-    "path": "folders/Sprites/OBJETOS/Marcadores/Nuevas_tareas.yy",
+    "name": "Tareas",
+    "path": "folders/Sprites/Objetos de Escenarios/Marcadores de objetos/Tareas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tarea_completar_2",

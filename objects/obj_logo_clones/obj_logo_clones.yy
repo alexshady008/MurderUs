@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Salon Principal",
-    "path": "folders/Objects/OBJETOS/Objetos/MAPA 3/Salon Principal.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/MAPA 3/Salon Principal.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_logo_clones",

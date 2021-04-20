@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Prenda 12",
-    "path": "folders/Sprites/VESTIMENTA/PRENDAS/Prenda 12.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Prendas/Prenda 12.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_skin12_fantasma",

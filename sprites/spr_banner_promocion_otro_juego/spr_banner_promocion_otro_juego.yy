@@ -77,7 +77,7 @@
   ],
   "parent": {
     "name": "Interfaces",
-    "path": "folders/Sprites/INTERFACES/Interfaces.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Interfaces.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_banner_promocion_otro_juego",

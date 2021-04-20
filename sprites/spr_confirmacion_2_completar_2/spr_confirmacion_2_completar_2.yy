@@ -73,7 +73,7 @@
   ],
   "parent": {
     "name": "Completar 2",
-    "path": "folders/Sprites/INTERFACES/TAREAS NUEVAS/Completar/Completar 2.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Completar/Completar 2.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_confirmacion_2_completar_2",

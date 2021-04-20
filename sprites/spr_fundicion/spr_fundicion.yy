@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Fabrica",
-    "path": "folders/Sprites/OBJETOS/Objetos/Mapa 3/Fabrica.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Fabrica.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fundicion",

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bdeda265-0316-4528-b0ce-6929ac0bf8ea","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Construcciones",
-    "path": "folders/Sprites/OBJETOS/Construcciones.yy",
+    "name": "Otros",
+    "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_piso",

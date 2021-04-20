@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Historia",
-    "path": "folders/Objects/CONTROLADORES/Historia.yy",
+    "path": "folders/Objects/Controladores/Historia.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_alfa_historia",

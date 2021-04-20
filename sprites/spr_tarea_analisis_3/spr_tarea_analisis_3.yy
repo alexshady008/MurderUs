@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f48e0009-62ee-43eb-a364-f922ffc86499","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Nuevas_tareas",
-    "path": "folders/Sprites/OBJETOS/Marcadores/Nuevas_tareas.yy",
+    "name": "Tareas",
+    "path": "folders/Sprites/Objetos de Escenarios/Marcadores de objetos/Tareas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tarea_analisis_3",

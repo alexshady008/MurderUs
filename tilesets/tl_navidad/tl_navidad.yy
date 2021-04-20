@@ -69,8 +69,8 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "Otros",
+    "path": "folders/Tile Sets/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "tl_navidad",

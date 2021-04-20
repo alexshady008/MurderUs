@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Historia Tutorial",
-    "path": "folders/Objects/INTERFAZ/Historia Tutorial.yy",
+    "path": "folders/Objects/Interfaces - Botones/Historia Tutorial.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_finalizar_historia",

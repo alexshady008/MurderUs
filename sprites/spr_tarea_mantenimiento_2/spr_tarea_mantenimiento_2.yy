@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ff2cd02e-cda4-4be2-848c-74bd8c7108e5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Nuevas_tareas",
-    "path": "folders/Sprites/OBJETOS/Marcadores/Nuevas_tareas.yy",
+    "name": "Tareas",
+    "path": "folders/Sprites/Objetos de Escenarios/Marcadores de objetos/Tareas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tarea_mantenimiento_2",

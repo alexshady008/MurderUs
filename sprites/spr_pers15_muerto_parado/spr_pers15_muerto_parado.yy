@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 15 Ron Weasley",
-    "path": "folders/Sprites/PERSONAJES/Personaje 15 Ron Weasley.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 15 Ron Weasley.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers15_muerto_parado",

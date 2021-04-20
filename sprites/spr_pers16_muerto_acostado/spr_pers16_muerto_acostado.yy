@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 16 Hermione Granger",
-    "path": "folders/Sprites/PERSONAJES/Personaje 16 Hermione Granger.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 16 Hermione Granger.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers16_muerto_acostado",

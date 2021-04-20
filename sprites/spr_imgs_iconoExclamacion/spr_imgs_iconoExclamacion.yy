@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"17bc16e6-b88b-45c2-b2d6-fd513d78b8e2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "IMGS",
-    "path": "folders/Sprites/HISTORIA/IMGS.yy",
+    "name": "Imgs separadas",
+    "path": "folders/Sprites/Historia - Tutorial/Imgs separadas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_imgs_iconoExclamacion",

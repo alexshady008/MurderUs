@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "INTERFAZ",
-    "path": "folders/Scripts/INTERFAZ.yy",
+    "name": "Dibujar Textos con Sombras",
+    "path": "folders/Scripts/Dibujar Textos con Sombras.yy",
   },
   "resourceVersion": "1.0",
   "name": "draw_text_outline2",

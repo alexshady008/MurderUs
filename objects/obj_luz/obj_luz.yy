@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Luces",
-    "path": "folders/Objects/OBJETOS/Luces.yy",
+    "path": "folders/Objects/Otros/Luces.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_luz",

@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Techos",
-    "path": "folders/Objects/OBJETOS/Construcciones/Techos.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Estructuras/Techos.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_techo_diag_der_ext",

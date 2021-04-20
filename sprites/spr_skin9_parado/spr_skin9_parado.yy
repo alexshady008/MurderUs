@@ -73,7 +73,7 @@
   ],
   "parent": {
     "name": "Prenda 09",
-    "path": "folders/Sprites/VESTIMENTA/PRENDAS/Prenda 09.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Prendas/Prenda 09.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_skin9_parado",

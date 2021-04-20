@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Reuniones",
-    "path": "folders/Sprites/OBJETOS/Objetos/Reuniones.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Reuniones.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_escritorio",

@@ -73,7 +73,7 @@
   ],
   "parent": {
     "name": "Editor ",
-    "path": "folders/Sprites/INTERFACES/Editor .yy",
+    "path": "folders/Sprites/Interfacez - Botones/Editor .yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_palanca_mov__cam",

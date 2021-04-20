@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Otros",
-    "path": "folders/Objects/OBJETOS/Otros.yy",
+    "name": "Transportador",
+    "path": "folders/Objects/Objetos de Escenarios/Lobby/Transportador.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_transportador_luz",

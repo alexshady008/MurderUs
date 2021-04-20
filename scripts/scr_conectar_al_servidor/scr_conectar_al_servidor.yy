@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "MULTIJUGADOR",
-    "path": "folders/Scripts/MULTIJUGADOR.yy",
+    "name": "Envios y Recibo de Datos",
+    "path": "folders/Scripts/Envios y Recibo de Datos.yy",
   },
   "resourceVersion": "1.0",
   "name": "scr_conectar_al_servidor",

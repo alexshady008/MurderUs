@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Dormitorio",
-    "path": "folders/Sprites/OBJETOS/Objetos/Dormitorio.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Dormitorio.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_mesita",

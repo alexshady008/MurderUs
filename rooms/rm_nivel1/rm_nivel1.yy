@@ -2520,8 +2520,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Mapa 1",
+    "path": "folders/Rooms/Jugables/Mapa 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_nivel1",

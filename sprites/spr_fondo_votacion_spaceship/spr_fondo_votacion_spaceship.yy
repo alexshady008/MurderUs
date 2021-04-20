@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Spaceship",
-    "path": "folders/Sprites/INTERFACES/Cutscenes/Votacion/Spaceship.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Votacion/Spaceship.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fondo_votacion_spaceship",

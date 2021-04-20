@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Personaje 19 Piper Chapman",
-    "path": "folders/Sprites/PERSONAJES/Personaje 19 Piper Chapman.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 19 Piper Chapman.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers19_corriendo",

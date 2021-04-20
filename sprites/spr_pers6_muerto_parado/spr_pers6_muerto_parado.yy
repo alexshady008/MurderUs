@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 06 Capitan America",
-    "path": "folders/Sprites/PERSONAJES/Personaje 06 Capitan America.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 06 Capitan America.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers6_muerto_parado",

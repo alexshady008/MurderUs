@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4866a2e3-13d2-4da8-8368-4f3862ebe50a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "ESCENAS",
-    "path": "folders/Sprites/HISTORIA/ESCENAS.yy",
+    "name": "Escenas",
+    "path": "folders/Sprites/Historia - Tutorial/Escenas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_img_historia1",

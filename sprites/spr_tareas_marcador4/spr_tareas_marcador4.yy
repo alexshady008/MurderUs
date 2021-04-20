@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6f570056-2c11-43f8-9f31-2dd975c4d74a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Tareas",
-    "path": "folders/Sprites/OBJETOS/Tareas.yy",
+    "name": "Otros",
+    "path": "folders/Sprites/Objetos de Escenarios/Tareas/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tareas_marcador4",

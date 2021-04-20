@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MULTIJUGADOR",
-    "path": "folders/Objects/CONTROLADORES/MULTIJUGADOR.yy",
+    "name": "Pantallas Interactivas",
+    "path": "folders/Objects/Controladores/Juego Multijugador/Pantallas Interactivas.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_sabotajes",

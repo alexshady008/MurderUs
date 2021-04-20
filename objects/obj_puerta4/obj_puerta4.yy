@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Puertas",
-    "path": "folders/Objects/OBJETOS/Construcciones/Puertas.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Estructuras/Puertas.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_puerta4",

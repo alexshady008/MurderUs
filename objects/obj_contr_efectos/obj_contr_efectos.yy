@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CONTROLADORES",
-    "path": "folders/Objects/CONTROLADORES.yy",
+    "name": "Otros",
+    "path": "folders/Objects/Controladores/Juego Multijugador/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_efectos",

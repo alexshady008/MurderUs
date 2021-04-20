@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Tareas ",
-    "path": "folders/Objects/OBJETOS/Tareas .yy",
+    "name": "Otros",
+    "path": "folders/Objects/Objetos de Escenarios/Tareas /Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_pos_tareas",

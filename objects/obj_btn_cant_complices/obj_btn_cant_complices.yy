@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Complices",
-    "path": "folders/Objects/INTERFAZ/Crear sala/Complices.yy",
+    "path": "folders/Objects/Interfaces - Botones/Salas/Crear sala/Complices.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_cant_complices",

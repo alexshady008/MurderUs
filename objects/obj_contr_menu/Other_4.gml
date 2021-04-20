@@ -1,7 +1,7 @@
 /// @description Contr variables al voler al menu
 // Puede escribir su código en este editor
 
-#region Variables
+#region Inicia Variables cada vez que se vuelve al menu
 	global.jugabilidad = true
 	global.menuBloq = false
 	global.popup = false
@@ -55,24 +55,9 @@
 
 
 #region  Activa el sonido del fondo 1
-	//if (room == rm_menu)
-	//{
 		if (audio_is_playing(snd_fondo2)) audio_stop_sound(snd_fondo2)
 		if (audio_is_playing(snd_fondo1)) audio_stop_sound(snd_fondo1)
 		if (global.musica) audio_play_sound(snd_fondo1,100,true)  /// sonido de fondo 1
-	//}
-#endregion
-
-
-#region Muestra el pop up de activar o desactivar las luces
-	/*if (global.vecesJugado==2 and global.contr_luz_popup==false) {
-		scr_popup_aviso_luces()
-		if instance_exists(obj_btn_luces) obj_btn_luces.depth = -5000000200
-		global.contr_luz_popup = true
-		ini_open("comandos.ini")
-		ini_write_real("jugadorDatos","luz_popup",global.contr_luz_popup)
-		ini_close()
-	}*/
 #endregion
 
 
@@ -98,17 +83,17 @@
 #endregion
 
 
-#region Elimina las listas
-if (ds_exists(global.jugadores_id,ds_type_list)) ds_list_destroy(global.jugadores_id) 
-if (ds_exists(global.jugadores_lista,ds_type_list)) ds_list_destroy(global.jugadores_lista) 
-if (ds_exists(global.servidorDatos,ds_type_list)) ds_list_destroy(global.servidorDatos) 
-if (ds_exists(global.mensajes_lista,ds_type_list)) ds_list_destroy(global.mensajes_lista) 
-if (ds_exists(global.impostores_lista,ds_type_list)) ds_list_destroy(global.impostores_lista) 
-if (ds_exists(global.detective_lista,ds_type_list)) ds_list_destroy(global.detective_lista) 
-if (ds_exists(global.complices_lista,ds_type_list)) ds_list_destroy(global.complices_lista) 
-if (ds_exists(global.lista_tareas,ds_type_list)) ds_list_destroy(global.lista_tareas) 
-if (ds_exists(global.nombre_habitaciones,ds_type_list)) ds_list_destroy(global.nombre_habitaciones) 
-global.nombre_habitaciones = ds_list_create()
+#region Elimina las listas de datos
+	if (ds_exists(global.jugadores_id,ds_type_list)) ds_list_destroy(global.jugadores_id) 
+	if (ds_exists(global.jugadores_lista,ds_type_list)) ds_list_destroy(global.jugadores_lista) 
+	if (ds_exists(global.servidorDatos,ds_type_list)) ds_list_destroy(global.servidorDatos) 
+	if (ds_exists(global.mensajes_lista,ds_type_list)) ds_list_destroy(global.mensajes_lista) 
+	if (ds_exists(global.impostores_lista,ds_type_list)) ds_list_destroy(global.impostores_lista) 
+	if (ds_exists(global.detective_lista,ds_type_list)) ds_list_destroy(global.detective_lista) 
+	if (ds_exists(global.complices_lista,ds_type_list)) ds_list_destroy(global.complices_lista) 
+	if (ds_exists(global.lista_tareas,ds_type_list)) ds_list_destroy(global.lista_tareas) 
+	if (ds_exists(global.nombre_habitaciones,ds_type_list)) ds_list_destroy(global.nombre_habitaciones) 
+	global.nombre_habitaciones = ds_list_create()
 #endregion
 
 

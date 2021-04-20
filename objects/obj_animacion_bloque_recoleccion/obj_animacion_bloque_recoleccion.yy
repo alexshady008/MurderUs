@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Recoleccion 3",
-    "path": "folders/Objects/TAREAS/Interfaces/Recoleccion/Recoleccion 3.yy",
+    "path": "folders/Objects/Interfaces - Botones/Tareas/Recoleccion/Recoleccion 3.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_animacion_bloque_recoleccion",

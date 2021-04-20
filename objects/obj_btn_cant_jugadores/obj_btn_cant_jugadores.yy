@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Jugadores",
-    "path": "folders/Objects/INTERFAZ/Crear sala/Jugadores.yy",
+    "path": "folders/Objects/Interfaces - Botones/Salas/Crear sala/Jugadores.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_cant_jugadores",

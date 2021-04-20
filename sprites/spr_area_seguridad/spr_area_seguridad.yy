@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Naves",
-    "path": "folders/Sprites/OBJETOS/Objetos/Naves.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Naves.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_area_seguridad",

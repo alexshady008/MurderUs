@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Votaciones",
-    "path": "folders/Objects/CONTROLADORES/Votaciones.yy",
+    "path": "folders/Objects/Controladores/Juego Multijugador/Votaciones.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_votacion_spaceship",

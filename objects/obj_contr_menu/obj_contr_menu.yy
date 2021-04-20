@@ -38,8 +38,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CONTROLADORES",
-    "path": "folders/Objects/CONTROLADORES.yy",
+    "name": "Controladores",
+    "path": "folders/Objects/Controladores.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_menu",

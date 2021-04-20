@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Extractor",
-    "path": "folders/Sprites/OBJETOS/Objetos/Mapa 3/Extractor.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Extractor.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_extractor_baterias",

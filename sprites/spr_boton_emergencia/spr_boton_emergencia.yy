@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3e78baef-3301-4407-a9b7-45d71b47aeb1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "OTROS",
-    "path": "folders/Sprites/OBJETOS/OTROS.yy",
+    "name": "Interactivos",
+    "path": "folders/Sprites/Objetos de Escenarios/Interactivos.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_boton_emergencia",

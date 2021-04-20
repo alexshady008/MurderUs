@@ -73,7 +73,7 @@
   ],
   "parent": {
     "name": "Personaje 04 Ironman",
-    "path": "folders/Sprites/PERSONAJES/Personaje 04 Ironman.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 04 Ironman.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers4_parado",

@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 29 Steve",
-    "path": "folders/Sprites/PERSONAJES/Personaje 29 Steve.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 29 Steve.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers29_muerto_parado",

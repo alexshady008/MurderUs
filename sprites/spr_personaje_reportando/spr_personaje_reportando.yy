@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Reportar Cuerpo",
-    "path": "folders/Sprites/INTERFACES/Cutscenes/Reportar Cuerpo.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Reportar Cuerpo.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_personaje_reportando",

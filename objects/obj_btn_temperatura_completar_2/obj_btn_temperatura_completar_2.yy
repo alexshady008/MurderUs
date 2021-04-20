@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Completar",
-    "path": "folders/Objects/TAREAS/Interfaces/Completar.yy",
+    "path": "folders/Objects/Interfaces - Botones/Tareas/Completar.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_temperatura_completar_2",

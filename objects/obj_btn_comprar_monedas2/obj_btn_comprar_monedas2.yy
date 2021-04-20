@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Tienda",
-    "path": "folders/Objects/INTERFAZ/Tienda.yy",
+    "path": "folders/Objects/Interfaces - Botones/Tienda.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_comprar_monedas2",

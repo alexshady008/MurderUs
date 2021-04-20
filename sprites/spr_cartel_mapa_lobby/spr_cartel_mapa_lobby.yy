@@ -77,7 +77,7 @@
   ],
   "parent": {
     "name": "Lobby",
-    "path": "folders/Sprites/OBJETOS/Construcciones/Lobby.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Lobby.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_cartel_mapa_lobby",

@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Analisis",
-    "path": "folders/Objects/TAREAS/Interfaces/Analisis.yy",
+    "path": "folders/Objects/Interfaces - Botones/Tareas/Analisis.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_piedra_con_signo",

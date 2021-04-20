@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c99457ac-613b-4cf7-a64a-57f315eb7b3a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "IMGS",
-    "path": "folders/Sprites/HISTORIA/IMGS.yy",
+    "name": "Imgs separadas",
+    "path": "folders/Sprites/Historia - Tutorial/Imgs separadas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_imgs_persAmarillo_llevandoCuerpo",

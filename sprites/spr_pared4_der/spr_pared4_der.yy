@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Pared4",
-    "path": "folders/Sprites/OBJETOS/Construcciones/Paredes/Pared4.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Paredes/Pared4.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pared4_der",

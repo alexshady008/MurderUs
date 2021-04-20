@@ -77,7 +77,7 @@
   ],
   "parent": {
     "name": "Puertas",
-    "path": "folders/Sprites/OBJETOS/Construcciones/Puertas.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Puertas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_puerta3_corrediza",

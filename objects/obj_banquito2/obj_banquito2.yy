@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Dormitorio",
-    "path": "folders/Objects/OBJETOS/Objetos/Dormitorio.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Dormitorio.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_banquito2",

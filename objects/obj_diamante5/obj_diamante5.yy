@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Cueva Morada",
-    "path": "folders/Objects/OBJETOS/Objetos/MAPA 3/Cueva Morada.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/MAPA 3/Cueva Morada.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_diamante5",

@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Mantenimiento 2",
-    "path": "folders/Sprites/INTERFACES/TAREAS NUEVAS/Mantenimiento/Mantenimiento 2.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Mantenimiento/Mantenimiento 2.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_polvo_mantenimiento",

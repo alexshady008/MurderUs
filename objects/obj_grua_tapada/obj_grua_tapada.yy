@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Deposito",
-    "path": "folders/Objects/OBJETOS/Objetos/Deposito.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Deposito.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_grua_tapada",

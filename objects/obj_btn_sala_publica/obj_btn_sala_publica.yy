@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Unirse Sala",
-    "path": "folders/Objects/INTERFAZ/Unirse Sala.yy",
+    "path": "folders/Objects/Interfaces - Botones/Salas/Unirse Sala.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_sala_publica",

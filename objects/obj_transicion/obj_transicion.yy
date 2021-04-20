@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MULTIJUGADOR",
-    "path": "folders/Objects/CONTROLADORES/MULTIJUGADOR.yy",
+    "name": "Otros",
+    "path": "folders/Objects/Controladores/Juego Multijugador/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_transicion",

@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Elegir nivel",
-    "path": "folders/Objects/INTERFAZ/Editor/Elegir nivel.yy",
+    "path": "folders/Objects/Interfaces - Botones/Editor/Elegir nivel.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_elegir_nivel",

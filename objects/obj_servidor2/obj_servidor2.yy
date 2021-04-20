@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Servidores",
-    "path": "folders/Objects/OBJETOS/Objetos/Servidores.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Servidores.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_servidor2",

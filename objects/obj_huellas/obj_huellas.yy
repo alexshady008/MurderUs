@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Otros",
-    "path": "folders/Objects/OBJETOS/Otros.yy",
+    "name": "Huellas",
+    "path": "folders/Objects/Otros/Otros/Huellas.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_huellas",

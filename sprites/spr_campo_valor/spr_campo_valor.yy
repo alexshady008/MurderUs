@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "TAREAS VIEJAS",
-    "path": "folders/Sprites/INTERFACES/TAREAS VIEJAS.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS VIEJAS.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_campo_valor",

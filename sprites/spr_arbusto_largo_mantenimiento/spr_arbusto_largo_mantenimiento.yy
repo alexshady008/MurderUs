@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Mantenimiento 1",
-    "path": "folders/Sprites/INTERFACES/TAREAS NUEVAS/Mantenimiento/Mantenimiento 1.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Mantenimiento/Mantenimiento 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_arbusto_largo_mantenimiento",

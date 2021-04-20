@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Transmisiones",
-    "path": "folders/Sprites/OBJETOS/Objetos/Mapa 3/Transmisiones.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Transmisiones.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_polvo",

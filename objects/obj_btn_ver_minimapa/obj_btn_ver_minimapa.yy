@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Juego",
-    "path": "folders/Objects/INTERFAZ/Juego.yy",
+    "path": "folders/Objects/Interfaces - Botones/Juego.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_ver_minimapa",

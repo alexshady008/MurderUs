@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b4cbc134-9355-44ac-8ddc-26c40f7e9d01","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "IMGS",
-    "path": "folders/Sprites/HISTORIA/IMGS.yy",
+    "name": "Imgs separadas",
+    "path": "folders/Sprites/Historia - Tutorial/Imgs separadas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_imgs_persAmrillo_brazosEstirados",

@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "PERSONAJES",
-    "path": "folders/Objects/PERSONAJES.yy",
+    "name": "Otros",
+    "path": "folders/Objects/Personaje/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_particulas_sangre",

@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Tipo Salas",
-    "path": "folders/Objects/INTERFAZ/Crear sala/Tipo Salas.yy",
+    "path": "folders/Objects/Interfaces - Botones/Salas/Crear sala/Tipo Salas.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_check_sala_publica",

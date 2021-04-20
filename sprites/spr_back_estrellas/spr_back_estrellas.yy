@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ec6a1c4a-c694-4b6b-97a3-d03071bee733","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "BACKGROUND",
-    "path": "folders/Sprites/BACKGROUND.yy",
+    "name": "Backgrounds",
+    "path": "folders/Sprites/Backgrounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_back_estrellas",

@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Dormitorio",
-    "path": "folders/Sprites/OBJETOS/Objetos/Mapa 3/Dormitorio.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Dormitorio.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_apoya_pies_1",

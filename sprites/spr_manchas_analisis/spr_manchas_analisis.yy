@@ -89,7 +89,7 @@
   ],
   "parent": {
     "name": "analisis 1.2",
-    "path": "folders/Sprites/INTERFACES/TAREAS NUEVAS/Analisis/Analisis 1/analisis 1.2.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Analisis/Analisis 1/analisis 1.2.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_manchas_analisis",

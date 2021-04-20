@@ -36,7 +36,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Mapa 1",
-    "path": "folders/Objects/OBJETOS/Tareas /Mapa 1.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Tareas /Mapa 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_tarea7",

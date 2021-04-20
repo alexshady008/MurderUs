@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8153a1a6-b61f-4af6-9eb2-443f35bfeee5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "MASCOTAS",
-    "path": "folders/Sprites/VESTIMENTA/MASCOTAS.yy",
+    "name": "Mascotas",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Mascotas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_mascota33_corriendo",

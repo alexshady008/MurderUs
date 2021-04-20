@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Energia",
-    "path": "folders/Sprites/OBJETOS/Objetos/Energia.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Energia.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_barril",

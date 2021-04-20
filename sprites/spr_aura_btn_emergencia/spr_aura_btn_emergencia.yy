@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Boton de Emergencia",
-    "path": "folders/Sprites/INTERFACES/Cutscenes/Boton de Emergencia.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Boton de Emergencia.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_aura_btn_emergencia",

@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 07 Deadpool",
-    "path": "folders/Sprites/PERSONAJES/Personaje 07 Deadpool.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 07 Deadpool.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_icono_pers7",

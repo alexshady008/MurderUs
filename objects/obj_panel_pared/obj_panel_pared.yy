@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Naves",
-    "path": "folders/Objects/OBJETOS/Objetos/Naves.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Naves.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_panel_pared",

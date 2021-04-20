@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Alcantarillas",
-    "path": "folders/Sprites/OBJETOS/Construcciones/Alcantarillas.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Alcantarillas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_alcantarilla_bloq",

@@ -73,7 +73,7 @@
   ],
   "parent": {
     "name": "Elegir vestimenta",
-    "path": "folders/Sprites/INTERFACES/Elegir vestimenta.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Elegir vestimenta.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_btn_elegir_vestimenta",

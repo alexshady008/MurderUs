@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Techos",
-    "path": "folders/Sprites/OBJETOS/Construcciones/Techos.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Techos.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tile_techos_mapa1",

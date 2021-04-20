@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fb8ffab9-f712-4293-ab26-a12ac91a0295","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "ACCESORIOS",
-    "path": "folders/Sprites/VESTIMENTA/ACCESORIOS.yy",
+    "name": "Accesorios",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Accesorios.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_mascara14",

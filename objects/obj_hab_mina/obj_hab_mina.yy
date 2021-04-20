@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Nombres Habitaciones",
-    "path": "folders/Objects/OBJETOS/Otros/Nombres Habitaciones.yy",
+    "path": "folders/Objects/Otros/Otros/Nombres Habitaciones.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_hab_mina",

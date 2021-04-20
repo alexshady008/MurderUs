@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Analisis 2",
-    "path": "folders/Sprites/INTERFACES/TAREAS NUEVAS/Analisis/Analisis 2.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Analisis/Analisis 2.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_piedra_analisis",

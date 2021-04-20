@@ -73,7 +73,7 @@
   ],
   "parent": {
     "name": "Personaje 10 Superman",
-    "path": "folders/Sprites/PERSONAJES/Personaje 10 Superman.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 10 Superman.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers10_parado",

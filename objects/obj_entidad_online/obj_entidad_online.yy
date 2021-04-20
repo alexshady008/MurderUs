@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "PERSONAJES",
-    "path": "folders/Objects/PERSONAJES.yy",
+    "name": "Personaje",
+    "path": "folders/Objects/Personaje.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_entidad_online",

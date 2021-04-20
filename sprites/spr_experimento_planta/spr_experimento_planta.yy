@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Experimentos",
-    "path": "folders/Sprites/OBJETOS/Objetos/Experimentos.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Experimentos.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_experimento_planta",

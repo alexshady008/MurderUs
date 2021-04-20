@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Maquinas",
-    "path": "folders/Sprites/OBJETOS/Objetos/Maquinas.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Maquinas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_alarma",

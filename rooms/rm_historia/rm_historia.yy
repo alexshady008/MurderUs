@@ -56,8 +56,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Historia",
+    "path": "folders/Rooms/Historia.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_historia",

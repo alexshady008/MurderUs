@@ -36,7 +36,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Reservorio",
-    "path": "folders/Objects/OBJETOS/Objetos/MAPA 3/Reservorio.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/MAPA 3/Reservorio.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_roca_acuatica",

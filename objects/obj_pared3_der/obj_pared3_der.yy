@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Pared3",
-    "path": "folders/Objects/OBJETOS/Construcciones/Paredes/Pared3.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Estructuras/Paredes/Pared3.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_pared3_der",

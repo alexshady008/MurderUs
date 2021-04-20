@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Minimapa",
-    "path": "folders/Sprites/INTERFACES/Juego/Minimapa.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Juego/Minimapa.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_sabotear_tarea",

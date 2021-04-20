@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"49691642-22cd-4447-b1f5-f5c0e2d6caba","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Nuevas_tareas",
-    "path": "folders/Sprites/OBJETOS/Marcadores/Nuevas_tareas.yy",
+    "name": "Tareas",
+    "path": "folders/Sprites/Objetos de Escenarios/Marcadores de objetos/Tareas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tarea_rompecabezas_1",

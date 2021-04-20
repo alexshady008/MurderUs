@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"80778e7d-1d1a-4756-a6d9-9ab3af8e5295","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "SOMBREROS",
-    "path": "folders/Sprites/VESTIMENTA/SOMBREROS.yy",
+    "name": "Sombreros",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Sombreros.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_gorro21",

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"127f9430-c67e-4e83-aabe-25db70ca1a54","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": " Personaje ",
-    "path": "folders/Sprites/PERSONAJES/ Personaje .yy",
+    "name": "_Personaje sin Skins",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/_Personaje sin Skins.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_icono_pers1",

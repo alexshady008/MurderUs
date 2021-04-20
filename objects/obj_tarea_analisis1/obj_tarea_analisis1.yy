@@ -37,7 +37,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Mapa 3",
-    "path": "folders/Objects/OBJETOS/Tareas /Mapa 3.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Tareas /Mapa 3.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_tarea_analisis1",

@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Exterior Est Espacial",
-    "path": "folders/Sprites/OBJETOS/Construcciones/Exterior Est Espacial.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Exterior Est Espacial.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_propulsor2",

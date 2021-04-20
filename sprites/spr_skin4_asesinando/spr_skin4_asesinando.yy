@@ -77,7 +77,7 @@
   ],
   "parent": {
     "name": "Prenda 04",
-    "path": "folders/Sprites/VESTIMENTA/PRENDAS/Prenda 04.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Prendas/Prenda 04.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_skin4_asesinando",

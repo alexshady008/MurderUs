@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 09 Batman",
-    "path": "folders/Sprites/PERSONAJES/Personaje 09 Batman.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 09 Batman.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers9_cabeza_decapitada",

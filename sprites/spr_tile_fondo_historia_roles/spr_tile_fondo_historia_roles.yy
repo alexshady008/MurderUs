@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"63d7e735-2b61-4cb3-b2d8-d10d202bba6c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "ESCENAS",
-    "path": "folders/Sprites/HISTORIA/ESCENAS.yy",
+    "name": "Escenas",
+    "path": "folders/Sprites/Historia - Tutorial/Escenas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tile_fondo_historia_roles",

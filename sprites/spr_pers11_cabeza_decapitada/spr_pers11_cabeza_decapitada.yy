@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 11 WonderWoman",
-    "path": "folders/Sprites/PERSONAJES/Personaje 11 WonderWoman.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 11 WonderWoman.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers11_cabeza_decapitada",

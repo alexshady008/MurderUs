@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Laboratorio",
-    "path": "folders/Sprites/OBJETOS/Objetos/Mapa 3/Laboratorio.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Laboratorio.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_mesa_boton",

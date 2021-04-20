@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Plantacion",
-    "path": "folders/Sprites/OBJETOS/Objetos/Plantacion.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Plantacion.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_planta4",

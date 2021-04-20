@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Sonidos",
-    "path": "folders/Objects/OBJETOS/Sonidos.yy",
+    "path": "folders/Objects/Otros/Sonidos.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_snd_viento",

@@ -36,7 +36,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Laboratorio",
-    "path": "folders/Objects/OBJETOS/Objetos/MAPA 3/Laboratorio.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/MAPA 3/Laboratorio.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_heladera_experimentos2",

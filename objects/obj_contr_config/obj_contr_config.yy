@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CONTROLADORES",
-    "path": "folders/Objects/CONTROLADORES.yy",
+    "name": "Config",
+    "path": "folders/Objects/Controladores/Config.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_config",

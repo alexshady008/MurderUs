@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Luces",
-    "path": "folders/Objects/OBJETOS/Objetos/MAPA 3/Luces.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/MAPA 3/Luces.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_luz_amarillo",

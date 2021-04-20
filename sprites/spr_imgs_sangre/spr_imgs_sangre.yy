@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3ee3b46e-813f-4df6-a50d-ab08ac82e634","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "IMGS",
-    "path": "folders/Sprites/HISTORIA/IMGS.yy",
+    "name": "Imgs separadas",
+    "path": "folders/Sprites/Historia - Tutorial/Imgs separadas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_imgs_sangre",

@@ -73,7 +73,7 @@
   ],
   "parent": {
     "name": "Personaje 05 Thor",
-    "path": "folders/Sprites/PERSONAJES/Personaje 05 Thor.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 05 Thor.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers5_parado",

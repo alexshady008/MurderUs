@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Personaje 26 Sans",
-    "path": "folders/Sprites/PERSONAJES/Personaje 26 Sans.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 26 Sans.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers26_corriendo",

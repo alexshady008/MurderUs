@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Jardin Secundario",
-    "path": "folders/Sprites/OBJETOS/Objetos/Jardines/Jardin Secundario.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Jardines/Jardin Secundario.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bloque_cemento",

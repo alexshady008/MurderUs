@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Discusion - Chat",
-    "path": "folders/Objects/INTERFAZ/Juego/Discusion - Chat.yy",
+    "path": "folders/Objects/Interfaces - Botones/Juego/Discusion - Chat.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_enviar_mensaje",

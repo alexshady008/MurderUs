@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 25 Nezuko",
-    "path": "folders/Sprites/PERSONAJES/Personaje 25 Nezuko.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 25 Nezuko.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_icono_pers25",

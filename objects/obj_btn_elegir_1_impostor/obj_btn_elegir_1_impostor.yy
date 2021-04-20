@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Crear sala",
-    "path": "folders/Objects/INTERFAZ/Crear sala.yy",
+    "path": "folders/Objects/Interfaces - Botones/Salas/Crear sala.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_elegir_1_impostor",

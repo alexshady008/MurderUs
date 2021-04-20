@@ -77,7 +77,7 @@
   ],
   "parent": {
     "name": "Personaje 17 Jack Sparrow",
-    "path": "folders/Sprites/PERSONAJES/Personaje 17 Jack Sparrow.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 17 Jack Sparrow.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers17_asesinando",

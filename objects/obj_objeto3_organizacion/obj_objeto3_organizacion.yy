@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Organizacion",
-    "path": "folders/Objects/TAREAS/Interfaces/Organizacion.yy",
+    "path": "folders/Objects/Interfaces - Botones/Tareas/Organizacion.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_objeto3_organizacion",

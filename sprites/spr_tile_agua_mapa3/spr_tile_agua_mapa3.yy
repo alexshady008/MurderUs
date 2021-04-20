@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Mapa 3",
-    "path": "folders/Sprites/OBJETOS/Tiles/Mapa 3.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Tiles/Mapa 3.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tile_agua_mapa3",

@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Personaje 28 Slenderman",
-    "path": "folders/Sprites/PERSONAJES/Personaje 28 Slenderman.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 28 Slenderman.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers28_corriendo",

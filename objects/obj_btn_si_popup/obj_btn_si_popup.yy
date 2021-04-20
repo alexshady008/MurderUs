@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Pop Up",
-    "path": "folders/Objects/INTERFAZ/Pop Up.yy",
+    "path": "folders/Objects/Interfaces - Botones/Pop Up.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_si_popup",

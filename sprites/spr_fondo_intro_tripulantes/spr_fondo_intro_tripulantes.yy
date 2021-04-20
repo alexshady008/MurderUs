@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Intro - Roles",
-    "path": "folders/Sprites/INTERFACES/Cutscenes/Intro - Roles.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Intro - Roles.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fondo_intro_tripulantes",

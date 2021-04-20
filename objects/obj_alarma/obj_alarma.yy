@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Maquinas",
-    "path": "folders/Objects/OBJETOS/Objetos/Maquinas.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Maquinas.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_alarma",

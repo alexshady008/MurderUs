@@ -2,23 +2,18 @@
 // Puede escribir su código en este editor
 global.step_delta = 1
 
-#region Variables de anuncios
-	//global.publicidad = true
-	//global.app_id = "ca-app-pub-9015194457145068~1587433208"; 
-	//global.interstitial_id = "ca-app-pub-9015194457145068/8578598215"; 
-	global.app_id = "ca-app-pub-9015194457145068~2137918490"; 
-	global.interstitial_id = "ca-app-pub-9015194457145068/6236606293"; 
-	
-	// Carga un Interstecial
-	global.interstitial_cargado = false;
-	
-	GoogleMobileAds_Init ( global.interstitial_id , global.app_id)
-	
-	GoogleMobileAds_LoadInterstitial();
+#region Inicia Variables de Anuncios
+	global.app_id = "ca-app-pub-9015194457145068~2137918490";  //Id de la app de Admob
+	global.interstitial_id = "ca-app-pub-9015194457145068/6236606293";  //Id del intersticial de Admob
+	#region Carga un Interstecial
+		global.interstitial_cargado = false;
+		GoogleMobileAds_Init ( global.interstitial_id , global.app_id)
+		GoogleMobileAds_LoadInterstitial();
+	#endregion
 #endregion	
 
 
-#region Variables de los IAP
+#region Inicia Variables de las IAP
 
 	#region Variables globales
 		global.tipoDeCompra = "ninguna"

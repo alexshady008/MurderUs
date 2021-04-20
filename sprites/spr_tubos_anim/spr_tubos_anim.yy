@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Analisis 1",
-    "path": "folders/Sprites/INTERFACES/TAREAS NUEVAS/Analisis/Analisis 1.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Analisis/Analisis 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tubos_anim",

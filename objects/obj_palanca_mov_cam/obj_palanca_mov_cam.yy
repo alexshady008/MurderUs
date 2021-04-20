@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Editor",
-    "path": "folders/Objects/INTERFAZ/Editor.yy",
+    "path": "folders/Objects/Interfaces - Botones/Editor.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_palanca_mov_cam",

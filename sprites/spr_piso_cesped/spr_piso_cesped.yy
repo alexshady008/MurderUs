@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6e46ce2d-d7e2-4ebf-867c-32e7dcaf975b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Construcciones",
-    "path": "folders/Sprites/OBJETOS/Construcciones.yy",
+    "name": "Otros",
+    "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_piso_cesped",

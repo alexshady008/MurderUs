@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"39155116-dbc0-4b9e-afe5-3e1982d0a717","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "BACKGROUND",
-    "path": "folders/Sprites/BACKGROUND.yy",
+    "name": "Backgrounds",
+    "path": "folders/Sprites/Backgrounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_lobby_nave",

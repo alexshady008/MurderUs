@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Jardin Inicial",
-    "path": "folders/Sprites/OBJETOS/Objetos/Jardines/Jardin Inicial.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Jardines/Jardin Inicial.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_arbusto4",

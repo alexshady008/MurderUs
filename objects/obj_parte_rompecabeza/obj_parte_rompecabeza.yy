@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Rompecabeza 1",
-    "path": "folders/Objects/TAREAS/Interfaces/Rompecabeza/Rompecabeza 1.yy",
+    "path": "folders/Objects/Interfaces - Botones/Tareas/Rompecabeza/Rompecabeza 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_parte_rompecabeza",

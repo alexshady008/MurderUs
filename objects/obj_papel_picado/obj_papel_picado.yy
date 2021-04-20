@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Otros",
-    "path": "folders/Objects/OBJETOS/Otros.yy",
+    "path": "folders/Objects/Otros/Otros/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_papel_picado",

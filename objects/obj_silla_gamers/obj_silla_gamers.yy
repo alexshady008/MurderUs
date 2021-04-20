@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Comandos",
-    "path": "folders/Objects/OBJETOS/Objetos/Comandos.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Comandos.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_silla_gamers",

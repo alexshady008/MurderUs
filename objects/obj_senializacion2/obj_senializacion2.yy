@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Cueva Azul",
-    "path": "folders/Objects/OBJETOS/Objetos/MAPA 3/Cueva Azul.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/MAPA 3/Cueva Azul.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_senializacion2",

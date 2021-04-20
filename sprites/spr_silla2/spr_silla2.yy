@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Cafetería",
-    "path": "folders/Sprites/OBJETOS/Objetos/Cafetería.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Cafetería.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_silla2",

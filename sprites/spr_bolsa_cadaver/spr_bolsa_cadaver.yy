@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"70c9c066-8271-4e8b-99f8-5cb9a8b28070","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "PERSONAJES",
-    "path": "folders/Sprites/PERSONAJES.yy",
+    "name": "Skins",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bolsa_cadaver",

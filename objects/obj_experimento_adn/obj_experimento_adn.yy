@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Experimentos",
-    "path": "folders/Objects/OBJETOS/Objetos/Experimentos.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Experimentos.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_experimento_adn",

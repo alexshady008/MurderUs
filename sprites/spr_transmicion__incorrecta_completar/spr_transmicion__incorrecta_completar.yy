@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Completar 1",
-    "path": "folders/Sprites/INTERFACES/TAREAS NUEVAS/Completar/Completar 1.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Completar/Completar 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_transmicion__incorrecta_completar",

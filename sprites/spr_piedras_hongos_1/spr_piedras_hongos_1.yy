@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Campos fungios",
-    "path": "folders/Sprites/OBJETOS/Objetos/Mapa 3/Campos fungios.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Campos fungios.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_piedras_hongos_1",

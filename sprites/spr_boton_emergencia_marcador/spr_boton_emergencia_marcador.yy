@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f1c50b7c-21e3-4557-b8f3-89a12c557149","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Marcadores",
-    "path": "folders/Sprites/OBJETOS/Marcadores.yy",
+    "name": "Otros",
+    "path": "folders/Sprites/Objetos de Escenarios/Marcadores de objetos/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_boton_emergencia_marcador",

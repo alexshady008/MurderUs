@@ -34,8 +34,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MULTIJUGADOR",
-    "path": "folders/Objects/CONTROLADORES/MULTIJUGADOR.yy",
+    "name": "Lobby",
+    "path": "folders/Objects/Controladores/Juego Multijugador/Lobby.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_sala_online",

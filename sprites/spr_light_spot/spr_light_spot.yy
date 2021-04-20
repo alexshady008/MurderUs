@@ -70,8 +70,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"988da058-0212-4e55-bc42-a462f1c9a433","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Lighting",
-    "path": "folders/Sprites/Lighting.yy",
+    "name": "Luces",
+    "path": "folders/Sprites/Otros/Luces.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_light_spot",

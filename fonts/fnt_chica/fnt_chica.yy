@@ -818,8 +818,8 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Fonts",
-    "path": "folders/Fonts.yy",
+    "name": "Letras chicas",
+    "path": "folders/Fonts/Letras chicas.yy",
   },
   "resourceVersion": "1.0",
   "name": "fnt_chica",

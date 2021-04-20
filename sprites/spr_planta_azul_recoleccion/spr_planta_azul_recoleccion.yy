@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Recoleccion 2",
-    "path": "folders/Sprites/INTERFACES/TAREAS NUEVAS/Recoleccion/Recoleccion 2.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Recoleccion/Recoleccion 2.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_planta_azul_recoleccion",

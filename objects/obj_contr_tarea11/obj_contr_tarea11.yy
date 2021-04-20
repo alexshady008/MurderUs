@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controladores",
-    "path": "folders/Objects/TAREAS/Controladores.yy",
+    "name": "Mapa 2",
+    "path": "folders/Objects/Tareas Contr/Mapa 2.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_tarea11",

@@ -93,7 +93,7 @@
   ],
   "parent": {
     "name": "Personaje 35 Mikasa",
-    "path": "folders/Sprites/PERSONAJES/Personaje 35 Mikasa.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 35 Mikasa.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers35_asesinando",

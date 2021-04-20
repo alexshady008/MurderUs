@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Ofertas",
-    "path": "folders/Objects/INTERFAZ/Ofertas.yy",
+    "path": "folders/Objects/Interfaces - Botones/Ofertas.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_discord2",

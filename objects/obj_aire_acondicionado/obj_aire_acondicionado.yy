@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Reuniones",
-    "path": "folders/Objects/OBJETOS/Objetos/Reuniones.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Reuniones.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_aire_acondicionado",

@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Colision",
-    "path": "folders/Sprites/OBJETOS/Construcciones/Colision.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Colision.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_contr_colision",

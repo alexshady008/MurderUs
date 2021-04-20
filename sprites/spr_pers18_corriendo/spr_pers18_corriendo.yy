@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Personaje 18 Finn Human",
-    "path": "folders/Sprites/PERSONAJES/Personaje 18 Finn Human.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 18 Finn Human.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers18_corriendo",

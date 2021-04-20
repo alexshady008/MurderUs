@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Construcciones",
-    "path": "folders/Objects/OBJETOS/Construcciones.yy",
+    "name": "Otros",
+    "path": "folders/Objects/Objetos de Escenarios/Estructuras/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_piso_borde",

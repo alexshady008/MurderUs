@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Cafeteria",
-    "path": "folders/Objects/OBJETOS/Objetos/Cafeteria.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Cafeteria.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_cartel2",

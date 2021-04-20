@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Personaje 21 Freddy",
-    "path": "folders/Sprites/PERSONAJES/Personaje 21 Freddy.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 21 Freddy.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers21_corriendo",

@@ -100,8 +100,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"20f141a9-9233-497f-b8d0-a5bfa2edc0a3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "OTROS",
-    "path": "folders/Sprites/OBJETOS/OTROS.yy",
+    "name": "Interactivos",
+    "path": "folders/Sprites/Objetos de Escenarios/Interactivos.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_cambiar_vestimenta",

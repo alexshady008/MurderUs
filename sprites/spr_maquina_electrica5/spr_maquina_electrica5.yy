@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Electricidad",
-    "path": "folders/Sprites/OBJETOS/Objetos/Electricidad.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Electricidad.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_maquina_electrica5",

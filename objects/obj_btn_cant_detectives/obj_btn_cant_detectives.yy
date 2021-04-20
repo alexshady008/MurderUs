@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Detectives",
-    "path": "folders/Objects/INTERFAZ/Crear sala/Detectives.yy",
+    "path": "folders/Objects/Interfaces - Botones/Salas/Crear sala/Detectives.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_cant_detectives",

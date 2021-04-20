@@ -73,7 +73,7 @@
   ],
   "parent": {
     "name": "Juego",
-    "path": "folders/Sprites/INTERFACES/Juego.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Juego.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_btnJuego_marcadores",

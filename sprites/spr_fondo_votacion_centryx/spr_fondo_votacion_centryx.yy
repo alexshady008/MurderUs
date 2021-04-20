@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Centryx",
-    "path": "folders/Sprites/INTERFACES/Cutscenes/Votacion/Centryx.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Votacion/Centryx.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fondo_votacion_centryx",

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8a9162a8-b5a8-492c-bd00-4c4758ddb801","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "IMGS",
-    "path": "folders/Sprites/HISTORIA/IMGS.yy",
+    "name": "Imgs separadas",
+    "path": "folders/Sprites/Historia - Tutorial/Imgs separadas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_imgs_gotadeAgua",

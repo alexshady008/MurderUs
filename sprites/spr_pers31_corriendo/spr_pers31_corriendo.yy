@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Personaje 31 Vegeta",
-    "path": "folders/Sprites/PERSONAJES/Personaje 31 Vegeta.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 31 Vegeta.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers31_corriendo",

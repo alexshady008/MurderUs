@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 27 Scarlet Witch",
-    "path": "folders/Sprites/PERSONAJES/Personaje 27 Scarlet Witch.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 27 Scarlet Witch.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_icono_pers27",

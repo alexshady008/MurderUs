@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 03 Venom",
-    "path": "folders/Sprites/PERSONAJES/Personaje 03 Venom.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 03 Venom.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers3_muerto_acostado",

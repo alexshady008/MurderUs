@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Lanzadera",
-    "path": "folders/Objects/OBJETOS/Objetos/MAPA 3/Lanzadera.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/MAPA 3/Lanzadera.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_pizarra4",

@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Recoleccion",
-    "path": "folders/Objects/TAREAS/Interfaces/Recoleccion.yy",
+    "path": "folders/Objects/Interfaces - Botones/Tareas/Recoleccion.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_objeto_recoleccion",

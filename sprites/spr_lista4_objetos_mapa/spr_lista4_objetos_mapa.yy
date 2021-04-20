@@ -93,7 +93,7 @@
   ],
   "parent": {
     "name": "Editor ",
-    "path": "folders/Sprites/INTERFACES/Editor .yy",
+    "path": "folders/Sprites/Interfacez - Botones/Editor .yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_lista4_objetos_mapa",

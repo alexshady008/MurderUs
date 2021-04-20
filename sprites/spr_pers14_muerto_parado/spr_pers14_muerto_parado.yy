@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 14 Harry Potter",
-    "path": "folders/Sprites/PERSONAJES/Personaje 14 Harry Potter.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 14 Harry Potter.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers14_muerto_parado",

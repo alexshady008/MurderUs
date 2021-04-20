@@ -1335,8 +1335,8 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Fonts",
-    "path": "folders/Fonts.yy",
+    "name": "Letras Grandes",
+    "path": "folders/Fonts/Letras Grandes.yy",
   },
   "resourceVersion": "1.0",
   "name": "fnt_muy_grande",

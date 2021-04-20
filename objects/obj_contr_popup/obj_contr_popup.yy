@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CONTROLADORES",
-    "path": "folders/Objects/CONTROLADORES.yy",
+    "name": "Avisos - Popup",
+    "path": "folders/Objects/Controladores/Avisos - Popup.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_popup",

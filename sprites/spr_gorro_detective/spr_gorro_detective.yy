@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ba6af448-8669-432c-9e47-aa691b3b64d3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "PERSONAJES",
-    "path": "folders/Sprites/PERSONAJES.yy",
+    "name": "Skins",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_gorro_detective",

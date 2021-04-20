@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 36 Levi",
-    "path": "folders/Sprites/PERSONAJES/Personaje 36 Levi.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 36 Levi.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_icono_pers36",

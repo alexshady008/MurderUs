@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 12 Flash",
-    "path": "folders/Sprites/PERSONAJES/Personaje 12 Flash.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 12 Flash.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers12_fantasma",

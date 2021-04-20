@@ -39,8 +39,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MULTIJUGADOR",
-    "path": "folders/Objects/CONTROLADORES/MULTIJUGADOR.yy",
+    "name": "Juego Multijugador",
+    "path": "folders/Objects/Controladores/Juego Multijugador.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_juego_online",

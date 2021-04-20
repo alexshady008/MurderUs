@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Tienda",
-    "path": "folders/Sprites/INTERFACES/Tienda.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Tienda.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_btn_comprar_monedas4",

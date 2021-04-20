@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Tareas",
-    "path": "folders/Objects/INTERFAZ/Crear sala/Tareas.yy",
+    "path": "folders/Objects/Interfaces - Botones/Salas/Crear sala/Tareas.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_pasar_der_cant_tareas",

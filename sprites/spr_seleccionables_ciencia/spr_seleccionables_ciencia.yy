@@ -177,7 +177,7 @@
   ],
   "parent": {
     "name": "Seleccionables",
-    "path": "folders/Sprites/INTERFACES/Editor /Seleccionables.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Editor /Seleccionables.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_seleccionables_ciencia",

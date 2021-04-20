@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Personaje 02 Spiderman",
-    "path": "folders/Sprites/PERSONAJES/Personaje 02 Spiderman.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 02 Spiderman.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers2_corriendo",

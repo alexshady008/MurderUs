@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Jardin Principal",
-    "path": "folders/Objects/OBJETOS/Objetos/Jardines/Jardin Principal.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Jardines/Jardin Principal.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_arbol8",

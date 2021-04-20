@@ -304,8 +304,8 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "MAPA 3",
-    "path": "folders/Tile Sets/MAPA 3.yy",
+    "name": "Mapa 3",
+    "path": "folders/Tile Sets/Mapa 3.yy",
   },
   "resourceVersion": "1.0",
   "name": "tl_cuevaAzul_piso",

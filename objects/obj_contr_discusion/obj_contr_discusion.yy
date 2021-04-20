@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Chat - Discusion",
-    "path": "folders/Objects/CONTROLADORES/Chat - Discusion.yy",
+    "path": "folders/Objects/Controladores/Juego Multijugador/Chat - Discusion.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_discusion",

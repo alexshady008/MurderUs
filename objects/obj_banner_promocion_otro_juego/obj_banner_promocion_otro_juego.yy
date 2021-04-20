@@ -34,7 +34,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Menu",
-    "path": "folders/Objects/INTERFAZ/Menu.yy",
+    "path": "folders/Objects/Interfaces - Botones/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_banner_promocion_otro_juego",

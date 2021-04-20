@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "MAPA 3",
-    "path": "folders/Objects/OBJETOS/Objetos/MAPA 3.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/MAPA 3.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_nube_niebla",

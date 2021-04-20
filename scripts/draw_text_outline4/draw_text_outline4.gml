@@ -1,4 +1,4 @@
-/// Letras con bordes
+/// Letras transformadas con bordes medianos
 function draw_text_outline4(valor, posX, posY, c_borde, alfa_borde, alfa_letra, c_letra, sep, w, escala, angulo) {
 
 	draw_set_alpha(alfa_borde)

@@ -994,8 +994,8 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Fonts",
-    "path": "folders/Fonts.yy",
+    "name": "Otros",
+    "path": "folders/Fonts/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "fnt_normal_ru",

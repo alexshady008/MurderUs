@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personajes",
-    "path": "folders/Sprites/INTERFACES/Interfaces/Personajes.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Interfaces/Personajes.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_btn_mostrar_pers",

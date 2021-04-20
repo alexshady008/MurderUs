@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Servidores",
-    "path": "folders/Sprites/OBJETOS/Objetos/Servidores.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Servidores.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_servidor",

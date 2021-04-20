@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Prenda 08",
-    "path": "folders/Sprites/VESTIMENTA/PRENDAS/Prenda 08.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Prendas/Prenda 08.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_skin8_muerto_acostado",

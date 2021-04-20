@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Plantacion",
-    "path": "folders/Objects/OBJETOS/Objetos/Plantacion.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Plantacion.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_capsula_planta",

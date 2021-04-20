@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b77bae4b-3773-445e-bf3f-ad1d1b7aca7b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Marcadores",
-    "path": "folders/Sprites/OBJETOS/Marcadores.yy",
+    "name": "Alcantarillas",
+    "path": "folders/Sprites/Objetos de Escenarios/Marcadores de objetos/Alcantarillas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_hueco_marcador",

@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Clinica",
-    "path": "folders/Objects/OBJETOS/Objetos/Clinica.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Clinica.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_mueble_laptop",

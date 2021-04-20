@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controladores",
-    "path": "folders/Objects/TAREAS/Controladores.yy",
+    "name": "Otros",
+    "path": "folders/Objects/Tareas Contr/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_titulos_tareas",

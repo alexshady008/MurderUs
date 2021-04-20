@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Completar",
-    "path": "folders/Objects/TAREAS/Interfaces/Completar.yy",
+    "path": "folders/Objects/Interfaces - Botones/Tareas/Completar.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_indicador_transmision_completar",

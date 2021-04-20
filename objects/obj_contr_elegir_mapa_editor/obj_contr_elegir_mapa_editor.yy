@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Editor",
-    "path": "folders/Objects/CONTROLADORES/Editor.yy",
+    "path": "folders/Objects/Controladores/Editor.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_elegir_mapa_editor",

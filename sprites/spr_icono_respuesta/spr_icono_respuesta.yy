@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Chat",
-    "path": "folders/Sprites/INTERFACES/Juego/Chat.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Juego/Chat.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_icono_respuesta",

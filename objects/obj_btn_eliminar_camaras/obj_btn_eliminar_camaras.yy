@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Camaras",
-    "path": "folders/Objects/INTERFAZ/Juego/Camaras.yy",
+    "path": "folders/Objects/Interfaces - Botones/Juego/Camaras.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_eliminar_camaras",

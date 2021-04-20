@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "SANGRE",
-    "path": "folders/Sprites/PERSONAJES/SANGRE.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/SANGRE.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_sangre_pers_muerto_parado",

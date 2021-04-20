@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 24 Naruto",
-    "path": "folders/Sprites/PERSONAJES/Personaje 24 Naruto.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 24 Naruto.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers24_cabeza_decapitada",

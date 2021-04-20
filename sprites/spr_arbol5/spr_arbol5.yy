@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Jardin Principal",
-    "path": "folders/Sprites/OBJETOS/Objetos/Jardines/Jardin Principal.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Jardines/Jardin Principal.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_arbol5",

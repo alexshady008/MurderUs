@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 08 Joker",
-    "path": "folders/Sprites/PERSONAJES/Personaje 08 Joker.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 08 Joker.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers8_cabeza_decapitada",

@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Escaleras",
-    "path": "folders/Objects/OBJETOS/Construcciones/Escaleras.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Estructuras/Escaleras.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_escalera3",

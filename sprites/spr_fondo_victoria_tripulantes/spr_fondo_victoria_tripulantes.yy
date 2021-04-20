@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Final",
-    "path": "folders/Sprites/INTERFACES/Cutscenes/Final.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Final.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fondo_victoria_tripulantes",

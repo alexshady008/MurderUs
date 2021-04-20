@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Pisos",
-    "path": "folders/Sprites/OBJETOS/Construcciones/Pisos.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Pisos.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_piso2",

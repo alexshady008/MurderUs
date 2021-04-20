@@ -34,7 +34,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Exterior Estacion Espacial",
-    "path": "folders/Objects/OBJETOS/Construcciones/Exterior Estacion Espacial.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Estructuras/Exterior Estacion Espacial.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_propulsor",

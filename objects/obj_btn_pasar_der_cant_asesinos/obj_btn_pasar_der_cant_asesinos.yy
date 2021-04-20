@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Asesinos",
-    "path": "folders/Objects/INTERFAZ/Crear sala/Asesinos.yy",
+    "path": "folders/Objects/Interfaces - Botones/Salas/Crear sala/Asesinos.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_pasar_der_cant_asesinos",

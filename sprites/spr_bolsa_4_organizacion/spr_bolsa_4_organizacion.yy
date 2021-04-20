@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Organzizacion 1",
-    "path": "folders/Sprites/INTERFACES/TAREAS NUEVAS/Organzacion/Organzizacion 1.yy",
+    "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Organzacion/Organzizacion 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bolsa_4_organizacion",

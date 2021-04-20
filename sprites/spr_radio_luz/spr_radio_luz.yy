@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"06e1c63a-2856-4d5d-8f0c-bf9109877152","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Lighting",
-    "path": "folders/Sprites/Lighting.yy",
+    "name": "Luces",
+    "path": "folders/Sprites/Otros/Luces.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_radio_luz",

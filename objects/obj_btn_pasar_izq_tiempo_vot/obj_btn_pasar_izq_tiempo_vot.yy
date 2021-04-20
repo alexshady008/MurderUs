@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": " Tiempo Discusion",
-    "path": "folders/Objects/INTERFAZ/Crear sala/ Tiempo Discusion.yy",
+    "path": "folders/Objects/Interfaces - Botones/Salas/Crear sala/ Tiempo Discusion.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_pasar_izq_tiempo_vot",

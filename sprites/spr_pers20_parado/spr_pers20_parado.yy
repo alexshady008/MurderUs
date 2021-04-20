@@ -73,7 +73,7 @@
   ],
   "parent": {
     "name": "Personaje 20 Cap Marvel",
-    "path": "folders/Sprites/PERSONAJES/Personaje 20 Cap Marvel.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 20 Cap Marvel.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers20_parado",

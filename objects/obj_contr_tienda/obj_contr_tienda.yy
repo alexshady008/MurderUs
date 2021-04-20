@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CONTROLADORES",
-    "path": "folders/Objects/CONTROLADORES.yy",
+    "name": "Tienda",
+    "path": "folders/Objects/Controladores/Tienda.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_tienda",

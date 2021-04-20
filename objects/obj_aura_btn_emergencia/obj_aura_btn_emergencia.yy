@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Btn Emergencia",
-    "path": "folders/Objects/INTERFAZ/Juego/Btn Emergencia.yy",
+    "path": "folders/Objects/Interfaces - Botones/Juego/Btn Emergencia.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_aura_btn_emergencia",

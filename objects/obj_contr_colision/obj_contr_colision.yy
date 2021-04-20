@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Colision",
-    "path": "folders/Objects/OBJETOS/Construcciones/Colision.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Colision.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_colision",

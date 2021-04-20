@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Clinica",
-    "path": "folders/Sprites/OBJETOS/Objetos/Clinica.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Clinica.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_maquina_control",

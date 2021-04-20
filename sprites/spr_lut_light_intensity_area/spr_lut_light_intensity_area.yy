@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "LUT",
-    "path": "folders/Sprites/Lighting/LUT.yy",
+    "path": "folders/Sprites/Otros/Luces/LUT.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_lut_light_intensity_area",

@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Salon Principal",
-    "path": "folders/Sprites/OBJETOS/Objetos/Mapa 3/Salon Principal.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Salon Principal.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_computadora_2_salonPrin",

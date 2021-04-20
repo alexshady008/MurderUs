@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Chat",
-    "path": "folders/Scripts/JUGABILIDAD/Chat.yy",
+    "path": "folders/Scripts/Jugabilidad/Chat.yy",
   },
   "resourceVersion": "1.0",
   "name": "scr_contr_texto_defensas_msjes",

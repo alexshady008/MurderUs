@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Personaje 34 Zombie",
-    "path": "folders/Sprites/PERSONAJES/Personaje 34 Zombie.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 34 Zombie.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pers34_cabeza_decapitada",

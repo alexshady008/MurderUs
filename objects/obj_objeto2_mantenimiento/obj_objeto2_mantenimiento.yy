@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Mantenimiento",
-    "path": "folders/Objects/TAREAS/Interfaces/Mantenimiento.yy",
+    "path": "folders/Objects/Interfaces - Botones/Tareas/Mantenimiento.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_objeto2_mantenimiento",

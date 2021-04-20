@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Recoleccion",
-    "path": "folders/Objects/OBJETOS/Objetos/MAPA 3/Recoleccion.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/MAPA 3/Recoleccion.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_papa",

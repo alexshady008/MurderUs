@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Deposito",
-    "path": "folders/Sprites/OBJETOS/Objetos/Deposito.yy",
+    "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Deposito.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_estanteria2",

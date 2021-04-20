@@ -36,7 +36,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Energia",
-    "path": "folders/Objects/OBJETOS/Objetos/Energia.yy",
+    "path": "folders/Objects/Objetos de Escenarios/Obstaculos/Energia.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_generador_electrico",

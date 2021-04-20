@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Prenda 15",
-    "path": "folders/Sprites/VESTIMENTA/PRENDAS/Prenda 15.yy",
+    "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Prendas/Prenda 15.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_skin15_corriendo",
