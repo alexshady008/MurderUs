@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 214,
-  "bbox_top": 0,
-  "bbox_bottom": 204,
+  "bbox_left": 28,
+  "bbox_right": 222,
+  "bbox_top": 25,
+  "bbox_bottom": 202,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 215,
-  "height": 205,
+  "width": 238,
+  "height": 231,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"66f06614-7b1e-4f9d-8209-585d0d1bf6f6","path":"sprites/spr_icono_regalo/spr_icono_regalo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"66f06614-7b1e-4f9d-8209-585d0d1bf6f6","path":"sprites/spr_icono_regalo/spr_icono_regalo.yy",},"LayerId":{"name":"bb577d68-58b4-4c71-9807-3a3de562a38f","path":"sprites/spr_icono_regalo/spr_icono_regalo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_icono_regalo","path":"sprites/spr_icono_regalo/spr_icono_regalo.yy",},"resourceVersion":"1.0","name":"66f06614-7b1e-4f9d-8209-585d0d1bf6f6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bb609978-1a4d-4f28-9a20-9288519670c7","path":"sprites/spr_icono_regalo/spr_icono_regalo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bb609978-1a4d-4f28-9a20-9288519670c7","path":"sprites/spr_icono_regalo/spr_icono_regalo.yy",},"LayerId":{"name":"64272e75-4a71-47a1-9690-b22347a941a7","path":"sprites/spr_icono_regalo/spr_icono_regalo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_icono_regalo","path":"sprites/spr_icono_regalo/spr_icono_regalo.yy",},"resourceVersion":"1.0","name":"bb609978-1a4d-4f28-9a20-9288519670c7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_icono_regalo","path":"sprites/spr_icono_regalo/spr_icono_regalo.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0059bf4b-5f60-4ea7-9efe-a3a7a546b014","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"66f06614-7b1e-4f9d-8209-585d0d1bf6f6","path":"sprites/spr_icono_regalo/spr_icono_regalo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"766d1bf0-3b1a-4225-9b64-b910a5aeaa70","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bb609978-1a4d-4f28-9a20-9288519670c7","path":"sprites/spr_icono_regalo/spr_icono_regalo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 107,
-    "yorigin": 102,
+    "xorigin": 119,
+    "yorigin": 115,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_icono_regalo","path":"sprites/spr_icono_regalo/spr_icono_regalo.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bb577d68-58b4-4c71-9807-3a3de562a38f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"64272e75-4a71-47a1-9690-b22347a941a7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Regalos",

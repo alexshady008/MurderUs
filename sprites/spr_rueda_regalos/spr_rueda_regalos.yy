@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 504,
-  "bbox_top": 0,
-  "bbox_bottom": 506,
+  "bbox_left": 24,
+  "bbox_right": 493,
+  "bbox_top": 35,
+  "bbox_bottom": 504,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 505,
-  "height": 507,
+  "width": 516,
+  "height": 532,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"33403a62-bfe4-43f2-a1ec-13caf5b3a5e8","path":"sprites/spr_rueda_regalos/spr_rueda_regalos.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"33403a62-bfe4-43f2-a1ec-13caf5b3a5e8","path":"sprites/spr_rueda_regalos/spr_rueda_regalos.yy",},"LayerId":{"name":"70e4e840-0be0-47b4-ace6-81b403836595","path":"sprites/spr_rueda_regalos/spr_rueda_regalos.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rueda_regalos","path":"sprites/spr_rueda_regalos/spr_rueda_regalos.yy",},"resourceVersion":"1.0","name":"33403a62-bfe4-43f2-a1ec-13caf5b3a5e8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"63b0de0c-84fd-4d38-830d-650c11fa5476","path":"sprites/spr_rueda_regalos/spr_rueda_regalos.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"63b0de0c-84fd-4d38-830d-650c11fa5476","path":"sprites/spr_rueda_regalos/spr_rueda_regalos.yy",},"LayerId":{"name":"bb0783a1-f802-4073-bced-76242cdb3d98","path":"sprites/spr_rueda_regalos/spr_rueda_regalos.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_rueda_regalos","path":"sprites/spr_rueda_regalos/spr_rueda_regalos.yy",},"resourceVersion":"1.0","name":"63b0de0c-84fd-4d38-830d-650c11fa5476","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_rueda_regalos","path":"sprites/spr_rueda_regalos/spr_rueda_regalos.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"05bd58d9-54e3-415e-9ab5-9f28f2bd3edc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"33403a62-bfe4-43f2-a1ec-13caf5b3a5e8","path":"sprites/spr_rueda_regalos/spr_rueda_regalos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"76c32dcc-c994-4db9-8e0b-1424eefdad0d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"63b0de0c-84fd-4d38-830d-650c11fa5476","path":"sprites/spr_rueda_regalos/spr_rueda_regalos.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 253,
-    "yorigin": 263,
+    "xorigin": 260,
+    "yorigin": 272,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_rueda_regalos","path":"sprites/spr_rueda_regalos/spr_rueda_regalos.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"70e4e840-0be0-47b4-ace6-81b403836595","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bb0783a1-f802-4073-bced-76242cdb3d98","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Regalos",
