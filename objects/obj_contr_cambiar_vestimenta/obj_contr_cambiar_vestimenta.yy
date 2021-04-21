@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Elegir Vestimenta",
-    "path": "folders/Objects/Controladores/Elegir Vestimenta.yy",
+    "name": "Personalizar Personaje",
+    "path": "folders/Objects/Controladores/Personalizar Personaje.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_contr_cambiar_vestimenta",

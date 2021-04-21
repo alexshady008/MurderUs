@@ -13,8 +13,8 @@
   "soundFile": "snd_pop",
   "duration": 0.247563,
   "parent": {
-    "name": "Tareas",
-    "path": "folders/Sounds/Tareas.yy",
+    "name": "Otros",
+    "path": "folders/Sounds/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_pop",

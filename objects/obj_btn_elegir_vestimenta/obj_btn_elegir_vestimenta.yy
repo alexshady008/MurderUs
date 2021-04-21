@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Cambiar vestimenta",
-    "path": "folders/Objects/Interfaces - Botones/Cambiar vestimenta.yy",
+    "name": "Personalizar Personaje",
+    "path": "folders/Objects/Interfaces - Botones/Personalizar Personaje.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_elegir_vestimenta",

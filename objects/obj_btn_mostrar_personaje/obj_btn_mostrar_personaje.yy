@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Personajes",
-    "path": "folders/Objects/Interfaces - Botones/Personajes.yy",
+    "name": "Otros",
+    "path": "folders/Objects/Interfaces - Botones/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_mostrar_personaje",
