@@ -13,8 +13,8 @@
   "soundFile": "snd_boton",
   "duration": 0.05856,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Otros",
+    "path": "folders/Sounds/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_boton",

@@ -13,8 +13,8 @@
   "soundFile": "snd_correr",
   "duration": 10.2034378,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Juego - Fondo ",
+    "path": "folders/Sounds/Juego - Fondo .yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_correr",

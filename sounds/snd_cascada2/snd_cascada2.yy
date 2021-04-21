@@ -13,8 +13,8 @@
   "soundFile": "snd_cascada2.mp3",
   "duration": 10.0149508,
   "parent": {
-    "name": "Nuevos",
-    "path": "folders/Sounds/Nuevos.yy",
+    "name": "Cutscene",
+    "path": "folders/Sounds/Cutscene.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_cascada2",

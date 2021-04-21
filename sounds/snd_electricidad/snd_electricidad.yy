@@ -13,8 +13,8 @@
   "soundFile": "snd_electricidad",
   "duration": 6.450438,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Tareas",
+    "path": "folders/Sounds/Tareas.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_electricidad",

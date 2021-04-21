@@ -13,8 +13,8 @@
   "soundFile": "snd_arbusto.mp3",
   "duration": 1.021,
   "parent": {
-    "name": "Nuevos",
-    "path": "folders/Sounds/Nuevos.yy",
+    "name": "Tareas",
+    "path": "folders/Sounds/Tareas.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_arbusto",

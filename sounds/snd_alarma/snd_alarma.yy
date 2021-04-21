@@ -13,8 +13,8 @@
   "soundFile": "snd_alarma",
   "duration": 4.156938,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Juego - Fondo ",
+    "path": "folders/Sounds/Juego - Fondo .yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_alarma",

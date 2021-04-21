@@ -13,8 +13,8 @@
   "soundFile": "snd_swosh",
   "duration": 0.613912,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Tareas",
+    "path": "folders/Sounds/Tareas.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_swosh",

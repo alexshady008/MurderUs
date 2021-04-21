@@ -13,8 +13,8 @@
   "soundFile": "snd_mina.mp3",
   "duration": 3.939667,
   "parent": {
-    "name": "Nuevos",
-    "path": "folders/Sounds/Nuevos.yy",
+    "name": "Juego - Fondo ",
+    "path": "folders/Sounds/Juego - Fondo .yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_mina",

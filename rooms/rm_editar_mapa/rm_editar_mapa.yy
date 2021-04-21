@@ -466,8 +466,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Editor",
-    "path": "folders/Rooms/Editor.yy",
+    "name": "Otros",
+    "path": "folders/Rooms/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_editar_mapa",

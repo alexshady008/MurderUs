@@ -13,8 +13,8 @@
   "soundFile": "snd_regadera.mp3",
   "duration": 2.557,
   "parent": {
-    "name": "Nuevos",
-    "path": "folders/Sounds/Nuevos.yy",
+    "name": "Tareas",
+    "path": "folders/Sounds/Tareas.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_regadera",

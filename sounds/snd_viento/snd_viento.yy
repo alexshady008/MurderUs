@@ -13,8 +13,8 @@
   "soundFile": "snd_viento.mp3",
   "duration": 3.867667,
   "parent": {
-    "name": "Nuevos",
-    "path": "folders/Sounds/Nuevos.yy",
+    "name": "Juego - Fondo ",
+    "path": "folders/Sounds/Juego - Fondo .yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_viento",

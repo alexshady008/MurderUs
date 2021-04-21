@@ -13,8 +13,8 @@
   "soundFile": "snd_abrir_alcantarilla",
   "duration": 0.560313,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Juego - Fondo ",
+    "path": "folders/Sounds/Juego - Fondo .yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_abrir_alcantarilla",

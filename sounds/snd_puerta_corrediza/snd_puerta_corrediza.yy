@@ -13,8 +13,8 @@
   "soundFile": "snd_puerta_corrediza",
   "duration": 1.081563,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Juego - Fondo ",
+    "path": "folders/Sounds/Juego - Fondo .yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_puerta_corrediza",

@@ -13,8 +13,8 @@
   "soundFile": "snd_fondo2",
   "duration": 4.547875,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Otros",
+    "path": "folders/Sounds/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_fondo2",

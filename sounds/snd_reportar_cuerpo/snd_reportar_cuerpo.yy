@@ -13,8 +13,8 @@
   "soundFile": "snd_reportar_cuerpo",
   "duration": 1.863438,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Cutscene",
+    "path": "folders/Sounds/Cutscene.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_reportar_cuerpo",

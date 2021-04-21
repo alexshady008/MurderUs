@@ -13,8 +13,8 @@
   "soundFile": "snd_tarea_finalizada",
   "duration": 4.236837,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Tareas",
+    "path": "folders/Sounds/Tareas.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_tarea_finalizada",

@@ -13,8 +13,8 @@
   "soundFile": "snd_trapo_limpieza.mp3",
   "duration": 1.189,
   "parent": {
-    "name": "Nuevos",
-    "path": "folders/Sounds/Nuevos.yy",
+    "name": "Tareas",
+    "path": "folders/Sounds/Tareas.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_trapo_limpieza",

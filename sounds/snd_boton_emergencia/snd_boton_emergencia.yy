@@ -13,8 +13,8 @@
   "soundFile": "snd_boton_emergencia",
   "duration": 1.185813,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Cutscene",
+    "path": "folders/Sounds/Cutscene.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_boton_emergencia",

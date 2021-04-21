@@ -13,8 +13,8 @@
   "soundFile": "snd_roca.mp3",
   "duration": 1.117,
   "parent": {
-    "name": "Nuevos",
-    "path": "folders/Sounds/Nuevos.yy",
+    "name": "Tareas",
+    "path": "folders/Sounds/Tareas.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_roca",

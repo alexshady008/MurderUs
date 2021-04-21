@@ -474,8 +474,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Jugables",
-    "path": "folders/Rooms/Jugables.yy",
+    "name": "Otros",
+    "path": "folders/Rooms/Otros.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_nivel_personalizado",

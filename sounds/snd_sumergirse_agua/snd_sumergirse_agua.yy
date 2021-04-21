@@ -13,8 +13,8 @@
   "soundFile": "snd_sumergirse_agua.mp3",
   "duration": 1.51668906,
   "parent": {
-    "name": "Nuevos",
-    "path": "folders/Sounds/Nuevos.yy",
+    "name": "Cutscene",
+    "path": "folders/Sounds/Cutscene.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_sumergirse_agua",

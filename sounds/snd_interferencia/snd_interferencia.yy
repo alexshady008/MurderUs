@@ -13,8 +13,8 @@
   "soundFile": "snd_interferencia",
   "duration": 6.033438,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Tareas",
+    "path": "folders/Sounds/Tareas.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_interferencia",

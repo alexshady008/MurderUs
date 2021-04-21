@@ -13,8 +13,8 @@
   "soundFile": "snd_tripulante_elegido",
   "duration": 2.43681288,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Cutscene",
+    "path": "folders/Sounds/Cutscene.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_tripulante_elegido",

@@ -13,8 +13,8 @@
   "soundFile": "snd_cascada.mp3",
   "duration": 1.141,
   "parent": {
-    "name": "Nuevos",
-    "path": "folders/Sounds/Nuevos.yy",
+    "name": "Juego - Fondo ",
+    "path": "folders/Sounds/Juego - Fondo .yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_cascada",

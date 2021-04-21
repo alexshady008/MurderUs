@@ -13,8 +13,8 @@
   "soundFile": "snd_interruptor",
   "duration": 0.351813,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Tareas",
+    "path": "folders/Sounds/Tareas.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_interruptor",

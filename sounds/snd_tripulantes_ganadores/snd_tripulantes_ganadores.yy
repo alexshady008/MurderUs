@@ -13,8 +13,8 @@
   "soundFile": "snd_tripulantes_ganadores",
   "duration": 8.6657505,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Cutscene",
+    "path": "folders/Sounds/Cutscene.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_tripulantes_ganadores",

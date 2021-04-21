@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Dibujar Textos con Sombras",
-    "path": "folders/Scripts/Dibujar Textos con Sombras.yy",
+    "name": "Textos - Bordes",
+    "path": "folders/Scripts/Textos - Bordes.yy",
   },
   "resourceVersion": "1.0",
   "name": "draw_text_outline",
