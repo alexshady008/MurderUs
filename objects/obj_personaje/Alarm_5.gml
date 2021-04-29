@@ -9,8 +9,6 @@ if ( enviar_datos==true ){
 	var bufferDatos = buffer_create(64, buffer_grow, 1)
 	
 	ds_map_add(mapaDatos, "mensaje", "datosJugador")
-	//ds_map_add(mapaDatos, "posX", string(x))
-	//ds_map_add(mapaDatos, "posY", string(y))
 	ds_map_add(mapaDatos, "posX", string(phy_position_x))
 	ds_map_add(mapaDatos, "posY", string(phy_position_y))
 	if (direccion!=noone) ds_map_add(mapaDatos, "direccion", string(direccion))
@@ -27,12 +25,7 @@ if ( enviar_datos==true ){
 	
 	ds_map_destroy(mapaDatos)
 	buffer_delete(bufferDatos)
-	
-	//var tiempo = global.latencia*global.step_delta;
-	/*var tiempo = global.latencia/global.step_delta;
-	if (tiempo>1) alarm[5] = tiempo
-	else alarm[5] = global.latencia*/
-	
+		
 	if (global.latencia>=1) alarm[5] = global.latencia
 	else alarm[5] = 3
 	
