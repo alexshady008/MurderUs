@@ -1,7 +1,7 @@
 {
   "option_android_sync_amazon": false,
   "option_android_display_name": "Murder Us",
-  "option_android_version": "1.0.42",
+  "option_android_version": "1.0.43",
   "option_android_tools_from_version": false,
   "option_android_build_tools": "29.0.2",
   "option_android_support_lib": "29.0.0",

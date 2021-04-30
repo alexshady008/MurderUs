@@ -64,9 +64,9 @@
 		global.servidorUSA = "3.16.149.68"; // Ip del servidor de USA
 		global.servidorBrasil = "18.228.157.144"; // Ip del servidor de Brasil 
 		global.servidor2Brasil = "18.228.157.144"; // Ip del servidor de Brasil 
-		global.servidorEuropa = "18.159.107.36"; // Ip del servidor de Europa
+		global.servidorEuropa = "18.159.135.227"; // Ip del servidor de Europa
 		global.servidorLocal = "localhost"; // Ip del servidor de Europa
-		global.puerto = 7004 //Puerto del servidor del multijugador
+		global.puerto = 7005 //Puerto del servidor del multijugador
 		global.cliente = network_create_socket(network_socket_udp);  //Creacion del socket udp
 	
 		//global.servidorUSA = "18.189.22.92"; // Ip del servidor de USA

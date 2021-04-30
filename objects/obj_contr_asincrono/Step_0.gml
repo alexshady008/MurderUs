@@ -11,5 +11,5 @@ if (global.step_delta >= 5 and global.estadoJuego == "jugando"){
 
 
 //global.ipServidor = global.servidorLocal
-global.ipServidor = global.servidorUSATest
+//global.ipServidor = global.servidorUSATest
 //global.monedas = 100000
