@@ -16,6 +16,13 @@
 	phy_position_y = median( 24, phy_position_y, room_height-24 );  
 #endregion
 
+#region  Reinicia variables de accion
+	if (global.estadoJuego!="jugando"){
+		if (escondido) escondido=false
+		if (limpiando_rastro) limpiando_rastro=false
+	}
+#endregion
+
 
 //SI SE PUEDE JUGAR
 if (global.jugabilidad)

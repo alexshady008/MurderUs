@@ -78,7 +78,7 @@ depth = -y
 	if (room!=rm_lobby)
 	{
 		if (visible){
-			if (anterior_escondido){
+			if (escondido){
 				visible = false
 				#region COntr el sprite de la alcantarilla
 					var agujero =  instance_nearest(x,y,obj_agujero)
@@ -94,7 +94,7 @@ depth = -y
 			}
 		}
 		else {
-			if !(anterior_escondido){
+			if !(escondido){
 				visible = true
 				#region COntr el sprite de la alcantarilla
 					var agujero =  instance_nearest(x,y,obj_agujero)
@@ -112,10 +112,17 @@ depth = -y
 	}
 	#endregion
 	
+	#region  Reinicia variables de accion
+		if (global.estadoJuego!="jugando"){
+			if (escondido) escondido=false
+			if (limpiando_rastro) limpiando_rastro=false
+		}
+	#endregion
+	
 	#region CONTROLA LAS ACCIONES DEL COMPLICE
 		if (complice){
 			test = true
-			if (muerto==false and anterior_escondido==false){	
+			if (muerto==false and escondido==false){	
 				test2 = true
 				
 				#region configura variables
@@ -125,7 +132,7 @@ depth = -y
 					sangre_limpiar = noone
 					sangre_pers_limpiar = noone
 					obj_agujero_guardar_cuerpo = noone
-					limpiando_rastro = anterior_limpiando_rastro
+					//limpiando_rastro = anterior_limpiando_rastro
 				#endregion
 	
 				scr_comprobar_rastros_complice(limpiando_rastro)

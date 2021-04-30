@@ -35,8 +35,9 @@ if (global.jugabilidad)
 								//if (global.musica) audio_play_sound(snd_boton,100,false)
 								escala = 1.1
 								global.limpiando=true
-								obj_personaje.limpiando_rastro = true
 								image_alpha = 0.5
+								obj_personaje.limpiando_rastro = true
+								scr_limpiar_rastros(obj_personaje.idJugador)
 								var contacto_con_sangre = obj_personaje.contacto_con_sangre
 								if !(contacto_con_sangre) obj_personaje.contacto_con_sangre = true
 								//scr_limpiar_rastros_asesino(huellas, sangre, sangre_pers, cabeza_cadaver, cadaver, obj_personaje)
@@ -58,8 +59,9 @@ if (global.jugabilidad)
 					if (global.muerto==false and instance_exists(obj_personaje) and visible==true){
 						escala = 1
 						global.limpiando=false
-						obj_personaje.limpiando_rastro = false
 						image_alpha = 1
+						obj_personaje.limpiando_rastro = false
+						scr_detener_limpieza_rastros(obj_personaje.idJugador)
 						// Contr la visibilidad del cadaver que lleva
 						//scr_soltar_cadaver(obj_personaje)
 

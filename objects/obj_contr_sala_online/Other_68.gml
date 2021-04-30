@@ -363,13 +363,13 @@ switch(tipo){
 													var objetivo_posX = real(ds_map_find_value(mapListaDatosObjetivo, "posX"))
 													var objetivo_posY = real(ds_map_find_value(mapListaDatosObjetivo, "posY"))
 													var objetivo_direccion = real(ds_map_find_value(mapListaDatosObjetivo, "direccion"))
-													var objetivo_muerte = real(ds_map_find_value(mapListaDatosObjetivo, "muerte"))
+													//var objetivo_muerte = real(ds_map_find_value(mapListaDatosObjetivo, "muerte"))
 													var objetivo_accion = ds_map_find_value(mapListaDatosObjetivo, "accion")
 													
 													jugador.objetivo_posX = objetivo_posX
 													jugador.objetivo_posY = objetivo_posY
 													jugador.objetivo_direccion= objetivo_direccion
-													jugador.objetivo_muerte= objetivo_muerte
+													//jugador.objetivo_muerte= objetivo_muerte
 													jugador.objetivo_accion= objetivo_accion
 												}
 											}
@@ -401,13 +401,13 @@ switch(tipo){
 													var anterior_posX = real(ds_map_find_value(mapListaDatosAnterior, "posX"))
 													var anterior_posY = real(ds_map_find_value(mapListaDatosAnterior, "posY"))
 													var anterior_direccion = real(ds_map_find_value(mapListaDatosAnterior, "direccion"))
-													var anterior_muerte = real(ds_map_find_value(mapListaDatosAnterior, "muerte"))
+													//var anterior_muerte = real(ds_map_find_value(mapListaDatosAnterior, "muerte"))
 													var anterior_accion = ds_map_find_value(mapListaDatosAnterior, "accion")
 
 													jugador.anterior_posX = anterior_posX
 													jugador.anterior_posY = anterior_posY
 													jugador.anterior_direccion = anterior_direccion
-													jugador.anterior_muerte = anterior_muerte
+													//jugador.anterior_muerte = anterior_muerte
 													jugador.anterior_accion = anterior_accion
 													
 												}

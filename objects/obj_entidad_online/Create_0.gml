@@ -7,6 +7,7 @@ detective = false
 complice = false
 jugador = false
 muerto = false // SI el personaje esta muerto o no
+escondido = false
 mostrar_pistas = false // Si al asesinar muestra las pistas o no
 pistas_mostradas = 0
 idServer = noone  //El id que le proporciona el servidor
@@ -54,19 +55,19 @@ test2 = false
 objetivo_posX = noone
 objetivo_posY = noone
 objetivo_direccion = noone
-objetivo_muerte = false
+//objetivo_muerte = false
 objetivo_accion = "ninguna"
-objetivo_escondido = false
-objetivo_limpiando_rastro = false
+//objetivo_escondido = false
+//objetivo_limpiando_rastro = false
 
 
 anterior_posX = noone
 anterior_posY = noone
 anterior_direccion = 404
-anterior_muerte = false
+//anterior_muerte = false
 anterior_accion = "ninguna"
-anterior_escondido = false
-anterior_limpiando_rastro = false
+//anterior_escondido = false
+//anterior_limpiando_rastro = false
 
 
 //Contr su visibilidad en el lobby

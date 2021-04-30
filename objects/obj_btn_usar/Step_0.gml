@@ -102,11 +102,13 @@ if (global.jugabilidad)
 								obj_personaje.escondido=false
 								obj_personaje.phy_position_x = obj_usar.x//+32
 								obj_personaje.phy_position_y = obj_usar.y//+32
+								scr_mostrar_personaje(obj_personaje.idJugador)
 							}	
 							else {
 								obj_personaje.escondido=true
 								obj_personaje.phy_position_x = obj_usar.x//+32
 								obj_personaje.phy_position_y = obj_usar.y//+32
+								scr_ocultar_personaje(obj_personaje.idJugador)
 							}	
 							with(obj_usar){
 								// Sonido

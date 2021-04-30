@@ -278,6 +278,54 @@ switch(tipo){
 				break
 				
 				
+				case "jugadorOculto":
+					#region  Contr cuando alguien se oculta o se muestra
+						var id_jugador_oculto = real(ds_map_find_value(mapaDatos,"jugadorId"))
+						var oculto = real(ds_map_find_value(mapaDatos,"tipo"))
+						for(i=0 ; i<ds_list_size(global.jugadores_lista) ; i++){
+							var jugador = ds_list_find_value(global.jugadores_lista,i)
+							var id_jugador = real(ds_map_find_value(jugador,"clienteId"))
+							if (id_jugador == id_jugador_oculto){
+								#region Contr el personaje escondido o mostrado
+									var id_obj = ds_map_find_value(jugador,"idObjeto")
+									if (id_obj!=noone and instance_exists(id_obj)){
+										if (oculto==true and id_obj.escondido==false) id_obj.escondido = true	
+										else if (oculto==false and id_obj.escondido==true) id_obj.escondido = false	
+									}
+								#endregion
+							}
+						}
+					#endregion
+				break
+				
+				
+				case "jugadorLimpiando":
+					#region  Contr cuando alguien se oculta o se muestra
+						var id_jugador_limpiando = real(ds_map_find_value(mapaDatos,"jugadorId"))
+						var limpiar = real(ds_map_find_value(mapaDatos,"tipo"))
+						for(i=0 ; i<ds_list_size(global.jugadores_lista) ; i++){
+							var jugador = ds_list_find_value(global.jugadores_lista,i)
+							var id_jugador = real(ds_map_find_value(jugador,"clienteId"))
+							if (id_jugador == id_jugador_limpiando){
+								#region Contr el personaje escondido o mostrado
+								var id_obj = ds_map_find_value(jugador,"idObjeto")
+								if (id_obj!=noone and instance_exists(id_obj)){
+									if (limpiar==true and id_obj.limpiando_rastro==false) {
+										id_obj.limpiando_rastro = true
+										show_debug_message("El jugador esta limpiando!")
+									}	
+									else if (limpiar==false and id_obj.limpiando_rastro==true) {
+										id_obj.limpiando_rastro = false
+										show_debug_message("El jugador deja de limpiar!")
+									}	
+								}
+								#endregion
+							}
+						}
+					#endregion
+				break
+				
+				
 				case "jugadorReportado":
 					#region Contr cuando se reporta un cuerpo
 					if (global.estadoJuego=="jugando")
@@ -504,16 +552,16 @@ switch(tipo){
 													var objetivo_posX = real(ds_map_find_value(mapListaDatosObjetivo, "posX"))
 													var objetivo_posY = real(ds_map_find_value(mapListaDatosObjetivo, "posY"))
 													var objetivo_direccion = real(ds_map_find_value(mapListaDatosObjetivo, "direccion"))
-													var objetivo_muerte = real(ds_map_find_value(mapListaDatosObjetivo, "muerte"))
-													var objetivo_escondido = real(ds_map_find_value(mapListaDatosObjetivo, "oculto"))
-													var objetivo_limpiando_rastro = real(ds_map_find_value(mapListaDatosObjetivo, "limpiandoRastro"))
+													//var objetivo_muerte = real(ds_map_find_value(mapListaDatosObjetivo, "muerte"))
+													//var objetivo_escondido = real(ds_map_find_value(mapListaDatosObjetivo, "oculto"))
+													//var objetivo_limpiando_rastro = real(ds_map_find_value(mapListaDatosObjetivo, "limpiandoRastro"))
 													
 													jugador.objetivo_posX = objetivo_posX
 													jugador.objetivo_posY = objetivo_posY
 													jugador.objetivo_direccion= objetivo_direccion
-													jugador.objetivo_muerte= objetivo_muerte
-													jugador.objetivo_escondido= objetivo_escondido
-													jugador.objetivo_limpiando_rastro = objetivo_limpiando_rastro
+													//jugador.objetivo_muerte= objetivo_muerte
+													//jugador.objetivo_escondido= objetivo_escondido
+													//jugador.objetivo_limpiando_rastro = objetivo_limpiando_rastro
 												}
 											}
 										}
@@ -544,17 +592,17 @@ switch(tipo){
 													var anterior_posX = real(ds_map_find_value(mapListaDatosAnterior, "posX"))
 													var anterior_posY = real(ds_map_find_value(mapListaDatosAnterior, "posY"))
 													var anterior_direccion = real(ds_map_find_value(mapListaDatosAnterior, "direccion"))
-													var anterior_muerte = real(ds_map_find_value(mapListaDatosAnterior, "muerte"))
-													var anterior_escondido = real(ds_map_find_value(mapListaDatosAnterior, "oculto"))
-													var anterior_limpiando_rastro = real(ds_map_find_value(mapListaDatosAnterior, "limpiandoRastro"))
+													//var anterior_muerte = real(ds_map_find_value(mapListaDatosAnterior, "muerte"))
+													//var anterior_escondido = real(ds_map_find_value(mapListaDatosAnterior, "oculto"))
+													//var anterior_limpiando_rastro = real(ds_map_find_value(mapListaDatosAnterior, "limpiandoRastro"))
 													
 
 													jugador.anterior_posX = anterior_posX
 													jugador.anterior_posY = anterior_posY
 													jugador.anterior_direccion = anterior_direccion
-													jugador.anterior_muerte = anterior_muerte
-													jugador.anterior_escondido = anterior_escondido
-													jugador.anterior_limpiando_rastro = anterior_limpiando_rastro
+													//jugador.anterior_muerte = anterior_muerte
+													//jugador.anterior_escondido = anterior_escondido
+													//jugador.anterior_limpiando_rastro = anterior_limpiando_rastro
 													
 												}
 											}
