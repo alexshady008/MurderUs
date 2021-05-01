@@ -12,6 +12,8 @@ if (tarea!=noone and instance_exists(tarea)){
 			else if (global.tareas_completadas[tarea.num_tarea]) image_index = 3
 		}	
 	}
+	
+	
 }
 
 image_speed = 0

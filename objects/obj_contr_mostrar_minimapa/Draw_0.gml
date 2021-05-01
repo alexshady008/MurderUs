@@ -33,7 +33,7 @@ if (global.jugador_tipo=="IMPOSTOR" ){
 
 
 var ver_entidades = global.ver_minimapa_jugadores
-if (room==rm_nivel1 or room==rm_nivel1_editor) scr_dibujar_mapa(cam_x+175,cam_y+75,ver_entidades,5)
-else if (room==rm_nivel2 or room==rm_nivel2_editor) scr_dibujar_mapa(cam_x+150,cam_y+75,ver_entidades,5)
-else if (room==rm_nivel3 or room==rm_nivel3_editor) scr_dibujar_mapa(cam_x+250,cam_y+0,ver_entidades,7)
+if (room==rm_nivel1 or room==rm_nivel1_editor) scr_dibujar_mapa(175,75,ver_entidades,5)
+else if (room==rm_nivel2 or room==rm_nivel2_editor) scr_dibujar_mapa(150,75,ver_entidades,5)
+else if (room==rm_nivel3 or room==rm_nivel3_editor) scr_dibujar_mapa(250,0,ver_entidades,7)
 //else if (room==rm_nivel1_editor) scr_dibujar_mapa(cam_x+250,cam_y+75,ver_entidades,5)
