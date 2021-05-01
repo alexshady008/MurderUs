@@ -8,3 +8,5 @@ posY = 0
 posX_sum = 0
 posY_sum = 0
 contr_pos = false
+
+if (place_meeting( x, y, obj_tarea_minimapa)) instance_destroy()
