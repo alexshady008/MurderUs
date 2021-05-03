@@ -133,6 +133,7 @@
 			borrarNivelesEditados =ini_read_real("editor","borrarNiveles",0) //Controla si el nivel editado fue borrado
 			global.tutorial_editor =ini_read_real("editor","tutorial_editor",0) //Controla si ya se mostro el tutorial del editor
 			global.tutorial_historia_juego =ini_read_real("jugadorDatos","tutorial_historia_juego",false) //Controla si ya se mostro el tutorial de la historia
+			global.fecha_ultimo_regalo = ini_read_real("jugadorDatos", "fecha_ultimo_regalo", 0); //Fecha del ultimo regalo
 		#endregion
 	
 		#region Configura el nombre

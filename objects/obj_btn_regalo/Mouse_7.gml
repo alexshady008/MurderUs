@@ -7,6 +7,7 @@ if ( global.menuBloq == false ){
 	{ audio_play_sound(snd_boton,100,false) }
 
 	#region Colocar aqui la mecanica de cuando este boton esta activo o no
-		room_goto(rm_regalos)
+		if (habilitado)
+			room_goto(rm_regalos)
 	#endregion
 }

@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 299,
-    "yorigin": 321,
+    "yorigin": 323,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_rueda_base","path":"sprites/spr_rueda_base/spr_rueda_base.yy",},
