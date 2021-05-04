@@ -1,0 +1,11 @@
+/// @description Inserte aquí la descripción
+// Puede escribir su código en este editor
+if instance_exists(obj_btn_opciones_msjs_automaticos) instance_destroy(obj_btn_opciones_msjs_automaticos)
+if instance_exists(obj_circulo_central_msjs_automaticos) instance_destroy(obj_circulo_central_msjs_automaticos)
+if instance_exists(obj_volver_msjes_automaticos) instance_destroy(obj_volver_msjes_automaticos)
+if instance_exists(obj_mostrar_jugadores_msjes) instance_destroy(obj_mostrar_jugadores_msjes)
+if instance_exists(obj_mostrar_lugares_msjes) instance_destroy(obj_mostrar_lugares_msjes)
+if instance_exists(obj_btn_jugadores_msjes_automatico) instance_destroy(obj_btn_jugadores_msjes_automatico)
+if instance_exists(obj_btn_localizaciones_msjes_automatico) instance_destroy(obj_btn_localizaciones_msjes_automatico)
+
+if instance_exists(obj_contr_chat) global.chat=1

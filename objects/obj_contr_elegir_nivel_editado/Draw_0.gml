@@ -1,0 +1,17 @@
+/// @description Inserte aquí la descripción
+// Puede escribir su código en este editor
+
+#region Dibuja el titulo del pop up
+	draw_set_halign(fa_center)
+	draw_set_valign(fa_middle)
+	draw_set_font(fnt_muy_grande)
+	var posY = 125
+	var posX = room_width/2
+	switch(os_get_language()) {
+			case "es": draw_text_outline("EDITOR DE MAPAS",posX,posY,c_black,1,1,c_white) break;
+			case "pt": draw_text_outline("EDITOR DE MAPA",posX,posY,c_black,1,1,c_white) break;
+			case "it": draw_text_outline("EDITOR MAPPA",posX,posY,c_black,1,1,c_white) break;
+			case "ru": draw_set_font(fnt_grande_ru) draw_text_outline("РЕДАКТОР КАРТЫ",posX,posY,c_black,1,1,c_white) break;
+			default: draw_text_outline("MAP EDITOR",posX,posY,c_black,1,1,c_white) break;
+		}
+#endregion	
