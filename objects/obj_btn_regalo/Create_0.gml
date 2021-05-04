@@ -24,7 +24,7 @@ alarm[0] = room_speed;
 
 if (ruleta_usada)
 {
-	if (date_compare_datetime(date_create_datetime(ruleta_year, ruleta_mes, ruleta_dia, ruleta_horas, ruleta_minutos, ruleta_segundos), date_current_datetime()) > 0)
+	if (date_compare_datetime(date_create_datetime(ruleta_year, ruleta_mes, ruleta_dia, ruleta_horas, ruleta_minutos, ruleta_segundos), date_current_datetime()) < 0)
 	{
 		ini_write_real("jugadorDatos", "ruleta_usada", false);
 		ruleta_usada = false;
