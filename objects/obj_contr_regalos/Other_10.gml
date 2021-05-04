@@ -84,16 +84,19 @@ switch (regalo_escogido) {
 		global.monedas += 10;
 		ini_write_real("jugadorDatos", "monedas", global.monedas);
 		sprite_escogido = spr_regalo_10_diamantes;
+		global.regalo_es_monedas = true;
 	break;
 	case RegalosRueda.DiamantesCincuenta:
 		global.monedas += 50;
 		ini_write_real("jugadorDatos", "monedas", global.monedas);
 		sprite_escogido = spr_regalo_50_diamantes;
+		global.regalo_es_monedas = true;
 	break;
 	case RegalosRueda.Diamantes100:
 		global.monedas += 100;
 		ini_write_real("jugadorDatos", "monedas", global.monedas);
 		sprite_escogido = spr_regalo_100_diamantes;
+		global.regalo_es_monedas = true;
 	break;
 	#endregion
 }
