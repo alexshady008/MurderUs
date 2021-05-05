@@ -1,10 +1,12 @@
 /// @description Velocidad inicial
 
 #region Rotacion
-//Estos valores permiten que la rueda gire 5 veces y quede en el mismo lugar
-//que comenzo.
-//Cambiar solo si la rueda vuelve hace giros completos.
-rotation_speed = -30;
+
+rotation_speed = 0;
 rotation_aceleration = 0.25;
+
+dragg_angle = 0;
+previous_angle = 0;
+is_dragging = false;
 
 #endregion

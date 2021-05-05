@@ -1,5 +1,7 @@
 /// @description Rotacion
-if (global.etapa_rueda == EtapasRueda.Girando) {
+if (global.etapa_rueda = EtapasRueda.InteraccionJugador) {
+	previous_angle = image_angle;
+} else if (global.etapa_rueda == EtapasRueda.Girando) {
 	image_angle += rotation_speed;
 	if (abs(rotation_speed) < abs(rotation_aceleration)) {
 		rotation_speed = 0;

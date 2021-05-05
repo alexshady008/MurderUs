@@ -1,6 +1,7 @@
 /// @description Control de la rueda
 
 enum EtapasRueda {
+	InteraccionJugador,
 	Girando,
 	AjustandoPosicion,
 	MostrandoRecomensa,
@@ -18,7 +19,7 @@ enum RegalosRueda {
 	Skin,
 }
 
-global.etapa_rueda = EtapasRueda.Girando;
+global.etapa_rueda = EtapasRueda.InteraccionJugador;
 
 //Se agregan las frecuencas a la estructura que las administra
 var frecuencias = new RandomFrecuencias();
@@ -48,7 +49,6 @@ event_user(0);
 //Se calcula la porcion de la rueda que debe mostrar el regalo
 var angulo_destino = porcion_de_rueda * regalo_escogido;
 obj_rueda_regalos.angulo_destino = angulo_destino;
-obj_rueda_regalos.image_angle = angulo_destino;
 
 //Se guarda la fecha del regalo
 global.fecha_ultimo_regalo = date_current_datetime();
