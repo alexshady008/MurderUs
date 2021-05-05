@@ -37,7 +37,6 @@ var porcion_de_rueda = 360 / regalos;
 
 //Se obtiene un regalo random
 regalo_escogido = frecuencias.ValorRandom();
-global.regalo_es_monedas = false;
 
 //Se destruye el struct
 frecuencias.Destruir();
