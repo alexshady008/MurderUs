@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"95d95d5e-63c8-40b0-8447-78743cee0faa","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Intro - Roles",
     "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Intro - Roles.yy",

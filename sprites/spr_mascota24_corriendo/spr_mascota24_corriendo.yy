@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e4f8ef23-80e7-4d54-bd54-94e323315e09","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Mascotas",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Mascotas.yy",

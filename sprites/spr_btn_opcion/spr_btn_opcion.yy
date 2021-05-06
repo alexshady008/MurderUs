@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f44bbd7c-735a-4fa9-91e8-8e67140f7d62","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Chat",
     "path": "folders/Sprites/Interfacez - Botones/Juego/Chat.yy",

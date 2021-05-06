@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a8995ec7-89b9-4abf-bf41-f802a1ac9c7f","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Rompecabezas 1",
     "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Rompecabezas/Rompecabezas 1.yy",

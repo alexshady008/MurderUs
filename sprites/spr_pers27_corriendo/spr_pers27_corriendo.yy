@@ -79,6 +79,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cbffe2d9-e39a-4016-b797-d0d247d9e584","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 27 Scarlet Witch",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 27 Scarlet Witch.yy",

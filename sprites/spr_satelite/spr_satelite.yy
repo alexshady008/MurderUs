@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fd91c28a-6df6-498c-9fac-d06fb9586170","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Lanzadera",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Lanzadera.yy",

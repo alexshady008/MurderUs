@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3427112a-4c83-4567-8cec-6a13df5cbcff","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Mina",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Mina.yy",

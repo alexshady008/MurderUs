@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"23c581df-4505-4cd7-9e55-fdb7fb85b122","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Jardin Secundario",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Jardines/Jardin Secundario.yy",

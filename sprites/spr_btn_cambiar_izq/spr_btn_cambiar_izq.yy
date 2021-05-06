@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a9d6c75b-2321-4790-8d97-9a53e19f5463","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personajes",
     "path": "folders/Sprites/Interfacez - Botones/Interfaces/Personajes.yy",

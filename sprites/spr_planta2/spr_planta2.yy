@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"28bb09bb-1401-4e89-8c19-8b71715ab626","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Jardin Principal",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Jardines/Jardin Principal.yy",

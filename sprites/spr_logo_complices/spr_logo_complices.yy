@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"88d1cff0-c086-4669-b74e-3d9b8532cc3f","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Logos",
     "path": "folders/Sprites/Interfacez - Botones/Juego/Logos.yy",

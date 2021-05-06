@@ -79,6 +79,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"83f13dec-7fe4-4c4d-b35e-9ff666341a83","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Prenda 04",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Prendas/Prenda 04.yy",

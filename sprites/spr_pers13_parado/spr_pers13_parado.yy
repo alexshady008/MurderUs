@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d6477a2c-1d37-4eb5-b333-37cd47a9118f","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 13 Aquaman",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 13 Aquaman.yy",

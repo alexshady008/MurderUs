@@ -87,6 +87,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ce9f95f4-0f7f-4f71-802f-458d79ab1e44","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "analisis 1.2",
     "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Analisis/Analisis 1/analisis 1.2.yy",

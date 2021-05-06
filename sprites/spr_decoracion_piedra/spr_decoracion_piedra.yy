@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1a41b47a-e7a2-4f11-9619-cf1124214895","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Laboratorio",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Laboratorio.yy",

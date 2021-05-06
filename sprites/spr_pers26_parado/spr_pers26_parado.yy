@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e72e43f2-bae0-4364-b7e3-91291b81331e","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 26 Sans",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 26 Sans.yy",

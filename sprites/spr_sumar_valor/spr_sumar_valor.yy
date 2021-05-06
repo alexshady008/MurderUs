@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9d7b0ecd-da82-434d-85d3-123b749f761b","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "TAREAS VIEJAS",
     "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS VIEJAS.yy",

@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"efe436d3-9d37-4053-94e0-95396e43257b","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 23 Harley",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 23 Harley.yy",

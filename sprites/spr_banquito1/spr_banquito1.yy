@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"500ce015-2591-4f58-abcd-1c39aa14c32a","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Dormitorio",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Dormitorio.yy",

@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a0f3845a-b24a-4c40-8785-ed20249930d0","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Mantenimiento 3",
     "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Mantenimiento/Mantenimiento 3.yy",

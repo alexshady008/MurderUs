@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c107a86e-5bf8-4ad0-be7d-ffa6c169d6f9","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 21 Freddy",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 21 Freddy.yy",

@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"47776c4e-488c-489a-ba2f-57aa298da92a","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Imgs separadas",
     "path": "folders/Sprites/Historia - Tutorial/Imgs separadas.yy",

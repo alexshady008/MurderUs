@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c049bf57-ac38-4e1e-8bd5-f787422b7079","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 04 Ironman",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 04 Ironman.yy",

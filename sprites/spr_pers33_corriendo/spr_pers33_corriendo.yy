@@ -79,6 +79,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bdd83b91-73ab-4130-a11f-9d9c79ca8382","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 33 Wolverine",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 33 Wolverine.yy",

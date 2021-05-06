@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"291bd54b-31ef-46e7-b93e-f31787b6d392","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Campos fungios",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Campos fungios.yy",

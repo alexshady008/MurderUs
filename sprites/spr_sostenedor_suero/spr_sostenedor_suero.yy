@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4678cf9a-ba3b-416c-9f05-a975e24cd78f","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Clinica",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Clinica.yy",

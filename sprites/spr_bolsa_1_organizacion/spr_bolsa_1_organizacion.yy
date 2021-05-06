@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cf74b933-4c8a-4793-8519-aa976cd4faa9","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Organzizacion 1",
     "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Organzacion/Organzizacion 1.yy",

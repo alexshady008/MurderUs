@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"94439871-549c-4e24-8773-461df32657c0","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 24 Naruto",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 24 Naruto.yy",

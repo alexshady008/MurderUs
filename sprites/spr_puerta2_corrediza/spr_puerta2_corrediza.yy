@@ -75,6 +75,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"929fb276-1750-4f21-b799-303bcc6a66f1","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Puertas",
     "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Puertas.yy",

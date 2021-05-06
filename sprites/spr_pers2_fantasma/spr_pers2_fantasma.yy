@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0b861ca8-dbda-42e3-bed5-23837c42a212","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 02 Spiderman",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 02 Spiderman.yy",

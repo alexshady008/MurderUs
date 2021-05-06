@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"55b8c7ff-ce9d-4034-a056-9e8195732c4e","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Completar 2",
     "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Completar/Completar 2.yy",

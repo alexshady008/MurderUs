@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b9d5810c-e1cb-4818-8445-9ce33d068ca0","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 36 Levi",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 36 Levi.yy",

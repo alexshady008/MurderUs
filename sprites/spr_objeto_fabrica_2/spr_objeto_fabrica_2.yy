@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9b7bb777-4647-4365-82b7-b88c5ddc7fe4","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Fabrica",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Fabrica.yy",

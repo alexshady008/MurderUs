@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d02f4d34-065e-4351-86a8-7d89ed720814","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 34 Zombie",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 34 Zombie.yy",

@@ -175,6 +175,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b8b88e41-79db-4970-be18-8782fe4fb56f","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Seleccionables",
     "path": "folders/Sprites/Interfacez - Botones/Editor /Seleccionables.yy",

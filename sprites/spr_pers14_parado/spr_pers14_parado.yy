@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9446a386-0ad0-4ef4-a918-18d15475210d","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 14 Harry Potter",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 14 Harry Potter.yy",

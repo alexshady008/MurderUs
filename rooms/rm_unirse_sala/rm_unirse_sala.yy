@@ -55,8 +55,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Salas",
-    "path": "folders/Rooms/Salas.yy",
+    "name": "Salas Online",
+    "path": "folders/Rooms/Salas Online.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_unirse_sala",

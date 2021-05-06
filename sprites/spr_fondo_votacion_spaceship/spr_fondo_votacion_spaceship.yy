@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1b079f39-6198-4373-9d7b-5828b7280d99","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Spaceship",
     "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Votacion/Spaceship.yy",

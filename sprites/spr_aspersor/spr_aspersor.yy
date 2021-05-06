@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9bde77cf-71b2-41c6-a9f5-100e837bcc5b","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Plantacion",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Plantacion.yy",

@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"50679d9a-887e-4b40-ae76-4e466fcf950f","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Elegir vestimenta",
     "path": "folders/Sprites/Interfacez - Botones/Elegir vestimenta.yy",

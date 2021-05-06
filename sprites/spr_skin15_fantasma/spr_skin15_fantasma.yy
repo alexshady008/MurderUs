@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5ad08b11-7c00-4278-9e1a-8d7afd5a601b","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Prenda 15",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Prendas/Prenda 15.yy",

@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a4294702-96ea-491e-9d6f-49f56ec3c5c4","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Pared6",
     "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Paredes/Pared6.yy",

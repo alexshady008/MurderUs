@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1196fb9e-c551-4f14-885f-ae512a88d633","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Juego",
     "path": "folders/Sprites/Interfacez - Botones/Juego.yy",

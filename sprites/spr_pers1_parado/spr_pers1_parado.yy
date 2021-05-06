@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b87249ae-d8f8-40a2-af22-d48a04c57dbc","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "_Personaje sin Skins",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/_Personaje sin Skins.yy",

@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d7a68c2e-8860-46a6-83d0-b43090f69e25","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Extractor",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Extractor.yy",

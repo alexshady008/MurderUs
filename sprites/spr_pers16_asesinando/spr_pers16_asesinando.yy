@@ -79,6 +79,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7355da99-79f7-4c82-b552-948c3833e3b5","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 16 Hermione Granger",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 16 Hermione Granger.yy",

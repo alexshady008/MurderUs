@@ -79,6 +79,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cbbe66a4-9aa3-4e11-90b8-e54d8d344d9b","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 05 Thor",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 05 Thor.yy",

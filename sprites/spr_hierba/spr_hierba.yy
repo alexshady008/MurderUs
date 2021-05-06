@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4cfea979-ec00-4525-8f20-d8f27350a805","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Recoleccion",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Recoleccion.yy",

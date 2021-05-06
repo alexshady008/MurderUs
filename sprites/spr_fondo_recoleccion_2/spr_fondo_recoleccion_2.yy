@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9d7e1fda-906d-461c-a010-6436b22f5abe","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Recoleccion 2",
     "path": "folders/Sprites/Interfacez - Botones/Tareas/TAREAS NUEVAS/Recoleccion/Recoleccion 2.yy",

@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6e3b6f69-8bc8-4faf-a0a9-edb3d16bfe8d","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Maquinas",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Maquinas.yy",

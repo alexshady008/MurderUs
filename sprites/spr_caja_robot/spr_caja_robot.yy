@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cba266fe-22f8-4c36-98b4-ae7d520f537c","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Naves",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Naves.yy",

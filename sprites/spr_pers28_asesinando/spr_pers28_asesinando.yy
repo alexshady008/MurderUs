@@ -95,6 +95,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"51f7a886-62e1-4b12-816c-63ffa97e09c8","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 28 Slenderman",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 28 Slenderman.yy",

@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1489a936-c84d-48ad-a679-77f1e83c4c65","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Tienda",
     "path": "folders/Sprites/Interfacez - Botones/Tienda.yy",

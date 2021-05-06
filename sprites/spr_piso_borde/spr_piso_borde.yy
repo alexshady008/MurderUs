@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"12a9f658-4c0f-4d51-bf9b-6a4c65323a23","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Pisos",
     "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Pisos.yy",

@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2a85d5e3-0e1b-49e6-b710-c0f32c69d821","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Alcantarillas",
     "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Alcantarillas.yy",

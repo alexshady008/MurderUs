@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ae7fc191-20cb-4f2c-b529-525b25f49aab","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Interactivos",
     "path": "folders/Sprites/Objetos de Escenarios/Interactivos.yy",

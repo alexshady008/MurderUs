@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b29debd2-46cc-4d70-b131-da3e601d44c6","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 18 Finn Human",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 18 Finn Human.yy",

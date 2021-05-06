@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2bee8ab4-c758-4d8a-9a0e-4f8e49fd850e","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Sombreros",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Sombreros.yy",

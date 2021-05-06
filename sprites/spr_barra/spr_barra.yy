@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cf03af65-1420-42cc-8a5a-4e401ed37942","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Cafetería",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Cafetería.yy",

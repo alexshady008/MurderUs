@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3e6dc1de-d10e-46c8-a9ef-b626e39965fa","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 06 Capitan America",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 06 Capitan America.yy",

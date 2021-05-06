@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"56590f43-e934-4eef-b546-691773ebbf35","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 19 Piper Chapman",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 19 Piper Chapman.yy",

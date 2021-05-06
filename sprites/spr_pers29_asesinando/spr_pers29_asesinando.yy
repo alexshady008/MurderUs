@@ -99,6 +99,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a5b8a01b-70d8-40c3-bb49-dfda1e40c3c9","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 29 Steve",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 29 Steve.yy",

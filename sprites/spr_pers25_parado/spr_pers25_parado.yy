@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"67f1d462-9e75-4036-8f5f-86786a3c3aad","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 25 Nezuko",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 25 Nezuko.yy",

@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"87ceaae0-911e-4f55-99c5-e75a68ef9291","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Escalera",
     "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Escalera.yy",

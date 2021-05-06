@@ -69,6 +69,7 @@
     {"visible":true,"isLocked":false,"blendMode":2,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9a9d63de-0702-4382-96a8-b805e9963b44","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"988da058-0212-4e55-bc42-a462f1c9a433","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Luces",
     "path": "folders/Sprites/Otros/Luces.yy",

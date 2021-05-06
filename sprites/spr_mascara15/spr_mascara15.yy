@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"44e6f546-a30d-4c88-adfa-f1ac40b19c61","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Accesorios",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Accesorios.yy",

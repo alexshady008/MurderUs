@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4b554a4b-69dc-4a11-9ec1-ed115a47e078","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Mapa 3",
     "path": "folders/Sprites/Objetos de Escenarios/Tiles/Mapa 3.yy",

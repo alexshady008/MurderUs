@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b091ffbf-50e0-4761-8aa2-a0be335ede19","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Transmisiones",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Transmisiones.yy",

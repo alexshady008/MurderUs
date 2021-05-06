@@ -95,6 +95,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c2453149-fb09-4c99-a151-922f36102676","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 30 Thanos",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 30 Thanos.yy",

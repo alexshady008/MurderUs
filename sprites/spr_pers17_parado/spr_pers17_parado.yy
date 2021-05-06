@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4261f741-ad53-404c-8510-34d72d054f49","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 17 Jack Sparrow",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 17 Jack Sparrow.yy",

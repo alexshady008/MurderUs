@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a095c50b-1698-498d-9a69-a73c1b29acff","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Energia",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Energia.yy",

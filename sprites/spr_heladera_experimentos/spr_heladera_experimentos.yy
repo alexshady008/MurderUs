@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"372f09f5-6bf5-46e2-9d57-2db564bb20e0","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Experimentos",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Experimentos.yy",

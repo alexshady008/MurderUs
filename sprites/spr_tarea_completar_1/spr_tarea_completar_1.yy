@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0326e347-73f3-4c2d-a2fe-b9f54f200c9f","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Tareas",
     "path": "folders/Sprites/Objetos de Escenarios/Marcadores de objetos/Tareas.yy",

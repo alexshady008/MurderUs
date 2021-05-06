@@ -75,6 +75,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b42b3c0c-84d4-4cb6-a607-a78b0ccc49ee","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Interfaces",
     "path": "folders/Sprites/Interfacez - Botones/Interfaces.yy",

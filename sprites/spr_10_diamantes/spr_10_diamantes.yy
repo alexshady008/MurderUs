@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"877b933f-0f9c-47fb-918e-dd4c518ec618","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Diamantes",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Diamantes.yy",

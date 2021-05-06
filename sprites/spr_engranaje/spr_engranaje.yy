@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"693bad28-1bdc-4b1a-b934-6a29f126416a","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Almacen",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Almacen.yy",

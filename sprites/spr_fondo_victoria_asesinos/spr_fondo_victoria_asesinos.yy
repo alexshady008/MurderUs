@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"975fc9d1-6aff-42e6-83fb-30b374a5ecf9","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Final",
     "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Final.yy",

@@ -6,11 +6,13 @@ if ( global.menuBloq == false ){
 	if global.musica == true
 	{ audio_play_sound(snd_boton,100,false) }
 	
-	if !(global.tutorial_historia_juego) {
-		global.room_historia_finalizada = rm_crear_sala
-		room_goto(rm_historia)
-	}	
-	else {
-		room_goto(rm_crear_sala)
+	if (global.modo_jugabilidad==1) {
+		if !(global.tutorial_historia_juego) {
+			global.room_historia_finalizada = rm_crear_sala
+			room_goto(rm_historia)
+		}	
+		else {
+			room_goto(rm_crear_sala)
+		}
 	}
 }

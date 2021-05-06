@@ -79,6 +79,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"858bf324-774e-4ec5-9845-ee9d6aa76c9c","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 32 Vision",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 32 Vision.yy",

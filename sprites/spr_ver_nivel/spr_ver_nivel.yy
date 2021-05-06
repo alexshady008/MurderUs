@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d502b05e-8c00-409a-8072-0e5e816af9a0","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Editor ",
     "path": "folders/Sprites/Interfacez - Botones/Editor .yy",

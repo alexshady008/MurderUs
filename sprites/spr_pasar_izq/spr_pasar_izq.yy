@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"adf1c571-ca86-4f64-8c4d-1ab69f7ef291","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Salas",
     "path": "folders/Sprites/Interfacez - Botones/Salas.yy",

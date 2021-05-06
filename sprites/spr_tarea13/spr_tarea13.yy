@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"710b3364-e5f8-4ee7-9d60-793e133a20b8","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Mapa 2",
     "path": "folders/Sprites/Objetos de Escenarios/Tareas/Mapa 2.yy",

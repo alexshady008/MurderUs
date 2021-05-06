@@ -99,6 +99,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f855fbb7-be6f-4f98-9385-c1196560fae0","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 31 Vegeta",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 31 Vegeta.yy",

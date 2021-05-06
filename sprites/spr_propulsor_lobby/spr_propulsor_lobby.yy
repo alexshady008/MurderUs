@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c103a6c5-ad0b-431b-85d7-9e06dac4d1c3","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Lobby",
     "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Lobby.yy",

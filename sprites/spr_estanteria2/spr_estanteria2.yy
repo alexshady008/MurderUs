@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f842cac6-673a-45bb-96aa-0aabaf857823","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Deposito",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Deposito.yy",

@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bc182e57-1dc1-4d67-8e8b-1a8599c7ec4f","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Servidores",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Servidores.yy",

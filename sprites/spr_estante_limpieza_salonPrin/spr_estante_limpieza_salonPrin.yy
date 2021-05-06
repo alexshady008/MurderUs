@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"01220dff-7c0f-4c58-9340-3e6fa585d85b","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Salon Principal",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Salon Principal.yy",

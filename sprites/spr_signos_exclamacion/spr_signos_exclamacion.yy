@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a5c88f6b-1890-4f5a-bdd2-9e341f5c4435","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Boton de Emergencia",
     "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Boton de Emergencia.yy",

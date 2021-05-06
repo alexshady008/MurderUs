@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"63d7e735-2b61-4cb3-b2d8-d10d202bba6c","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Escenas",
     "path": "folders/Sprites/Historia - Tutorial/Escenas.yy",

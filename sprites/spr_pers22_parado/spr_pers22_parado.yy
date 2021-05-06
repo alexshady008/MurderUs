@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5c3c1287-605d-42f1-8987-2b096415eaf5","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 22 Goku",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 22 Goku.yy",

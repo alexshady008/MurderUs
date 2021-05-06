@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"11878836-435a-4b4b-856a-b069d6e45eaa","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Hongo_escaner",
     "path": "folders/Sprites/Otros/Hongo_escaner.yy",

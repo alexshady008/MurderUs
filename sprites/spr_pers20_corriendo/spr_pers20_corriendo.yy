@@ -79,6 +79,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5e0ab7fb-5ed1-4044-9cd6-92e23020aaaa","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 20 Cap Marvel",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 20 Cap Marvel.yy",

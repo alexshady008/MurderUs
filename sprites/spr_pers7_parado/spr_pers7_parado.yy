@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f15280b5-c296-4e98-b9d4-a86c4aa87e41","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 07 Deadpool",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 07 Deadpool.yy",

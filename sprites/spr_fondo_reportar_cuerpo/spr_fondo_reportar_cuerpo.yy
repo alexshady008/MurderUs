@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b52ba1bc-77fe-421e-a68e-ba6726a10f3f","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Reportar Cuerpo",
     "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Reportar Cuerpo.yy",

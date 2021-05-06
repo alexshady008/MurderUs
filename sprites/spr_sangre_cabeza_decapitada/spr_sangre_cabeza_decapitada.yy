@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0fe5ff4a-19f5-4439-8728-472f1d347ae3","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "SANGRE",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/SANGRE.yy",

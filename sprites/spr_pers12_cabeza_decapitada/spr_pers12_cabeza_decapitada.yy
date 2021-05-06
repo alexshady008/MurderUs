@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"361d56c5-e6d5-4c3f-ad05-656c4da8e6e1","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 12 Flash",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 12 Flash.yy",

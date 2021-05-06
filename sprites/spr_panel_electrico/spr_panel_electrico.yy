@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e0ad19ef-0125-436c-989c-01e54ef813c7","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Electricidad",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Electricidad.yy",

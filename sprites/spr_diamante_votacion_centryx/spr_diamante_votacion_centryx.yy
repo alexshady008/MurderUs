@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b5e6fdb2-7985-4f0a-ae7b-92e94aa7e10e","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Centryx",
     "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Votacion/Centryx.yy",

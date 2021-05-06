@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e704dc01-65e5-44a4-97e4-7dfda15d467f","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Asesinato",
     "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Asesinato.yy",

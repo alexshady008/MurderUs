@@ -30,7 +30,10 @@ if ( global.jugabilidad=true and global.visible_opciones == true){
 		
 			global.editor = true
 			global.tipo_mapa_sala = "personalizado"
-			room_goto(rm_crear_sala)
+			
+			// Vuelve a la room en donde estaba
+			scr_vuelve_room_inicial_editor()
+			
 		}else {
 			if (instance_exists(obj_contr_editor)){
 				obj_contr_editor.aviso_crear_tareas = true

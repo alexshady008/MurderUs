@@ -21,14 +21,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_btn_cant_jugadores","path":"objects/obj_btn_cant_jugadores/obj_btn_cant_jugadores.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_btn_cant_jugadores","path":"objects/obj_btn_cant_jugadores/obj_btn_cant_jugadores.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Jugadores",
-    "path": "folders/Objects/Interfaces - Botones/Salas/Crear sala/Jugadores.yy",
+    "path": "folders/Objects/Interfaces - Botones/Salas /Crear sala/Jugadores.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_btn_cant_jugadores",

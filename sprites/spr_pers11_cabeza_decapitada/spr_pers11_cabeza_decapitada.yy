@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b4e496c5-9f7e-46b7-8d69-16f7bf226b23","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 11 WonderWoman",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 11 WonderWoman.yy",

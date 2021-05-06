@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7337eefb-b4e0-4659-8831-2c7cb4ec39b8","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Obstaculos",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos.yy",

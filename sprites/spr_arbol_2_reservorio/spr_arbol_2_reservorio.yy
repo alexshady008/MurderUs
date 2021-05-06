@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1cf87d69-8626-4f55-991e-ed31a9c75ffd","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Reservorio",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Mapa 3/Reservorio.yy",

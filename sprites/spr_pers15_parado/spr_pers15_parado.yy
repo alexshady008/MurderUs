@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f51fe151-3ac2-4987-8217-ff8d75197d67","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 15 Ron Weasley",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 15 Ron Weasley.yy",

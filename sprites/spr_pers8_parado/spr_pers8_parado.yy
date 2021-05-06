@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a33aab90-3480-4ac7-b817-6c82b949834e","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 08 Joker",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 08 Joker.yy",

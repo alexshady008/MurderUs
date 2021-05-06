@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"48015a95-aa41-48b3-85f4-09550fef7c8b","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Pared3",
     "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Paredes/Pared3.yy",

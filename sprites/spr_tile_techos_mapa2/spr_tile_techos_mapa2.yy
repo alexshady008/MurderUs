@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ebb1e945-4b5f-4913-aa04-721f6928c200","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Techos",
     "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Techos.yy",

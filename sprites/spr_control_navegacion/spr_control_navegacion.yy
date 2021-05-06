@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f0315aaa-b81d-429c-9757-ffb048e41c59","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Comandos",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Comandos.yy",

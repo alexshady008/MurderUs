@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d993bfc9-1565-4406-b591-c3b5c6f53cc3","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Reuniones",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Reuniones.yy",

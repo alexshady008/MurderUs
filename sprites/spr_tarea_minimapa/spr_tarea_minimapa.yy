@@ -79,6 +79,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c401ab8a-3e64-4d3a-9e4b-6102819c1d90","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Minimapa",
     "path": "folders/Sprites/Interfacez - Botones/Juego/Minimapa.yy",

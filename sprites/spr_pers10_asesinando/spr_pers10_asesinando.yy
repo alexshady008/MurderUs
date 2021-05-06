@@ -79,6 +79,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6516da12-18d4-48af-83ac-aad30df3d6d0","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 10 Superman",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 10 Superman.yy",

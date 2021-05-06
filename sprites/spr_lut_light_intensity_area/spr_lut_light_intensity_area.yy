@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3297218a-d693-41a5-bf46-4ee9c9da976e","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "LUT",
     "path": "folders/Sprites/Otros/Luces/LUT.yy",

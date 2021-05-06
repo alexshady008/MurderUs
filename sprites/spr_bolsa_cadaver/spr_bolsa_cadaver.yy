@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"70c9c066-8271-4e8b-99f8-5cb9a8b28070","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Skins",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins.yy",

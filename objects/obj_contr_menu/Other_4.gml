@@ -30,12 +30,17 @@
 	global.usar_btn_emergencia = noone
 	global.colorElegido = 1
 	global.room_historia_finalizada = noone
+	global.modo_jugabilidad = false //Modo de juego: 1=Online, 2=Offline 
+	global.modo_jugabilidad_offline = false //Modo de juego offline: 1=Practica , 2=ModoZombie 
 	entradaTeclado = ""
 	monedas_ganadas = 3
 	multiplicar_monedas = 3
 	monedas_a_ganar = 0
 	color_ganando_monedas = make_color_rgb(232,102,255)
 	borde_ganando_monedas = make_color_rgb(81,0,145)
+	posX_btn_modo_izq = 416
+	posX_btn_modo_der = 864
+	posY_btn_modos = 608
 #endregion
 
 

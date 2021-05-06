@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"05f28f12-00ee-492c-ab76-866f1ff02d56","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Jardin Inicial",
     "path": "folders/Sprites/Objetos de Escenarios/Obstaculos/Jardines/Jardin Inicial.yy",

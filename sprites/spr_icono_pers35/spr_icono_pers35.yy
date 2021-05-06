@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e0144ceb-1dfa-41c1-9173-cc284bd3b60a","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 35 Mikasa",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 35 Mikasa.yy",

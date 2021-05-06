@@ -18,6 +18,8 @@ if ( global.jugabilidad == true ){
 		global.cant_impostor_sala = global.cant_max_impostores_sala
 		global.cant_detective_sala = global.cant_max_detectives_sala 
 		global.cant_complice_sala = global.cant_max_complices_sala
+		global.cant_tripulantes_sala = 15
+		global.cant_raza2_sala = floor(global.cant_tripulantes_sala/3)
 		global.max_tareas_crearse = 14
 		global.min_tareas_crearse = 10
 		global.max_tareas = global.max_tareas_crearse

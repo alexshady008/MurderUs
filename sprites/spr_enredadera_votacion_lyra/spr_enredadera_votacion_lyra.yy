@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"39a1fae2-49a2-4e7c-9514-b5c5915757b2","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Lyra",
     "path": "folders/Sprites/Interfacez - Botones/Cutscenes/Votacion/Lyra.yy",

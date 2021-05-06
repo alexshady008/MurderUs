@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d2ab80cb-aced-48f4-b2b4-0c504df2c272","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Exterior Est Espacial",
     "path": "folders/Sprites/Objetos de Escenarios/Estructuras/Exterior Est Espacial.yy",

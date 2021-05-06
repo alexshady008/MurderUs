@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"be1d0579-90cc-42ba-9ffa-83abc26c40bf","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 09 Batman",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 09 Batman.yy",

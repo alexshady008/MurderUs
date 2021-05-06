@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ea2c9ad0-7b70-4f50-b24e-e7fe8d174f88","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Personaje 03 Venom",
     "path": "folders/Sprites/Vestimentas - Personajes - Mascotas/Skins/Personaje 03 Venom.yy",
