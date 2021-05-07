@@ -24,6 +24,7 @@
 			aumentar_alfa = false
 			disminuir_alfa = true
 			if (instance_exists(obj_contr_juego_online)) obj_contr_juego_online.mostrarPantallaFinal = true
+			if (instance_exists(obj_contr_juego_offline)) obj_contr_juego_offline.mostrarPantallaFinal = true
 			
 			#region Contr los efectos
 				if (global.estadoJuego == "juego_terminado_tripulantes_ganadores"){

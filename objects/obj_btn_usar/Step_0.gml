@@ -72,7 +72,7 @@ if (global.jugabilidad)
 						#endregion
 						
 						#region Si es el boton de emergencia
-						else if (obj_usar.tipo=="btn_emergencia"){
+						else if (obj_usar.tipo=="btn_emergencia" and global.modo_jugabilidad==1){
 							#region Aprieta el boton de emergencia para comenzar una discusion
 								// Sonido
 								if (global.musica) {
@@ -121,7 +121,7 @@ if (global.jugabilidad)
 						#endregion
 						
 						#region Si es la computadora para cambiar la vestimenta
-						else if (obj_usar.tipo=="vestimenta"){
+						else if (obj_usar.tipo=="vestimenta" and global.modo_jugabilidad==1){
 							#region Aprieta el boton y comienza a cambiar su vestimenta
 							if (global.chat==false and global.cambiarVestimenta==false){
 								// Sonido

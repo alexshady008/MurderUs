@@ -14,7 +14,7 @@ function scr_dibujar_mapa(posX_sum, posY_sum, ver_personajes, divisor){
 	var bloque = false
 	var tilemap = layer_tilemap_get_id("Techo_tile");
 		
-	#region Dibuja el techo	
+	#region Dibuja el techo	y las tareas
 	for (var yy=0 ; yy<pantalla_alto ; yy+=n)
 	{
 		for(var xx=0 ; xx<pantalla_ancho ; xx+=n)
@@ -63,9 +63,15 @@ function scr_dibujar_mapa(posX_sum, posY_sum, ver_personajes, divisor){
 	
 	#region Dibuja a las entidades
 	if (ver_personajes){
-		var cant_entidades = instance_number(obj_entidad_online)
+		if (global.modo_jugabilidad==1) var obj_entidad = obj_entidad_online
+		else if (global.modo_jugabilidad==2) {
+			if (global.jugador_tipo=="TRIPULANTE") var obj_entidad = obj_personaje_bot  ////
+			else var obj_entidad = obj_raza2_bot  ///
+		}
+		
+		var cant_entidades = instance_number(obj_entidad)
 		for(i=0 ; i<cant_entidades ; i++){
-			var entidad = instance_find(obj_entidad_online,i)
+			var entidad = instance_find(obj_entidad,i)
 			
 			var posX_pers = posX_cam + (entidad.x / n_div)
 			var posY_pers = posY_cam + (entidad.y / n_div)

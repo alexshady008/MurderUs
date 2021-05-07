@@ -23,6 +23,7 @@
     {"instances":[],"visible":true,"depth":-1000100,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Tareas","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_contr_juego_online","path":"objects/obj_contr_juego_online/obj_contr_juego_online.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":32.0,"resourceVersion":"1.0","name":"inst_4022AAB3","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_contr_juego_offline","path":"objects/obj_contr_juego_offline/obj_contr_juego_offline.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":96.0,"resourceVersion":"1.0","name":"inst_3FCA6C73","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":-1000001,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Controlador","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":-1000000,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Interfaz","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -3096,6 +3097,7 @@
     {"name":"inst_250220D9","path":"rooms/rm_nivel3_editor/rm_nivel3_editor.yy",},
     {"name":"inst_54142617","path":"rooms/rm_nivel3_editor/rm_nivel3_editor.yy",},
     {"name":"inst_25E8D12F","path":"rooms/rm_nivel3_editor/rm_nivel3_editor.yy",},
+    {"name":"inst_3FCA6C73","path":"rooms/rm_nivel3_editor/rm_nivel3_editor.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

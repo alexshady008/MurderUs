@@ -8,24 +8,24 @@ function scr_contr_personaje_corriendo() {
 
 
 #region contr sprite
-		moviendose = true
-		if !(muerto) scr_sprite_corriendo_personajes()
-		else scr_sprite_volando_personajes()
+	moviendose = true
+	if !(muerto) scr_sprite_corriendo_personajes()
+	else scr_sprite_volando_personajes()
 	
-		// Derecha 
-		if (direccion>=0 and direccion<90) or (direccion>=270 and direccion<=360) {
-			image_xscale = -1
-		}	
-		// Izquierda
-		if (direccion>=90 and direccion<270) {
-			image_xscale = 1
-		}
+	// Derecha 
+	if (direccion>=0 and direccion<90) or (direccion>=270 and direccion<=360) {
+		image_xscale = -1
+	}	
+	// Izquierda
+	if (direccion>=90 and direccion<270) {
+		image_xscale = 1
+	}
 #endregion
 
 
 #region Contr su movimiento
-		if (jugador)
-		{
+	if (jugador)
+	{
 		
 	#region Corre Horizontal
 			// Derecha 
@@ -72,12 +72,12 @@ function scr_contr_personaje_corriendo() {
 	
 	#endregion
 	
-		}
+	}
 #endregion
 
 
-	image_speed = 0.65*global.step_delta
-	dirAnterior = direccion
+image_speed = 0.65*global.step_delta
+dirAnterior = direccion
 
 
 

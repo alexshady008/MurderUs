@@ -709,10 +709,7 @@ switch(tipo){
 						#endregion
 						
 						#region Activa la transicion
-							if (instance_exists(obj_transicion)) {
-								obj_transicion.aumentar_alfa = true
-								obj_transicion.n_transicion = 2
-							}	
+							scr_activar_transicion_final()
 						#endregion
 						
 						//Contr las alarmas

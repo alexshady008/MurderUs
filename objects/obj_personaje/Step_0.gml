@@ -286,12 +286,14 @@ if (global.jugabilidad)
 
 
 #region Envia constantemente datos al servidor
+if (global.modo_jugabilidad==1){
 	if (alarma_datos_online==false){
 		alarma_datos_online = true
 		//alarm[5] = global.latencia*global.step_delta
 		//alarm[5] = global.latencia/global.step_delta
 		alarm[5] = global.latencia
 	}
+}	
 #endregion
 
 }

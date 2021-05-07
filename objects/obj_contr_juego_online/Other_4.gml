@@ -1,6 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-
+if (global.modo_jugabilidad>1) instance_destroy()
 
 #region Contr que no sea un mapa para editar
 	if (global.editor) {

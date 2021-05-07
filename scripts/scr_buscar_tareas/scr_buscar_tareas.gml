@@ -24,25 +24,6 @@ function scr_buscar_tareas(argument0) {
 	// Si no hay nada cerca
 	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  { buscar_obj = noone }
 	
-	
-	/*if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea1)
-	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea2)
-	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea3)
-	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea4)
-	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea5)
-	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea6)
-	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea7)
-	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea8)
-	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea9)
-	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea10)
-	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea11)
-	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea12)
-	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea13)
-	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea14)
-	if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = instance_nearest(x,y,obj_tarea15)*/
-	//if (buscar_obj==noone or point_distance(x,y,buscar_obj.x,buscar_obj.y)>=dist)  buscar_obj = noone
-
-	//var buscar_obj = instance_nearest(x,y,obj_tarea1)
 	return buscar_obj
 
 

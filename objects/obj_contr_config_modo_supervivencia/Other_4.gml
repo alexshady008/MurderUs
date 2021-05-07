@@ -60,3 +60,5 @@ else {
 
 
 audio_stop_all()
+global.lista_tareas = ds_list_create()
+global.nombre_habitaciones = ds_list_create()
