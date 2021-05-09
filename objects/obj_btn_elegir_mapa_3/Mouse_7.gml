@@ -14,7 +14,7 @@ if ( global.jugabilidad == true ){
 		global.cant_max_impostores_sala = 4 
 		global.cant_max_detectives_sala = 2
 		global.cant_max_complices_sala = 2 
-		global.cant_max_raza2_sala = 5  
+		global.cant_max_raza2_sala = 4 
 		global.cant_raza2_sala = 3
 		if (global.modo_jugabilidad==1) global.cant_jugadores_sala = global.cant_min_jugadores_sala 
 		else global.cant_jugadores_sala = global.cant_max_jugadores_sala 
@@ -22,7 +22,6 @@ if ( global.jugabilidad == true ){
 		global.cant_detective_sala = global.cant_max_detectives_sala 
 		global.cant_complice_sala = global.cant_max_complices_sala
 		global.cant_tripulantes_sala = 15
-		global.cant_raza2_sala = floor(global.cant_tripulantes_sala/3)
 		global.max_tareas_crearse = 14
 		global.min_tareas_crearse = 10
 		global.max_tareas = global.max_tareas_crearse

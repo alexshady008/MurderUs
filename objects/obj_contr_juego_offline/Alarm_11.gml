@@ -6,7 +6,8 @@ scr_destruye_listas_locales()
 scr_destruye_listas_globales()
 */	
 
-if (global.veces_jugado_offline%2 == 0) scr_publicidad()
+//if (global.veces_jugado_offline%2 == 0) scr_publicidad()
+scr_publicidad()
 
 if (ds_exists(global.lista_tareas,ds_type_list)) ds_list_destroy(global.lista_tareas) 
 if (ds_exists(global.nombre_habitaciones,ds_type_list)) ds_list_destroy(global.nombre_habitaciones)	

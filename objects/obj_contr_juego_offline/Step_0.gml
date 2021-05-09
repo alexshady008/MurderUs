@@ -21,6 +21,11 @@ if (global.estadoJuego == "jugando"){
 	
 	#region Contr cuando ses completan todas las tareas
 		if (global.cant_tareas_completadas>=global.max_tareas){
+			// Sonido
+			if (global.musica==true) {
+				audio_stop_all()
+				audio_play_sound(snd_tripulantes_ganadores,100,false)
+			}
 			global.estadoJuego = "juego_terminado_tripulantes_ganadores"
 			mensaje_juego_finalizado = "tripulantes_completaron_tareas"
 			alarm[4] = tiempo_pasar_escena*1.5
@@ -34,6 +39,11 @@ if (global.estadoJuego == "jugando"){
 			#region Todos los tripulantes asesinados - Ganan la raza 2
 				var cant_tripulantes = instance_number(obj_personaje_bot)
 				if (cant_tripulantes<=0) {
+					// Sonido
+					if (global.musica==true) {
+						audio_stop_all()
+						audio_play_sound(snd_asesinos_ganadores,100,false)
+					}
 					global.estadoJuego = "juego_terminado_impostores_ganadores"
 					mensaje_juego_finalizado = "tripulantes_eliminados"
 					alarm[4] = tiempo_pasar_escena*1.5
@@ -43,6 +53,11 @@ if (global.estadoJuego == "jugando"){
 			
 			#region El jugador raza 2 se queda sin oxigeno - Ganan los tripulantes
 				if (global.oxigeno<=0){
+					// Sonido
+					if (global.musica==true) {
+						audio_stop_all()
+						audio_play_sound(snd_tripulantes_ganadores,100,false)
+					}
 					global.estadoJuego = "juego_terminado_tripulantes_ganadores"
 					mensaje_juego_finalizado = "raza2_sin_oxigeno"
 					alarm[4] = tiempo_pasar_escena*1.5
