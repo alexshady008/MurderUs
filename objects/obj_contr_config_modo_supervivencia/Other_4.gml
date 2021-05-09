@@ -10,12 +10,15 @@ tipo_mapa_sala_inicial = 1
 max_tareas = 10  //14
 divisor = 3
 cant_tripulantes_sala_inicial = 10
-cant_raza2_sala_inicial = floor(cant_tripulantes_sala_inicial/divisor)
+cant_raza2_sala_inicial = 2
 
 global.jugabilidad = true
 randomize()
 global.cant_max_jugadores_sala = 15   
 global.cant_min_jugadores_sala = 8
+global.cant_max_raza2_sala = 4 
+global.cant_min_raza2_sala = 1 
+//global.cant_raza2_sala = cant_raza2_sala_inicial
 
 
 

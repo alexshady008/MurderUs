@@ -30,16 +30,6 @@ function scr_contr_pers_muerto(skin_param, color_param, nombre_param) {
 		}	
 		// Contr la letra de la pista
 		if (nombreAsesino!=noone) {
-			/*var lenght = string_length(nombreAsesino)
-			var cantLetras = 3
-			if (lenght<cantLetras) cantLetras = lenght
-			randomize()
-			for (i=0 ; i<cantLetras ; i++){
-				pos_letra = irandom_range(1,lenght)
-			}*/
-			
-			//var pos_letra = irandom_range(1,lenght)
-			//var letra = string_copy(nombreAsesino,pos_letra,1)
 			var letra = string_copy(nombreAsesino,1,1)
 			pers_muerto.letra_pista = letra
 		}	

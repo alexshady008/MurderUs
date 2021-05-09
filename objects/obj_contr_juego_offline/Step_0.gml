@@ -19,14 +19,41 @@
 
 if (global.estadoJuego == "jugando"){
 	
-#region Contr cuando se completa todas las tareas
-	if (global.cant_tareas_completadas>=global.max_tareas){
-		global.estadoJuego = "juego_terminado_tripulantes_ganadores"
-		mensaje_juego_finalizado = "tripulantes_completaron_tareas"
-		//mostrarPantallaFinal = true
-		alarm[4] = tiempo_pasar_escena*1.5
-		scr_activar_transicion_final()
-	}
-#endregion
+	#region Contr cuando ses completan todas las tareas
+		if (global.cant_tareas_completadas>=global.max_tareas){
+			global.estadoJuego = "juego_terminado_tripulantes_ganadores"
+			mensaje_juego_finalizado = "tripulantes_completaron_tareas"
+			alarm[4] = tiempo_pasar_escena*1.5
+			scr_activar_transicion_final()
+		}
+	#endregion
+	
+	#region COntr cuando asesinan a todos los tripulantes o cuando la raza 2 se queda sin oxigeno
+		if (global.jugador_tipo == "IMPOSTOR"){
+			
+			#region Todos los tripulantes asesinados - Ganan la raza 2
+				var cant_tripulantes = instance_number(obj_personaje_bot)
+				if (cant_tripulantes<=0) {
+					global.estadoJuego = "juego_terminado_impostores_ganadores"
+					mensaje_juego_finalizado = "tripulantes_eliminados"
+					alarm[4] = tiempo_pasar_escena*1.5
+					scr_activar_transicion_final()
+				}
+			#endregion
+			
+			#region El jugador raza 2 se queda sin oxigeno - Ganan los tripulantes
+				if (global.oxigeno<=0){
+					global.estadoJuego = "juego_terminado_tripulantes_ganadores"
+					mensaje_juego_finalizado = "raza2_sin_oxigeno"
+					alarm[4] = tiempo_pasar_escena*1.5
+					scr_activar_transicion_final()
+				}
+			#endregion
+			
+			#region Se reduce el oxigeno
+				if (global.oxigeno>0) global.oxigeno-=0.15
+			#endregion
+		}
+	#endregion
 
 }

@@ -38,16 +38,9 @@ var escala = 1.5
 		var posY = cam_y+360
 		if (frame<max_frame){
 		scr_dibuja_jugador_parado(skin_asesinado,posX,posY,1,color_asesinado)
-		//scr_dibuja_prenda_jug_parado(skin_asesinado,0,posX,posY,1,escala,escala)
-		//scr_dibuja_accesorio_jug(accesorio_asesinado,posX,posY,1,escala,escala)
-		//scr_dibuja_sombrero_jug(sombrero_asesinado,posX,posY,1,escala,escala)
 		}
 		else {
 			scr_dibuja_jugador_reportado(skin_asesinado,posX,posY+50, color_asesinado)
-			//scr_dibuja_prenda_jug_muerto(skin_asesinado,0,posX,posY+50,1,escala,escala)
-			//scr_dibuja_accesorio_jug(accesorio_asesinado,posX+200,posY+250,1,escala,escala)
-			//scr_dibuja_sombrero_jug(sombrero_asesinado,posX+200,posY+250,1,escala,escala)
-			//draw_sprite(spr_sangre,0,cam_x+640,cam_y+360)
 		}
 	}
 #endregion
@@ -59,9 +52,6 @@ var escala = 1.5
 		else var posX = cam_x+490
 		var posY = cam_y+360
 		scr_dibuja_jugador_asesinando(skin_asesino,posX,posY,frame, color_asesino,tipo_animacion_asesino )
-		//scr_dibuja_accesorio_jug(accesorio_asesino,posX,posY,1,-escala,escala)
-		//scr_dibuja_sombrero_jug(sombrero_asesino,posX,posY,1,-escala,escala)
-		//scr_dibuja_prenda_jug_asesinando(skin_asesino,frame,posX,posY,1,-escala,escala)
 	}
 #endregion
 

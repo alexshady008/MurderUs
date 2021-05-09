@@ -110,13 +110,7 @@ if (global.jugabilidad)
 								obj_personaje.phy_position_y = obj_usar.y//+32
 								scr_ocultar_personaje(obj_personaje.idJugador)
 							}	
-							with(obj_usar){
-								// Sonido
-								if (global.musica) audio_play_sound(snd_abrir_alcantarilla,100,false)  
-								image_index = 1
-								image_speed = 0
-								alarm[0] = tiempo
-							}
+							with(obj_usar) scr_abrir_alcantarilla()
 						}	
 						#endregion
 						
@@ -134,6 +128,25 @@ if (global.jugabilidad)
 							}	
 							#endregion
 						}
+						#endregion
+						
+						#region  Si es una taquilla para esconderse
+						else if (obj_usar.tipo=="esconderse"){
+							var escondido = obj_personaje.escondido
+							if (escondido) {
+								obj_personaje.escondido=false
+								obj_personaje.phy_position_x = obj_usar.x//+32
+								obj_personaje.phy_position_y = obj_usar.y+15//+32
+								scr_mostrar_personaje(obj_personaje.idJugador)
+							}	
+							else {
+								obj_personaje.escondido=true
+								obj_personaje.phy_position_x = obj_usar.x//+32
+								obj_personaje.phy_position_y = obj_usar.y//+32
+								scr_ocultar_personaje(obj_personaje.idJugador)
+							}	
+							with(obj_usar) scr_abrir_alcantarilla()
+						}	
 						#endregion
 						
 					}

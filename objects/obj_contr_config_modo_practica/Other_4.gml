@@ -7,6 +7,8 @@ color2 = make_colour_rgb(12,107,12)
 guardado = false
 entradaTeclado = ""
 tipo_mapa_sala_inicial = 1
+cant_tripulantes_sala_inicial = 1
+cant_raza2_sala_inicial = 0
 max_tareas = 10  //14
 
 global.jugabilidad = true
@@ -19,6 +21,8 @@ randomize()
 if (global.editor==false)
 {
 	global.tipo_mapa_sala = tipo_mapa_sala_inicial
+	global.cant_tripulantes_sala = cant_tripulantes_sala_inicial
+	global.cant_raza2_sala = cant_raza2_sala_inicial
 	global.max_tareas_crearse = max_tareas  //10
 	global.min_tareas_crearse = 7  //10
 	global.max_tareas = max_tareas

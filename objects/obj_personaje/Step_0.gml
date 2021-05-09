@@ -173,7 +173,62 @@ if (global.jugabilidad)
 			}
 		#endregion
 	
+	#region  Comprueba si hay una taquilla para esconderse
+	if (raza == 1) {
+		if (muerto==false){
+			var taquilla = instance_nearest(x,y,obj_taquilla_escondese)
+			if (taquilla!=noone){
+				var dist = point_distance(x,y,taquilla.x,taquilla.y)
+				if (dist<dist_accionar) obj_usar = taquilla
+			}
+		}
+	}	
+	#endregion
+	
+	#region  Contr cuando esta escondido
+			if (escondido) {
+				visible=false
+				
+				#region Contr el proximo agujero
+				if (global.jugador_tipo == "IMPOSTOR")
+				{
+					if (global.modo_jugabilidad>1) global.oxigeno=100
+					if (actual_alcantarilla!=noone and instance_exists(actual_alcantarilla)){
+					
+						if (alcantarilla_pasada==noone){
+							var cant_alcantarilla= instance_number(obj_agujero)
+							for(i=0 ; i<cant_alcantarilla ; i++){
+								var alcantarilla = instance_find(obj_agujero,i)
+								if (alcantarilla!=actual_alcantarilla){
+									var dist = point_distance(alcantarilla.x,alcantarilla.y,x,y)
+									if (dist<dist_prox_alcantarilla) {
+										prox_alcantarilla=alcantarilla
+										if !(instance_exists(obj_ir_prox_agujero)) instance_create_layer(x,y-100,"Interfaz",obj_ir_prox_agujero)
+										break;
+										//obj_ir_prox_agujero.prox_agujero = agujero
+									}	
+								}
+							}
+						}
+						else {
+							prox_alcantarilla=alcantarilla_pasada
+						}
+					}
+				}
+				#endregion
+			}	
+			else {
+				visible=true
+				prox_alcantarilla = noone
+				alcantarilla_pasada = noone
+				if (instance_exists(obj_ir_prox_agujero)) instance_destroy(obj_ir_prox_agujero)
+			}	
+		#endregion
+	
 #endregion
+
+
+
 
 #region CONTROLA ACCIONES DEL IMPOSTOR
 	if (global.jugador_tipo == "IMPOSTOR")
@@ -181,7 +236,8 @@ if (global.jugabilidad)
 		
 		#region  Comprueba si hay un tripulante cerca para asesinar
 			if (muerto==false and escondido==false and global.asesinar<=0){
-				var pers_tripulante = instance_nearest(x,y,obj_entidad_online)
+				if (global.modo_jugabilidad==1) var pers_tripulante = instance_nearest(x,y,obj_entidad_online)
+				else var pers_tripulante = instance_nearest(x,y,obj_personaje_bot)
 				if (pers_tripulante!=noone and pers_tripulante.impostor==false 
 				and pers_tripulante.complice==false  and pers_tripulante.muerto==false){
 					var dist = point_distance(x,y,pers_tripulante.x,pers_tripulante.y)
@@ -205,43 +261,9 @@ if (global.jugabilidad)
 			}
 		#endregion
 		
-		#region  Contr cuando esta escondido
-			if (escondido) {
-				visible=false
-				//var alcantarilla = instance_nearest(x,y,obj_agujero)
-				#region Contr el proximo agujero
-				if (actual_alcantarilla!=noone and instance_exists(actual_alcantarilla)){
-					
-					if (alcantarilla_pasada==noone){
-						var cant_alcantarilla= instance_number(obj_agujero)
-						for(i=0 ; i<cant_alcantarilla ; i++){
-							var alcantarilla = instance_find(obj_agujero,i)
-							if (alcantarilla!=actual_alcantarilla){
-								var dist = point_distance(alcantarilla.x,alcantarilla.y,x,y)
-								if (dist<dist_prox_alcantarilla) {
-									prox_alcantarilla=alcantarilla
-									if !(instance_exists(obj_ir_prox_agujero)) instance_create_layer(x,y-100,"Interfaz",obj_ir_prox_agujero)
-									break;
-									//obj_ir_prox_agujero.prox_agujero = agujero
-								}	
-							}
-						}
-					}
-					else {
-						prox_alcantarilla=alcantarilla_pasada
-					}
-				}
-				#endregion
-			}	
-			else {
-				visible=true
-				prox_alcantarilla = noone
-				alcantarilla_pasada = noone
-				if (instance_exists(obj_ir_prox_agujero)) instance_destroy(obj_ir_prox_agujero)
-			}	
-		#endregion
 	}
 #endregion
+
 
 #region CONTROLA ACCIONES DEL DETECTIVE
 	if (global.jugador_tipo == "DETECTIVE")
@@ -259,6 +281,7 @@ if (global.jugabilidad)
 		#endregion
 	}
 #endregion
+
 
 #region CONTROLA LAS ACCIONES DEL COMPLICE
 	if (global.jugador_tipo == "COMPLICE"){

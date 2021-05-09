@@ -3,6 +3,9 @@
 if (global.estadoJuego == "jugando")
 {
 	global.jugabilidad=true
+	
+	// Finaliza el juego Offline
+	if (global.modo_jugabilidad>1) obj_contr_juego_offline.alarm[7] = 25
 }
 
 

@@ -87,6 +87,7 @@ contr_datos = false
 	contr_movimiento = true
 	mostrarSpawn = false
 	
+	raza = 1
 #endregion
 
 

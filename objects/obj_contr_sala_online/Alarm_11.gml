@@ -11,5 +11,6 @@ if (global.conectado){
 }
 	
 scr_publicidad()
-	
-room_goto(rm_menu)
+
+if (global.administrador) room_goto(rm_menu)
+else room_goto(rm_unirse_sala)

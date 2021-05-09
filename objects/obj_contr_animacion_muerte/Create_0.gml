@@ -46,4 +46,6 @@ else alarm[2] = 1
 if (global.musica) audio_play_sound(snd_reportar_cuerpo,100,false)
 
 //Luz depth
-if (instance_exists(obj_contr_luz)) obj_contr_luz.depth = -1000500
+if (global.modo_jugabilidad==1){
+	if (instance_exists(obj_contr_luz)) obj_contr_luz.depth = -1000500
+}

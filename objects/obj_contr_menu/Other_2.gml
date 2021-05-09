@@ -21,6 +21,7 @@
 		global.escribiendo = false //Controla si se esta escribiendo o no
 		global.slider_presionado=false //Controla si se esta deslizando el dedo
 		global.historia = false //controla si se esta mostrando la historia
+		global.veces_jugado_offline = 0
 	#endregion
 	
 	#region Vestimentas (skins, prendas, sombreros, accesorios), mascotas y monedas/diamantes

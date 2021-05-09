@@ -8,7 +8,8 @@ function scr_contr_sonidos_botones_roles(){
 			global.asesinar = global.tiempoEsperaAsesinar
 			// Crea sus botones
 			if !(instance_exists(obj_btn_asesinar)) instance_create_layer(1200,48,"Interfaz",obj_btn_asesinar)
-			if !(instance_exists(obj_btn_sabotear)) instance_create_layer(1200,48,"Interfaz",obj_btn_sabotear)
+			if (global.modo_jugabilidad==1) if !(instance_exists(obj_btn_sabotear)) instance_create_layer(1200,48,"Interfaz",obj_btn_sabotear)
+			else if !(instance_exists(obj_btn_ver_minimapa)) instance_create_layer(1200,48,"Interfaz",obj_btn_ver_minimapa)
 		}
 		else {
 			if !(instance_exists(obj_btn_ver_minimapa)) instance_create_layer(1200,48,"Interfaz",obj_btn_ver_minimapa)

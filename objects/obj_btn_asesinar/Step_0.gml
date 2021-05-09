@@ -24,26 +24,41 @@ if (global.jugabilidad)
 						global.asesinar = global.tiempoEsperaAsesinar
 						var pers_asesinar = obj_personaje.pers_asesinar
 						
-						//Contr el tiempo de espera para volver a asesinar
-						with(obj_contr_juego_online){
-							if (global.step_delta>=1) alarm[2] = room_speed/global.step_delta;
-							else alarm[2] = room_speed;
+						#region  Asesina en el modo online
+						if (global.modo_jugabilidad==1)
+						{
+							//Contr el tiempo de espera para volver a asesinar
+							with(obj_contr_juego_online){
+								if (global.step_delta>=1) alarm[2] = room_speed/global.step_delta;
+								else alarm[2] = room_speed;
+							}
+							// Manda datos del asesinato y crea el personaje muerto
+							scr_asesinar_personaje(pers_asesinar.idJugador,obj_personaje.idJugador)
+							with(pers_asesinar){
+								muerto = true
+								scr_contr_pers_muerto(obj_personaje.skin, obj_personaje.contrColor, obj_personaje.nombre)
+							}
+							// Crea las pistas
+							with(obj_personaje){
+								mostrar_pistas = true
+								pistas_mostradas = 0
+								if !(contacto_con_sangre) contacto_con_sangre = true
+								alarm[2] = 1
+							}
 						}
+						#endregion
 						
-						// Manda datos del asesinato y crea el personaje muerto
-						scr_asesinar_personaje(pers_asesinar.idJugador,obj_personaje.idJugador)
-						with(pers_asesinar){
-							muerto = true
-							scr_contr_pers_muerto(obj_personaje.skin, obj_personaje.contrColor, obj_personaje.nombre)
+						#region  Asesina en el modo offline
+						if (global.modo_jugabilidad>1)
+						{
+							//Contr el tiempo de espera para volver a asesinar
+							with(obj_contr_juego_offline) alarm[2] = room_speed;
+							// Crea el personaje muerto
+							with(pers_asesinar) scr_asesinar_bot()
+							// Controla el oxigeno
+							global.oxigeno = 100
 						}
-						
-						// Crea las pistas
-						with(obj_personaje){
-							mostrar_pistas = true
-							pistas_mostradas = 0
-							if !(contacto_con_sangre) contacto_con_sangre = true
-							alarm[2] = 1
-						}
+						#endregion
 						
 					}
 				} 

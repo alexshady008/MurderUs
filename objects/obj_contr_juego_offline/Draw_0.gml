@@ -62,11 +62,11 @@ if (global.estadoJuego == "intro")
 			var posY_objetivo = posY+75
 			draw_set_font(fnt_normal)
 			switch(os_get_language()) {
-				case "es": draw_text_outline("INFECTA A TODOS LOS TRIPULANTES",posX,posY_objetivo,c_black,1,1,c_white) break;
-				case "pt": draw_text_outline("INFECTAR TODAS AS EQUIPE",posX,posY_objetivo,c_black,1,1,c_white) break;
-				case "it": draw_text_outline("INFETTARE TUTTI GLI EQUIPAGGI",posX,posY_objetivo,c_black,1,1,c_white) break;
-				case "ru": draw_set_font(fnt_chica_ru) draw_text_outline("ЗАРАЗИТЬ ВСЕ ЭКИПАЖИ",posX,posY_objetivo,c_black,1,1,c_white) break;
-				default: draw_text_outline("INFECT ALL CREWS",posX,posY_objetivo,c_black,1,1,c_white) break;
+				case "es": draw_text_outline("ELIMINA A TODOS LOS TRIPULANTES",posX,posY_objetivo,c_black,1,1,c_white) break;
+				case "pt": draw_text_outline("MATE TODAS AS EQUIPES",posX,posY_objetivo,c_black,1,1,c_white) break;
+				case "it": draw_text_outline("UCCIDI TUTTI GLI EQUIPAGGI",posX,posY_objetivo,c_black,1,1,c_white) break;
+				case "ru": draw_set_font(fnt_chica_ru) draw_text_outline("УБИТЬ ВСЕ ЭКИПАЖИ",posX,posY_objetivo,c_black,1,1,c_white) break;
+				default: draw_text_outline("KILL ALL CREWS",posX,posY_objetivo,c_black,1,1,c_white) break;
 			}
 		#endregion
 		
@@ -127,11 +127,11 @@ if (global.estadoJuego == "intro")
 			var posY_objetivo = (cam_y+cam_alto)-50
 			draw_set_font(fnt_normal)
 			switch(os_get_language()) {
-				case "es": draw_text_outline("EVITA SER INFECTADO",posX,posY_objetivo,borde,1,1,color) break;
-				case "pt": draw_text_outline("EVITE SER INFECTADO",posX,posY_objetivo,borde,1,1,color) break;
-				case "it": draw_text_outline("EVITARE DI ESSERE INFETTI",posX,posY_objetivo,borde,1,1,color) break;
-				case "ru": draw_set_font(fnt_chica_ru) draw_text_outline("ИЗБЕГАЙТЕ ЗАРАЖЕНИЯ",posX,posY_objetivo,borde,1,1,color) break;
-				default: draw_text_outline("AVOID BEING INFECTED",posX,posY_objetivo,borde,1,1,color) break;
+				case "es": draw_text_outline("EVITA SER ELIMINADO",posX,posY_objetivo,borde,1,1,color) break;
+				case "pt": draw_text_outline("EVITE SER MORTO",posX,posY_objetivo,borde,1,1,color) break;
+				case "it": draw_text_outline("EVITARE DI ESSERE UCCISO",posX,posY_objetivo,borde,1,1,color) break;
+				case "ru": draw_set_font(fnt_chica_ru) draw_text_outline("ИЗБЕЖАТЬ УБИЙСТВА",posX,posY_objetivo,borde,1,1,color) break;
+				default: draw_text_outline("AVOID BEING KILLED",posX,posY_objetivo,borde,1,1,color) break;
 			}
 		#endregion
 	}
@@ -148,8 +148,6 @@ if (global.estadoJuego == "intro")
 		{
 			
 			#region Dibuja la cantidad de tareas que se hizo si es un tripulante
-			if (global.jugador_tipo=="TRIPULANTE")
-			{
 				draw_set_halign(fa_left)
 				draw_set_valign(fa_middle)
 				//draw_set_font(fnt_grande)
@@ -163,70 +161,69 @@ if (global.estadoJuego == "intro")
 					case "it": draw_text_outline("COMPITI COMPLETATI: "+string(global.cant_tareas_completadas)+" / "+string(global.max_tareas),posX,posY,c_black,1,1,c_white) break;
 					//case "ru": draw_set_font(fnt_normal_ru) draw_text_outline("ЗАДАЧИ ВЫПОЛНЕНЫ: "+string(global.cant_tareas_completadas)+" / "+string(global.max_tareas),posX,posY,c_black,1,1,c_white) break;
 					default: draw_text_outline("TASKS COMPLETED: "+string(global.cant_tareas_completadas)+" / "+string(global.max_tareas),posX,posY,c_black,1,1,c_white) break;
-				}
-			}	
+				}	
 			#endregion
 		
-			if (global.modo_jugabilidad_offline>1){
-				#region Dibuja la cantidad de tareas que se hizo si es un tripulante
-				if (global.jugador_tipo=="IMPOSTOR")
-				{
-					draw_set_halign(fa_left)
-					draw_set_valign(fa_middle)
-					//draw_set_font(fnt_grande)
-					draw_set_font(fnt_normal)
-					var posX = cam_x+20
-					var posY = cam_y+50
-		
-					switch(os_get_language()) {
-						case "es": draw_text_outline("INFECTADOS: "+string(global.cant_infectados)+" / "+string(global.cant_tripulantes_sala),posX,posY,c_black,1,1,c_white) break;
-						case "pt": draw_text_outline("INFETADO: "+string(global.cant_infectados)+" / "+string(global.cant_tripulantes_sala),posX,posY,c_black,1,1,c_white) break;
-						case "it": draw_text_outline("INFETTO: "+string(global.cant_infectados)+" / "+string(global.cant_tripulantes_sala),posX,posY,c_black,1,1,c_white) break;
-						//case "ru": draw_set_font(fnt_normal_ru) draw_text_outline("ЗАДАЧИ ВЫПОЛНЕНЫ: "+string(global.cant_tareas_completadas)+" / "+string(global.max_tareas),posX,posY,c_black,1,1,c_white) break;
-						default: draw_text_outline("INFECTED: "+string(global.cant_infectados)+" / "+string(global.cant_tripulantes_sala),posX,posY,c_black,1,1,c_white) break;
-					}
-				}	
-		
-				#endregion
-		
-				#region Dibuja la cant de tripulantes
-					var cantJugadores = global.cant_tripulantes_sala
+			#region Dibuja la cantidad de tripulantes asesinados
+			/*if (global.jugador_tipo=="IMPOSTOR")
+			{
+				draw_set_halign(fa_left)
+				draw_set_valign(fa_middle)
+				//draw_set_font(fnt_grande)
+				draw_set_font(fnt_normal)
+				var posX = cam_x+20
+				var posY = cam_y+50
+					
+				switch(os_get_language()) {
+					case "es": draw_text_outline("ASESINADOS: "+string(cant_tripulantes_actual)+" / "+string(global.cant_tripulantes_sala),posX,posY,c_black,1,1,c_white) break;
+					case "pt": draw_text_outline("REMOVIDO: "+string(cant_tripulantes_actual)+" / "+string(global.cant_tripulantes_sala),posX,posY,c_black,1,1,c_white) break;
+					case "it": draw_text_outline("UCCISO: "+string(cant_tripulantes_actual)+" / "+string(global.cant_tripulantes_sala),posX,posY,c_black,1,1,c_white) break;
+					//case "ru": draw_set_font(fnt_normal_ru) draw_text_outline("ЗАДАЧИ ВЫПОЛНЕНЫ: "+string(global.cant_tareas_completadas)+" / "+string(global.max_tareas),posX,posY,c_black,1,1,c_white) break;
+					default: draw_text_outline("KILLED: "+string(cant_tripulantes_actual)+" / "+string(global.cant_tripulantes_sala),posX,posY,c_black,1,1,c_white) break;
+				}
+			}	
+			*/
+			#endregion
 			
-					draw_set_halign(fa_left)
-					draw_set_valign(fa_middle)
-					//draw_set_font(fnt_grande)
-					draw_set_font(fnt_normal)
-					var posX = cam_x+20
-					var posY = cam_y+100
-		
-					switch(os_get_language()) {
-						case "es": draw_text_outline("TRIPULANTES: "+string(cantJugadores),posX,posY,c_black,1,1,c_white) break;
-						case "pt": draw_text_outline("CREWS: "+string(cantJugadores),posX,posY,c_black,1,1,c_white) break;
-						case "it": draw_text_outline("EQUIPAGGI: "+string(cantJugadores),posX,posY,c_black,1,1,c_white) break;
-						case "ru": draw_set_font(fnt_normal_ru) draw_text_outline("ЭКИПАЖИ: "+string(cantJugadores),posX,posY,c_black,1,1,c_white) break;
-						default: draw_text_outline("CREWS: "+string(cantJugadores),posX,posY,c_black,1,1,c_white) break;
-					}
-				#endregion
-		
-				#region Dibuja la cant de tripulantes
-					var cantRaza2 = global.cant_raza2_sala
+			#region Dibuja la cant de tripulantes
+				//var cantJugadores = global.cant_tripulantes_sala
+				var cant_tripulantes_actual = instance_number(obj_personaje_bot)
+				var cantJugadores = cant_tripulantes_actual
 			
-					draw_set_halign(fa_left)
-					draw_set_valign(fa_middle)
-					//draw_set_font(fnt_grande)
-					draw_set_font(fnt_normal)
-					var posX = cam_x+20
-					var posY = cam_y+150
+				draw_set_halign(fa_left)
+				draw_set_valign(fa_middle)
+				//draw_set_font(fnt_grande)
+				draw_set_font(fnt_normal)
+				var posX = cam_x+20
+				var posY = cam_y+100
 		
-					switch(os_get_language()) {
-						case "es": draw_text_outline("ZOMBIES: "+string(cantRaza2),posX,posY,c_black,1,1,c_white) break;
-						case "pt": draw_text_outline("ZOMBIES: "+string(cantRaza2),posX,posY,c_black,1,1,c_white) break;
-						case "it": draw_text_outline("ZOMBI: "+string(cantRaza2),posX,posY,c_black,1,1,c_white) break;
-						case "ru": draw_set_font(fnt_normal_ru) draw_text_outline("ЗОМБИ: "+string(cantJugadores),posX,posY,c_black,1,1,c_white) break;
-						default: draw_text_outline("ZOMBIES: "+string(cantRaza2),posX,posY,c_black,1,1,c_white) break;
-					}
-				#endregion
-			}		
+				switch(os_get_language()) {
+					case "es": draw_text_outline("TRIPULANTES: "+string(cantJugadores)+" / "+string(global.cant_tripulantes_sala),posX,posY,c_black,1,1,c_white) break;
+					case "pt": draw_text_outline("CREWS: "+string(cantJugadores)+" / "+string(global.cant_tripulantes_sala),posX,posY,c_black,1,1,c_white) break;
+					case "it": draw_text_outline("EQUIPAGGI: "+string(cantJugadores)+" / "+string(global.cant_tripulantes_sala),posX,posY,c_black,1,1,c_white) break;
+					case "ru": draw_set_font(fnt_normal_ru) draw_text_outline("ЭКИПАЖИ: "+string(cantJugadores)+" / "+string(global.cant_tripulantes_sala),posX,posY,c_black,1,1,c_white) break;
+					default: draw_text_outline("CREWS: "+string(cantJugadores)+" / "+string(global.cant_tripulantes_sala),posX,posY,c_black,1,1,c_white) break;
+				}
+			#endregion
+		
+			#region Dibuja la cant de tripulantes
+				var cantRaza2 = global.cant_raza2_sala
+			
+				draw_set_halign(fa_left)
+				draw_set_valign(fa_middle)
+				//draw_set_font(fnt_grande)
+				draw_set_font(fnt_normal)
+				var posX = cam_x+20
+				var posY = cam_y+150
+		
+				switch(os_get_language()) {
+					case "es": draw_text_outline("ZOMBIES: "+string(cantRaza2),posX,posY,c_black,1,1,c_white) break;
+					case "pt": draw_text_outline("ZOMBIES: "+string(cantRaza2),posX,posY,c_black,1,1,c_white) break;
+					case "it": draw_text_outline("ZOMBI: "+string(cantRaza2),posX,posY,c_black,1,1,c_white) break;
+					case "ru": draw_set_font(fnt_normal_ru) draw_text_outline("ЗОМБИ: "+string(cantJugadores),posX,posY,c_black,1,1,c_white) break;
+					default: draw_text_outline("ZOMBIES: "+string(cantRaza2),posX,posY,c_black,1,1,c_white) break;
+				}
+			#endregion		
 		}
 		
 	}
@@ -331,13 +328,13 @@ else if (global.estadoJuego == "juego_terminado_impostores_ganadores")
 				var posY = posY2
 				draw_set_font(fnt_normal)
 				switch(mensaje_juego_finalizado){
-					case "tripulanteS_infectados":
+					case "tripulantes_eliminados":
 						switch(os_get_language()) {
-							case "es": draw_text_outline("¡TODOS LOS TRIPULANTES FUERON INFECTADOS!",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
-							case "pt": draw_text_outline("TODAS AS EQUIPES FORAM INFECTADAS!",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
-							case "it": draw_text_outline("TUTTI GLI EQUIPAGGI SONO STATI INFETTATI!",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
-							case "ru": draw_set_font(fnt_chica_ru) draw_text_outline("ВСЕ ЭКИПАЖИ БЫЛИ ЗАРАЖЕНЫ!",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
-							default: draw_text_outline("ALL THE CREWS WERE INFECTED!",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
+							case "es": draw_text_outline("¡LOS TRIPULANTES FUERON ELIMINADOS!",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
+							case "pt": draw_text_outline("AS EQUIPES FORAM ELIMINADAS!",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
+							case "it": draw_text_outline("GLI EQUIPAGGI SONO STATI ELIMINATI!",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
+							case "ru": draw_set_font(fnt_chica_ru) draw_text_outline("ЭКИПАЖИ УБИРАЛИ!",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
+							default: draw_text_outline("THE CREWS WERE ELIMINATED!",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
 						}
 					break
 				}
@@ -451,6 +448,16 @@ else if (global.estadoJuego == "juego_terminado_tripulantes_ganadores")
 							case "it": draw_text_outline("L'EQUIPAGGIO HA COMPLETATO TUTTI I SUOI COMPITI",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
 							case "ru": draw_set_font(fnt_chica_ru) draw_text_outline("ЭКИПАЖ ВЫПОЛНИЛ ВСЕ ЗАДАЧИ",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
 							default: draw_text_outline("THE CREW COMPLETED ALL ITS TASKS",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
+						}
+					break
+					case "raza2_sin_oxigeno":
+						//draw_set_font(fnt_chica)
+						switch(os_get_language()) {
+							case "es": draw_text_outline("LOS ZOMBIES SE QUEDARON SIN OXIGENO",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
+							case "pt": draw_text_outline("OS ZOMBIS ESTÃO SEM OXIGÊNIO",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
+							case "it": draw_text_outline("GLI ZOMBI ESAURISCONO L'OSSIGENO",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
+							case "ru": draw_set_font(fnt_chica_ru) draw_text_outline("ЗОМБИ ВЫБЕГАЮТ КИСЛОРОДА",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
+							default: draw_text_outline("THE ZOMBIES RUN OUT OF OXYGEN",posX,posY,c_black,alfaLetras,alfaLetras,c_white) break;
 						}
 					break
 				}

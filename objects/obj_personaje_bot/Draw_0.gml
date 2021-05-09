@@ -15,6 +15,9 @@ if (nombre!=noone) draw_text_outline3(nombre,x,posY,c_black,1,1,c_white)
 
 
 
+/*
+if (path_activado) draw_text_outline3("SI",x,posY,c_green,1,1,c_green)
+else if !(path_activado) draw_text_outline3("NO",x,posY,c_red,1,1,c_red)
 
 // Borrar
 //if (limpiando_rastro) draw_text_outline3("LIMPIANDO...",x,posY-25,c_black,1,1,c_green)

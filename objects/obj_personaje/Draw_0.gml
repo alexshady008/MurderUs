@@ -67,7 +67,11 @@ if (nombre!=noone) draw_text_outline3(nombre,x,posY,c_black,1,1,c_white)
 #endregion
 
 
-
+#region Dibuja la barra de oxigeno si es una raza 2 en el modo Offline
+	if (global.modo_jugabilidad>1 and global.jugador_tipo=="IMPOSTOR"){
+		draw_healthbar(x-35,posY-15, x+35, posY-30, global.oxigeno, c_black, c_red, c_lime, 0, true, true)
+	}
+#endregion
 
 // Borrar
 //if (limpiando_rastro) draw_text_outline3("LIMPIANDO...",x,posY-25,c_black,1,1,c_green)

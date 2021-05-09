@@ -35,5 +35,5 @@ function scr_dibuja_personajes_tripulantes_offline(posY){
 		scr_dibuja_mascota_parada(global.mascotaElegida,posX_jug,posY_jug,1,escala,1)
 	#endregion
 	
-	show_debug_message("Se crean los tripulantes")
+	//show_debug_message("Se crean los tripulantes")
 }
