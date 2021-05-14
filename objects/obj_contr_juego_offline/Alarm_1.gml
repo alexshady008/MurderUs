@@ -47,9 +47,9 @@
 if (global.modo_jugabilidad_offline==2)
 {
 	var cant_raza2 = global.cant_raza2_sala
-	//var cant_raza2 = 10
+	var cant_alcantarilla = instance_number(obj_agujero)
+	if (cant_alcantarilla>1){
 	for (a=0 ; a<cant_raza2 ; a++) {
-		var cant_alcantarilla = instance_number(obj_agujero)
 		randomize()
 		var num_ = irandom_range(0, cant_alcantarilla-1)
 		var contr_pos = instance_find(obj_agujero,num_)
@@ -82,6 +82,7 @@ if (global.modo_jugabilidad_offline==2)
 		personaje.contrColor = irandom_range(1,3)
 		personaje.alarm[0]=1
 				
+	}
 	}
 }
 #endregion

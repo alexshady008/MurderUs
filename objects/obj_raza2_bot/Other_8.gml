@@ -11,11 +11,7 @@ if (moverse_alcantarilla){
 		alarm[1] = irandom_range(100,400)
 		escondido = true
 		//with(alcantarilla) scr_abrir_alcantarilla()
-		with(alcantarilla){
-			image_index = 1
-			image_speed = 0
-			alarm[0] = tiempo
-		}
+		with(alcantarilla) scr_abrir_alcantarilla_bot(snd_abrir_alcantarilla)
 	}
 }
 else {

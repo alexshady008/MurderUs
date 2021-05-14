@@ -14,8 +14,8 @@ servidorEuropa= instance_create_depth(x+110,y-40,-15,obj_btn_elegir_servidor_eur
 servidorBrasil = instance_create_depth(x-330,y-40,-15,obj_btn_elegir_servidor_brasil)
 servidorBrasil2 = instance_create_depth(x+330,y-40,-15,obj_btn_elegir_servidor_2_brasil)
 */
-servidorUsa = instance_create_depth(x-250,y+140,-15,obj_btn_elegir_servidor_usa)
-servidorEuropa= instance_create_depth(x+250,y+140,-15,obj_btn_elegir_servidor_europa)
+//servidorUsa = instance_create_depth(x-250,y+140,-15,obj_btn_elegir_servidor_usa)
+servidorEuropa= instance_create_depth(x,y+140,-15,obj_btn_elegir_servidor_europa)  //x+250
 servidorBrasil = instance_create_depth(x,y,-15,obj_btn_elegir_servidor_brasil)
 //servidorBrasil = instance_create_depth(x-250,y,-15,obj_btn_elegir_servidor_brasil)
 //servidorBrasil2 = instance_create_depth(x+250,y,-15,obj_btn_elegir_servidor_2_brasil)

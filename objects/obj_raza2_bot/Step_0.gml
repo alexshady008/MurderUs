@@ -13,6 +13,10 @@ if (global.jugabilidad)
 		}
 	#endregion
 	
+	#region controla el tiempo en asesinar
+		if (contr_asesinar>0) contr_asesinar-=0.02
+	#endregion
+	
 
 	if !(escondido)
 	{
@@ -29,7 +33,7 @@ if (global.jugabilidad)
 	#region Contr el Movimiento y el sprite 
 
 		#region Si el personaje esta corriendo
-			if (direccion != noone and escondido==false)  {
+			if (direccion != noone)  {
 				moviendose = true
 				sprite_index = spr_pers34_corriendo
 				// Derecha 
@@ -51,7 +55,7 @@ if (global.jugabilidad)
 		#endregion
 	
 		#region Si el personaje esta parado
-			else if (direccion == noone or escondido==true)  {				
+			else if (direccion == noone)  {				
 				moviendose = false
 				sprite_index = spr_pers34_parado
 				// Derecha 
@@ -88,33 +92,38 @@ if (global.jugabilidad)
 	#region Controla el movimiento a las alcantarillas
 		if (moverse_alcantarilla==false and perseguir_jugador==false){
 			var cant_alcantarillas = instance_number(obj_agujero)
-			var anterior_num_alcantarilla = num_alcantarilla_aleatoria
-			num_alcantarilla_aleatoria = irandom_range(0,cant_alcantarillas-1)
-			while(num_alcantarilla_aleatoria==anterior_num_alcantarilla) num_alcantarilla_aleatoria = irandom_range(0,cant_alcantarillas-1)
-			var alcantarilla_elegida = instance_find(obj_agujero, num_alcantarilla_aleatoria)
-			path_activado = scr_path_hacia_objeto(alcantarilla_elegida.x, alcantarilla_elegida.y)
+			if (cant_alcantarillas>1){
+				var anterior_num_alcantarilla = num_alcantarilla_aleatoria
+				num_alcantarilla_aleatoria = irandom_range(0,cant_alcantarillas-1)
+				while(num_alcantarilla_aleatoria==anterior_num_alcantarilla) num_alcantarilla_aleatoria = irandom_range(0,cant_alcantarillas-1)
+				var alcantarilla_elegida = instance_find(obj_agujero, num_alcantarilla_aleatoria)
+				path_activado = scr_path_hacia_objeto(alcantarilla_elegida.x, alcantarilla_elegida.y)
 		
-			if (path_activado) { moverse_alcantarilla = true}
+				if (path_activado) { moverse_alcantarilla = true}
+			}
 		}
 	#endregion
 	
 	
 	#region Controla el ataque a los tripulantes
-		var tripulante = instance_nearest(x,y,obj_personaje_bot)
-		if (tripulante!=noone and instance_exists(tripulante)){
-			if (point_distance(x,y,tripulante.x,tripulante.y) <= dist_asesinar){
-				with(tripulante) scr_asesinar_bot()
+		if (contr_asesinar==false){
+			var tripulante = instance_nearest(x,y,obj_personaje_bot)
+			if (tripulante!=noone and instance_exists(tripulante)){
+				if (point_distance(x,y,tripulante.x,tripulante.y) <= dist_asesinar){
+					contr_asesinar = tiempo_asesinar
+					with(tripulante) scr_asesinar_bot()
+				}
 			}
 		}
 	#endregion
 	
 	
 	#region Controla el ataque y el seguimiento al jugador
-	if (global.jugador_tipo != "IMPOSTOR"){
+	if (global.jugador_tipo != "IMPOSTOR" and contr_asesinar==false){
 		var jugador = instance_nearest(x,y,obj_personaje)
 		if (jugador!=noone and instance_exists(jugador) and jugador.escondido==false){
 			
-			#region
+			#region Sigue y asesina al jugador
 				//if !(perseguir_jugador){
 				var distancia = point_distance(x,y,jugador.x,jugador.y)
 				

@@ -285,12 +285,13 @@ switch(tipo){
 						for(i=0 ; i<ds_list_size(global.jugadores_lista) ; i++){
 							var jugador = ds_list_find_value(global.jugadores_lista,i)
 							var id_jugador = real(ds_map_find_value(jugador,"clienteId"))
-							if (id_jugador == id_jugador_oculto){
+							if (id_jugador == id_jugador_oculto and id_jugador != global.idLocal){
 								#region Contr el personaje escondido o mostrado
 									var id_obj = ds_map_find_value(jugador,"idObjeto")
 									if (id_obj!=noone and instance_exists(id_obj)){
 										if (oculto==true and id_obj.escondido==false) id_obj.escondido = true	
 										else if (oculto==false and id_obj.escondido==true) id_obj.escondido = false	
+										id_obj.alarm[4] = 1
 									}
 								#endregion
 							}

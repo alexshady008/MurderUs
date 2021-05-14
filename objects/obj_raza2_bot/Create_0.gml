@@ -36,6 +36,8 @@ contr_datos = false
 	prox_alcantarilla = noone
 	alcantarilla_pasada = noone
 	dist_prox_alcantarilla = 2000
+	tiempo_asesinar = 10
+	contr_asesinar = tiempo_asesinar
 	
 	//Var de Sonidos 
 	sonido_correr=noone  

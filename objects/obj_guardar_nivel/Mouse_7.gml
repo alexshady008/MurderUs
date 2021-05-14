@@ -6,15 +6,10 @@ if ( global.jugabilidad=true and global.visible_opciones == true){
 	if global.musica == true
 	{ audio_play_sound(snd_boton,100,false) }
 	
-	var tareas_creadas = true
-	#region Crontr que se hayan creados todas las tareas 
-		for(i=0 ; i<global.max_tareas_crearse ; i++){
-			if (global.tareas_creadas[i] == false) tareas_creadas = false
-		}
-	#endregion
+	var guardar = scr_contr_objetos_necesarios_creados()
 	
 	// SI SE CREARON TODAS LAS TAREAS CREA EL NIVEL
-	if (tareas_creadas)
+	if (guardar)
 	{	
 
 		#region Guarda el nivel

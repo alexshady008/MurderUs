@@ -1,7 +1,7 @@
 /// @description Va a la pantalla previa a jugar
 if ( global.jugabilidad == true ){
-	if (global.modo_jugabilidad==1) //Borrar despues
-	{
+	//if (global.modo_jugabilidad==1) //Borrar despues
+	//{
 		escala_x=1.15
 		escala_y=1
 	
@@ -14,5 +14,5 @@ if ( global.jugabilidad == true ){
 			global.editor = true
 			room_goto(rm_ver_mapas_pers)
 		#endregion
-	}
+	//}
 }

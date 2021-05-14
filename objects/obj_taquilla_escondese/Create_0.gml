@@ -16,4 +16,4 @@ spr_mask = noone
 if (global.editor) scr_contr_obj_creado(obj_taquilla_escondese, 10, false)
 
 
-if (global.modo_jugabilidad==1) instance_destroy()
+//if (global.modo_jugabilidad==1) instance_destroy()

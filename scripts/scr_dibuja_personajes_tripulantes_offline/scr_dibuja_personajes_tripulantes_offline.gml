@@ -27,7 +27,8 @@ function scr_dibuja_personajes_tripulantes_offline(posY){
 	#region Dibuja al personaje
 		var posX_jug = posX_Inicial_jug + (n*2)
 		var escala = 1.5
-		var jugador_color = scr_crear_color(1)
+		if (global.skinElegido==1) var jugador_color = scr_crear_color(1)
+		else var jugador_color = c_white
 		scr_dibuja_jugador_parado(global.skinElegido,posX_jug,posY_jug,1, jugador_color)
 		scr_dibuja_prenda_jug_parado(global.prendaElegida,0,posX_jug,posY_jug,1,escala,escala)
 		scr_dibuja_accesorio_jug(global.accesorioElegido,posX_jug,posY_jug,1,escala,escala)

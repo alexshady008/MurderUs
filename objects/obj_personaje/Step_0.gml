@@ -190,7 +190,7 @@ if (global.jugabilidad)
 				visible=false
 				
 				#region Contr el proximo agujero
-				if (global.jugador_tipo == "IMPOSTOR")
+				if (global.jugador_tipo == "IMPOSTOR" and esconderseAlcantarilla == true)
 				{
 					if (global.modo_jugabilidad>1) global.oxigeno=100
 					if (actual_alcantarilla!=noone and instance_exists(actual_alcantarilla)){

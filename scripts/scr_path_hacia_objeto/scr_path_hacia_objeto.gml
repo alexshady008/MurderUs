@@ -10,3 +10,6 @@ function scr_path_hacia_objeto(punto_x, punto_y){
 	
 	return path_activado
 }
+
+
+

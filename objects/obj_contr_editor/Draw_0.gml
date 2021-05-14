@@ -192,11 +192,11 @@
 		var angulo = 0
 		
 		switch(os_get_language()) {
-			case "es": draw_text_outline4("¡Debes crear todas las tareas!",posX,posY,c_black,1,1,c_red,sep,width,escala,angulo) break;
-			case "pt": draw_text_outline4("Você deve criar todas as tarefas!",posX,posY,c_black,1,1,c_red,sep,width,escala,angulo) break;
-			case "it": draw_text_outline4("Devi creare tutte le compiti!",posX,posY,c_black,1,1,c_red,sep,width,escala,angulo) break;
-			case "ru": draw_set_font(fnt_grande_ru) draw_text_outline4("Вы должны создать все задания!",posX,posY,c_black,1,1,c_red,sep,width,escala,angulo) break;
-			default: draw_text_outline4("You must create all the tasks!",posX,posY,c_black,1,1,c_red,sep,width,escala,angulo) break;
+			case "es": draw_text_outline4("¡Debes crear todas las tareas y algunas alcantarillas!",posX,posY,c_black,1,1,c_red,sep,width,escala,angulo) break;
+			case "pt": draw_text_outline4("Você deve criar todas as tarefas e alguns esgotos!",posX,posY,c_black,1,1,c_red,sep,width,escala,angulo) break;
+			case "it": draw_text_outline4("Devi creare tutti i compiti e alcune fogne!",posX,posY,c_black,1,1,c_red,sep,width,escala,angulo) break;
+			case "ru": draw_set_font(fnt_grande_ru) draw_text_outline4("Вам нужно создать все задания и несколько коллекторов!",posX,posY,c_black,1,1,c_red,sep,width,escala,angulo) break;
+			default: draw_text_outline4("You must create all the tasks and some sewers!",posX,posY,c_black,1,1,c_red,sep,width,escala,angulo) break;
 		}
 	}
 #endregion

@@ -106,6 +106,7 @@ if (global.jugabilidad)
 							}	
 							else {
 								obj_personaje.escondido=true
+								obj_personaje.esconderseAlcantarilla=true
 								obj_personaje.phy_position_x = obj_usar.x//+32
 								obj_personaje.phy_position_y = obj_usar.y//+32
 								scr_ocultar_personaje(obj_personaje.idJugador)
@@ -141,6 +142,7 @@ if (global.jugabilidad)
 							}	
 							else {
 								obj_personaje.escondido=true
+								obj_personaje.esconderseAlcantarilla=false
 								obj_personaje.phy_position_x = obj_usar.x//+32
 								obj_personaje.phy_position_y = obj_usar.y//+32
 								scr_ocultar_personaje(obj_personaje.idJugador)

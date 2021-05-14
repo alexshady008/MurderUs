@@ -65,13 +65,15 @@ if (global.jugabilidad)
 #region Contr el movimiento hacia las tareas
 	if !(completando_tarea){
 		var cant_tareas = instance_number(obj_indicador_tarea)
-		var anterior_num_tarea_aleatorio = num_tarea_aleatorio
-		num_tarea_aleatorio = irandom_range(0,cant_tareas-1)
-		while(num_tarea_aleatorio==anterior_num_tarea_aleatorio) num_tarea_aleatorio = irandom_range(0,cant_tareas-1)
-		var tarea_elegida = instance_find(obj_indicador_tarea, num_tarea_aleatorio)
-		path_activado = scr_path_hacia_objeto(tarea_elegida.x, tarea_elegida.y)
+		if (cant_tareas>1){
+			var anterior_num_tarea_aleatorio = num_tarea_aleatorio
+			num_tarea_aleatorio = irandom_range(0,cant_tareas-1)
+			while(num_tarea_aleatorio==anterior_num_tarea_aleatorio) num_tarea_aleatorio = irandom_range(0,cant_tareas-1)
+			var tarea_elegida = instance_find(obj_indicador_tarea, num_tarea_aleatorio)
+			path_activado = scr_path_hacia_objeto(tarea_elegida.x, tarea_elegida.y)
 		
-		if (path_activado) { completando_tarea = true }
+			if (path_activado) completando_tarea = true 
+		}
 	}
 #endregion
 

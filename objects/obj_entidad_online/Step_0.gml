@@ -81,15 +81,15 @@ depth = -y
 			if (escondido){
 				visible = false
 				#region COntr el sprite de la alcantarilla
-					var agujero =  instance_nearest(x,y,obj_agujero)
-					if (agujero!=noone){
-						with(agujero){
-							scr_activar_sonido(snd_abrir_alcantarilla,false)
-							image_index = 1
-							image_speed = 0
-							alarm[0] = tiempo
+					/*var obj = instance_nearest(x,y,obj_agujero)
+					if (obj!=noone and obj<dist_alcantarilla){
+						with(obj) scr_abrir_alcantarilla_bot(snd_abrir_alcantarilla)
+					} else {
+						var obj2 = instance_nearest(x,y,obj_taquilla_escondese)
+						if (obj2!=noone and obj2<dist_alcantarilla){
+							with(obj2) scr_abrir_alcantarilla_bot(snd_abrir_alcantarilla)
 						}
-					}
+					}*/
 				#endregion
 			}
 		}
@@ -97,15 +97,15 @@ depth = -y
 			if !(escondido){
 				visible = true
 				#region COntr el sprite de la alcantarilla
-					var agujero =  instance_nearest(x,y,obj_agujero)
-					if (agujero!=noone){
-						with(agujero){
-							scr_activar_sonido(snd_abrir_alcantarilla,false)
-							image_index = 1
-							image_speed = 0
-							alarm[0] = tiempo
+					/*var obj = instance_nearest(x,y,obj_agujero)
+					if (obj!=noone and obj<dist_alcantarilla){
+						with(obj) scr_abrir_alcantarilla_bot(snd_abrir_alcantarilla)
+					} else {
+						var obj2 = instance_nearest(x,y,obj_taquilla_escondese)
+						if (obj2!=noone and obj2<dist_alcantarilla){
+							with(obj2) scr_abrir_alcantarilla_bot(snd_abrir_alcantarilla)
 						}
-					}
+					}*/
 				#endregion
 			}
 		}

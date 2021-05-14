@@ -30,7 +30,7 @@
 	global.usar_btn_emergencia = noone
 	global.colorElegido = 1
 	global.room_historia_finalizada = noone
-	global.modo_jugabilidad = false //Modo de juego: 1=Online, 2=Offline 
+	//if (global.modo_jugabilidad!=1) global.modo_jugabilidad = false //Modo de juego: 1=Online, 2=Offline 
 	global.modo_jugabilidad_offline = false //Modo de juego offline: 1=Practica , 2=ModoZombie 
 	entradaTeclado = ""
 	monedas_ganadas = 3
@@ -104,11 +104,40 @@
 
 #region Contr las monedas ganadas al finalizar una partida
 	if (global.contr_monedas_ganadas != 0){
+		//var monedas_ganadas_offline = floor(monedas_ganadas/2)
 		switch(global.contr_monedas_ganadas){
-			//case 1: scr_contr_monedas_ganadas(monedas_ganadas) break
-			//case 2: scr_contr_monedas_ganadas(monedas_ganadas*3) break
-			case 1: scr_contr_monedas_ganadas(monedas_ganadas) monedas_a_ganar=global.monedas+monedas_ganadas break
-			case 2: scr_contr_monedas_ganadas(monedas_ganadas*multiplicar_monedas) monedas_a_ganar=global.monedas+(monedas_ganadas*multiplicar_monedas) break
+			case 1: scr_contr_monedas_ganadas(monedas_ganadas) monedas_a_ganar=global.monedas+monedas_ganadas break //Perder en el online
+			case 2: scr_contr_monedas_ganadas(monedas_ganadas*multiplicar_monedas) monedas_a_ganar=global.monedas+(monedas_ganadas*multiplicar_monedas) break //Ganar en el online
+			case 3: scr_contr_monedas_ganadas(monedas_ganadas) monedas_a_ganar=global.monedas+monedas_ganadas break //Perder en el offline
+			case 4: scr_contr_monedas_ganadas(monedas_ganadas*2) monedas_a_ganar=global.monedas+(monedas_ganadas*2) break //Ganar en el offline
 		}
 	}
+#endregion
+
+
+#region Contr cuando se vuelve al menu
+if (global.modo_jugabilidad!=false)
+{
+	var posX_izq = obj_contr_menu.posX_btn_modo_izq
+	var posX_der = obj_contr_menu.posX_btn_modo_der
+	var posY = obj_contr_menu.posY_btn_modos
+	if (instance_exists(obj_btn_modo_offline)) instance_destroy(obj_btn_modo_offline)
+	if (instance_exists(obj_btn_modo_online)) instance_destroy(obj_btn_modo_online)
+
+	#region Contr cuando se vuelve del modo online
+	if (global.modo_jugabilidad==1){
+		if !(instance_exists(obj_btn_unirse_sala)) instance_create_layer(posX_izq,posY,"Interfaz",obj_btn_unirse_sala)
+		if !(instance_exists(obj_btn_crear_sala)) instance_create_layer(posX_der,posY,"Interfaz",obj_btn_crear_sala)
+		if !(instance_exists(obj_btn_volver_menu)) instance_create_layer(1040,96,"Interfaz",obj_btn_volver_menu)
+	}	
+	#endregion
+
+	#region Contr cuando se vuelve del modo offline
+	else if (global.modo_jugabilidad==2){
+		if !(instance_exists(obj_btn_unirse_sala)) instance_create_layer(posX_izq,posY,"Interfaz",obj_btn_practicar)
+		if !(instance_exists(obj_btn_crear_sala)) instance_create_layer(posX_der,posY,"Interfaz",obj_btn_supervivencia)
+		if !(instance_exists(obj_btn_volver_menu)) instance_create_layer(1040,96,"Interfaz",obj_btn_volver_menu)
+	}	
+	#endregion
+}	
 #endregion

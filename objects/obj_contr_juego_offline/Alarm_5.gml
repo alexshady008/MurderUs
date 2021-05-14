@@ -5,3 +5,5 @@ audio_stop_all()
 global.jugabilidad = true
 global.estadoJuego = "jugando"
 alarm[2] = room_speed
+
+show_debug_message("Comienza el juego")

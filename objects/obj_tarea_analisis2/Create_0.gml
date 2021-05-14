@@ -18,5 +18,5 @@ contr_tarea = 16
 inst_minimapa = noone
 
 
-if !(global.editor) ds_list_add(global.lista_tareas,id)
+scr_agregar_obj_a_lista_y_path()	
 scr_contr_tarea_creada(obj_tarea_analisis2)

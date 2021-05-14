@@ -13,7 +13,8 @@ if !(escondido)
 	draw_set_valign(fa_middle)
 	draw_set_font(fnt_muy_chica)
 
-	if (nombre!=noone) draw_text_outline3(nombre,x,posY,c_black,1,1,c_white)
+	//if (nombre!=noone) draw_text_outline3(nombre,x,posY,c_black,1,1,c_white)
+	draw_text_outline3(string(floor(contr_asesinar)),x,posY,c_black,1,1,c_white)
 	#endregion
 
 }

@@ -10,14 +10,9 @@ if ( global.jugabilidad=true and global.visible_opciones == true){
 	// SI HAY UN NIVEL CREADO Y GUARDADO
 	if (global.datos_nivel_pers!=noone)
 	{
-		var tareas_creadas = true
-		#region Crontr que se hayan creados todas las tareas 
-			for(i=0 ; i<global.max_tareas_crearse ; i++){
-				if (global.tareas_creadas[i] == false) tareas_creadas = false
-			}
-		#endregion
+		var guardar = scr_contr_objetos_necesarios_creados()
 		
-		if (tareas_creadas)
+		if (guardar)
 		{
 			#region COntr el tutorial cuando se guarda el nivel
 				if (global.tutorial_editor==2){

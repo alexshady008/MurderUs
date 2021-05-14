@@ -3,7 +3,7 @@
 
 // Elimina los botones del login
 instance_destroy(eliminarCampo)
-instance_destroy(servidorUsa)
+//instance_destroy(servidorUsa)
 instance_destroy(servidorBrasil)
 //instance_destroy(servidorBrasil2)
 instance_destroy(servidorEuropa)

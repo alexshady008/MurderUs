@@ -16,8 +16,12 @@ contr_crear_tarea = false
 
 inst_minimapa = noone
 
-if !(global.editor) ds_list_add(global.lista_tareas,id)
+scr_agregar_obj_a_lista_y_path()	
 scr_contr_tarea_creada(obj_tarea1)
+
+
+//instance_create_depth(x,y,depth,obj_indicador_tarea)
+
 
 
 

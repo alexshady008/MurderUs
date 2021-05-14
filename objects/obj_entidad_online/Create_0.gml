@@ -36,6 +36,7 @@ contacto_con_sangre = false
 escaneando = false
 color_sangre = make_color_rgb(183, 0, 0)
 color_sangre_ultravioleta = make_color_rgb(91, 237, 255)
+dist_alcantarilla = 150
 
 /// Var de complice
 pers_limpiar = noone

@@ -16,6 +16,7 @@
 	
 	#region Variables controladores
 		global.jugabilidad = true  //Controla si el juego esta bloqueado o no
+		global.modo_jugabilidad = false
 		global.menuBloq = false  //Controla si el menu esta bloqueado o no
 		global.popup = false  //Controla si hay un popup que se muestra
 		global.escribiendo = false //Controla si se esta escribiendo o no
@@ -67,7 +68,7 @@
 		global.servidor2Brasil = "18.228.157.144"; // Ip del servidor de Brasil 
 		global.servidorEuropa = "18.159.135.227"; // Ip del servidor de Europa
 		global.servidorLocal = "localhost"; // Ip del servidor de Europa
-		global.puerto = 7005 //Puerto del servidor del multijugador
+		global.puerto = 7006 //Puerto del servidor del multijugador
 		global.cliente = network_create_socket(network_socket_udp);  //Creacion del socket udp
 	
 		//global.servidorUSA = "18.189.22.92"; // Ip del servidor de USA

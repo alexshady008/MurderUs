@@ -9,7 +9,10 @@ if ( global.jugabilidad){
 	#region Vuelve a la room de crear la sala
 		global.datos_nivel_pers = noone
 		global.tipo_mapa_sala = 1
-		if (os_type!=os_ios) room_goto(rm_crear_sala)
-		else room_goto(rm_menu)
+		if (global.modo_jugabilidad==1) room_goto(rm_crear_sala)
+		else {
+			if (global.modo_jugabilidad_offline==1) room_goto(rm_config_practicar)
+			else if (global.modo_jugabilidad_offline==2) room_goto(rm_config_supervivencia)
+		}	
 	#endregion
 }

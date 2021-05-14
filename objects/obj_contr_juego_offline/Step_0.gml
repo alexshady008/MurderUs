@@ -66,7 +66,7 @@ if (global.estadoJuego == "jugando"){
 			#endregion
 			
 			#region Se reduce el oxigeno
-				if (global.oxigeno>0) global.oxigeno-=0.15
+				if (global.oxigeno>0) global.oxigeno-=0.1  //0.15
 			#endregion
 		}
 	#endregion
