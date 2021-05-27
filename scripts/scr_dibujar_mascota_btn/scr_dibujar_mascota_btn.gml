@@ -33,7 +33,7 @@ function scr_dibujar_mascota_btn(argument0, argument1, argument2, argument3) {
 		case 20: draw_sprite_ext(spr_mascota20_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 21: draw_sprite_ext(spr_mascota21_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 22: draw_sprite_ext(spr_mascota22_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
-		//case 23: draw_sprite_ext(spr_mascota23_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 23: draw_sprite_ext(spr_mascota23_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 24: draw_sprite_ext(spr_mascota24_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 25: draw_sprite_ext(spr_mascota25_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 26: draw_sprite_ext(spr_mascota26_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
@@ -44,7 +44,6 @@ function scr_dibujar_mascota_btn(argument0, argument1, argument2, argument3) {
 		case 31: draw_sprite_ext(spr_mascota31_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 32: draw_sprite_ext(spr_mascota32_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 33: draw_sprite_ext(spr_mascota33_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
-		case 34: draw_sprite_ext(spr_mascota23_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
 	}
 
 

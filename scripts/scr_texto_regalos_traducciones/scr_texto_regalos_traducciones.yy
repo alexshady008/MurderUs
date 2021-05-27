@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Prendas",
-    "path": "folders/Scripts/Jugabilidad/Dibujos Pers y Vestimenta/Prendas.yy",
+    "name": "Regalos",
+    "path": "folders/Scripts/Regalos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_dibujar_prendas_btn",
+  "name": "scr_texto_regalos_traducciones",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -3,7 +3,7 @@
 //global.nombre_async = noone  //BORRAR DESPUES
 
 
-#region Inicia Variables del juego
+#region Variables
 
 	#region Variables globales de Objetos de Rooms
 		global.depth_techo = -5500  //Profundidad de los objetos de techos
@@ -28,9 +28,9 @@
 	#region Vestimentas (skins, prendas, sombreros, accesorios), mascotas y monedas/diamantes
 		global.max_skins = 36  //Cantidad totales de skins
 		global.max_prendas = 16 //Cantidad maxima de prendas
-		global.max_accesorios = 49  //Cantidad maxima de accesorios
+		global.max_accesorios = 48  //Cantidad maxima de accesorios
 		global.max_sombreros = 34  //Cantidad maxima de sombreros
-		global.max_mascotas = 34  //Cantidad maxima de mascotas
+		global.max_mascotas = 33  //Cantidad maxima de mascotas
 		global.precio_skins = 25 //Cantidad de diamantes de cada skin  
 		global.precio_prendas = 15 //Cantidad de diamantes de cada prenda  
 		global.precio_accesorios = 10 //Cantidad de diamantes de cada accesorio  
@@ -102,7 +102,7 @@
 #endregion
 
 
-#region Configuraciones e Inicia Variables ini 
+#region  Variables ini 
 	ini_open("comandos.ini")
 	
 		#region Inicia Variables INI
@@ -135,6 +135,7 @@
 			borrarNivelesEditados =ini_read_real("editor","borrarNiveles",0) //Controla si el nivel editado fue borrado
 			global.tutorial_editor =ini_read_real("editor","tutorial_editor",0) //Controla si ya se mostro el tutorial del editor
 			global.tutorial_historia_juego =ini_read_real("jugadorDatos","tutorial_historia_juego",false) //Controla si ya se mostro el tutorial de la historia
+			global.ruleta_usada = ini_read_real("jugadorDatos", "ruleta_usada", false);
 		#endregion
 	
 		#region Configura el nombre
@@ -157,7 +158,7 @@
 			}
 		#endregion
 		
-		#region Configura los skins 
+		#region Skins 
 			for(i=0 ; i<global.max_skins ; i++){
 				if (i==0) global.skin_bloqueado[i] = false
 				else global.skin_bloqueado[i] = ini_read_real("jugadorDatos","skin_bloqueado"+string(i),true)
@@ -165,7 +166,7 @@
 			}
 		#endregion
 		
-		#region Configura las prendas
+		#region Prendas
 			for(i=0 ; i<=global.max_prendas ; i++){
 				if (i==0) { global.prenda_bloqueada[i]=false }
 				else {
@@ -177,7 +178,7 @@
 			}
 		#endregion
 		
-		#region Configura los accesorios
+		#region Accesorios
 			for(i=0 ; i<=global.max_accesorios ; i++){
 				if (i==0) { global.accesorio_bloqueado[i]=false }
 				else {
@@ -195,7 +196,7 @@
 			}
 		#endregion
 		
-		#region Configura los sombreros
+		#region Sombreros
 			for(i=0 ; i<=global.max_sombreros ; i++){
 				if (i==0) { global.sombrero_bloqueado[i]=false }
 				else {
@@ -213,12 +214,12 @@
 			}
 		#endregion
 		
-		#region Configura a las mascotas
+		#region Mascotas
 			for(i=0 ; i<=global.max_mascotas ; i++){
 				if (i==0) global.mascota_bloqueada[i]=false
 				else {
-					if (global.regaloSkins) global.mascota_bloqueada[i] = false
-					else global.mascota_bloqueada[i] = ini_read_real("jugadorDatos","mascota_bloqueada"+string(i),true)
+					//if (global.regaloSkins) global.mascota_bloqueada[i] = false
+					 global.mascota_bloqueada[i] = ini_read_real("jugadorDatos","mascota_bloqueada"+string(i),true)
 				}
 				//else global.mascota_bloqueada[i] = false
 				//else global.mascota_bloqueada[i] = ini_read_real("jugadorDatos","mascota_bloqueada"+string(i),true)

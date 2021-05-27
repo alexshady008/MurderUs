@@ -41,6 +41,10 @@
 	posX_btn_modo_izq = 416
 	posX_btn_modo_der = 864
 	posY_btn_modos = 608
+	segundos_restantes = "00"
+	minutos_restantes= "00"
+	horas_restantes= "00"
+	regalo_activado = false
 #endregion
 
 
@@ -140,4 +144,9 @@ if (global.modo_jugabilidad!=false)
 	}	
 	#endregion
 }	
+#endregion
+
+
+#region COntr el tiempo de la ruleta
+	if (global.regaloSkins) scr_contr_ruleta_tiempo(6)
 #endregion

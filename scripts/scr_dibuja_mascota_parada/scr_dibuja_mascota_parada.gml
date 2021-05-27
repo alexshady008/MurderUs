@@ -30,7 +30,7 @@ function scr_dibuja_mascota_parada(argument0, argument1, argument2, argument3, a
 		case 20: draw_sprite_ext(spr_mascota20_corriendo,0,xx+(34*escala),yy,escala,escala,0,c_white,alfa)  break
 		case 21: draw_sprite_ext(spr_mascota21_corriendo,0,xx+(34*escala),yy+(35*escala),escala,escala,0,c_white,alfa)  break
 		case 22: draw_sprite_ext(spr_mascota22_corriendo,0,xx+(34*escala),yy+(35*escala),escala,escala,0,c_white,alfa)  break
-		///
+		case 23: draw_sprite_ext(spr_mascota23_corriendo,0,xx+(34*escala),yy+(35*escala),escala,escala,0,c_white,alfa)  break
 		case 24: draw_sprite_ext(spr_mascota24_corriendo,0,xx+(34*escala),yy+(34*escala),escala,escala,0,c_white,alfa)  break
 		case 25: draw_sprite_ext(spr_mascota25_corriendo,0,xx+(28*escala),yy+(38*escala),escala,escala,0,c_white,alfa)  break
 		case 26: draw_sprite_ext(spr_mascota26_corriendo,0,xx+(34*escala),yy+(35*escala),escala,escala,0,c_white,alfa)  break
@@ -41,7 +41,6 @@ function scr_dibuja_mascota_parada(argument0, argument1, argument2, argument3, a
 		case 31: draw_sprite_ext(spr_mascota31_corriendo,0,xx+(34*escala),yy+(30*escala),escala,escala,0,c_white,alfa)  break
 		case 32: draw_sprite_ext(spr_mascota32_corriendo,0,xx+(38*escala),yy+(38*escala),escala,escala,0,c_white,alfa)  break
 		case 33: draw_sprite_ext(spr_mascota33_corriendo,0,xx+(30*escala),yy,escala,escala,0,c_white,alfa)  break
-		case 34: draw_sprite_ext(spr_mascota23_corriendo,0,xx+(30*escala),yy,escala,escala,0,c_white,alfa)  break
 		//
 	}
 

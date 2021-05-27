@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Dibujos Pers y Vestimenta",
-    "path": "folders/Scripts/Jugabilidad/Dibujos Pers y Vestimenta.yy",
+    "name": "Accesorios",
+    "path": "folders/Scripts/Jugabilidad/Dibujos Pers y Vestimenta/Accesorios.yy",
   },
   "resourceVersion": "1.0",
   "name": "scr_dibuja_accesorio_jug",

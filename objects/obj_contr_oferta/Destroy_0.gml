@@ -28,3 +28,4 @@ if (guardado){
 }
 
 obj_contr_menu.alarm[4] = 5   //Alarma que desbloquea el menu
+obj_contr_menu.regalo_activado =  true

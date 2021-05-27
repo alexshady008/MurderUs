@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Dibujos Pers y Vestimenta",
-    "path": "folders/Scripts/Jugabilidad/Dibujos Pers y Vestimenta.yy",
+    "name": "Sombreros",
+    "path": "folders/Scripts/Jugabilidad/Dibujos Pers y Vestimenta/Sombreros.yy",
   },
   "resourceVersion": "1.0",
   "name": "scr_dibujar_sombrero_btn",

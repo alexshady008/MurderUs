@@ -7,8 +7,16 @@ if ( global.menuBloq == true and global.popup == false){
 	{ audio_play_sound(snd_boton,100,false) }
 
 	// Se califica el juego
-	scr_calificar()
-	//url_open("https://play.google.com/store/apps/details?id=com.cheshirex.murderus")
-	alarm[0]=15
+	if !(global.regaloSkins){
+		scr_calificar()
+		alarm[0]=15
+	}
+	else {
+		if !(global.ruleta_usada) {
+			global.menuBloq=false
+			room_goto(rm_regalos)
+		}
+		//room_goto(rm_regalos)
+	}
 	
 }

@@ -33,7 +33,7 @@ function scr_dibujar_accesorio_btn(argument0, argument1, argument2, argument3) {
 		case 20: draw_sprite_ext(spr_mascara20,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 21: draw_sprite_ext(spr_mascara21,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 22: draw_sprite_ext(spr_mascara22,0, posX, posY,escala,escala,0,c_white,1)  break
-		//case 23: draw_sprite_ext(spr_mascara23,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 23: draw_sprite_ext(spr_mascara23,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 24: draw_sprite_ext(spr_mascara24,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 25: draw_sprite_ext(spr_mascara25,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 26: draw_sprite_ext(spr_mascara26,0, posX, posY,escala,escala,0,c_white,1)  break
@@ -45,7 +45,7 @@ function scr_dibujar_accesorio_btn(argument0, argument1, argument2, argument3) {
 		case 32: draw_sprite_ext(spr_mascara23,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 33: draw_sprite_ext(spr_mascara33,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 34: draw_sprite_ext(spr_mascara32,0, posX, posY,escala,escala,0,c_white,1)  break
-		//case 35: draw_sprite_ext(spr_mascara44,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 35: draw_sprite_ext(spr_mascara35,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 36: draw_sprite_ext(spr_mascara36,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 37: draw_sprite_ext(spr_mascara37,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 38: draw_sprite_ext(spr_mascara38,0, posX, posY,escala,escala,0,c_white,1)  break
@@ -57,9 +57,8 @@ function scr_dibujar_accesorio_btn(argument0, argument1, argument2, argument3) {
 		case 44: draw_sprite_ext(spr_mascara44,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 45: draw_sprite_ext(spr_mascara45,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 46: draw_sprite_ext(spr_mascara46,0, posX, posY,escala,escala,0,c_white,1)  break
-		//case 47: draw_sprite_ext(spr_mascara47,0, posX, posY,escala,escala,0,c_white,1)  break
-		case 48: draw_sprite_ext(spr_mascara47,0, posX, posY,escala,escala,0,c_white,1)  break
-		case 49: draw_sprite_ext(spr_mascara48,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 47: draw_sprite_ext(spr_mascara47,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 48: draw_sprite_ext(spr_mascara48,0, posX, posY,escala,escala,0,c_white,1)  break
 	}
 
 

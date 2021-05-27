@@ -153,8 +153,11 @@ function scr_contr_prop_mascota(argument0, argument1) {
 			image_speed=0.5
 		break
 		
-		/*
-		*/
+		case 23: color_mascota=c_white 
+			x=x_pers+(30*image_xscale)  y=y_pers
+			sprite_index = spr_mascota23_corriendo
+			image_speed=0.6
+		break
 		
 		case 24: color_mascota=c_white 
 			x=x_pers+(34*image_xscale)  y=y_pers+34
@@ -213,12 +216,6 @@ function scr_contr_prop_mascota(argument0, argument1) {
 		case 33: color_mascota=c_white 
 			x=x_pers+(30*image_xscale)  y=y_pers
 			sprite_index = spr_mascota33_corriendo
-			image_speed=0.6
-		break
-		
-		case 34: color_mascota=c_white 
-			x=x_pers+(30*image_xscale)  y=y_pers
-			sprite_index = spr_mascota23_corriendo
 			image_speed=0.6
 		break
 		
