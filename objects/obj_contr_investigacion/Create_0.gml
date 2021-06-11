@@ -24,4 +24,13 @@
 #endregion
 
 
+#region Controla la puntuacion y las pistas encontradas
+	// Guarda la cantidad de pistas encontradas
+	global.pistas_descubiertas_online += 1
+	scr_guardar_datos("pistas_descubiertas_online", global.pistas_descubiertas_online)
+	// Guarda los puntos online
+	global.puntuacion_online += global.puntos_al_descubrir_pistas
+	scr_guardar_datos("puntuacion_online", global.puntuacion_online)
+#endregion
+
 

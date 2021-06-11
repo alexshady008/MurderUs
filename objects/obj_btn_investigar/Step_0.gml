@@ -37,9 +37,6 @@ if (global.jugabilidad)
 							investigacion.skin_pista = skin_pista
 							investigacion.color_pista = color_pista
 							investigacion.letra_pista = letra_pista
-							show_debug_message("SKIN PISTA = "+string(skin_pista))
-							show_debug_message("COLOR PISTA = "+string(color_pista))
-							show_debug_message("LETRA PISTA = "+string(letra_pista))
 						#endregion
 					}
 				} 

@@ -11,4 +11,8 @@ function scr_contr_tarea_completada(){
 		sonido_tarea_completada=true
 		if (global.musica) audio_play_sound(snd_tarea_finalizada,100,false)
 	}
+	
+	// Guarda la cantidad de tareas completadas
+	global.tareas_jugador_completadas += 1
+	scr_guardar_datos("tareas_jugador_completadas", global.tareas_jugador_completadas)
 }

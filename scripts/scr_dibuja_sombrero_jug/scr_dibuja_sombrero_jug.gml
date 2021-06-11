@@ -42,6 +42,11 @@ function scr_dibuja_sombrero_jug(argument0, argument1, argument2, argument3, arg
 		case 32: draw_sprite_ext(spr_gorro32,0,xx+(1*escala_x),yy-(40*escala_y),escala_x,escala_y,0,c_white,alfa)    break
 		case 33: draw_sprite_ext(spr_gorro33,0,xx+(6*escala_x),yy-(36*escala_y),escala_x,escala_y,0,c_white,alfa)    break
 		case 34: draw_sprite_ext(spr_gorro34,0,xx+(3*escala_x),yy-(43*escala_y),escala_x,escala_y,0,c_white,alfa)    break
+		case 35: draw_sprite_ext(spr_gorro35,0,xx,yy-(45*escala_y),escala_x,escala_y,0,c_white,alfa)    break
+		case 36: draw_sprite_ext(spr_gorro36,0,xx+(5*escala_x),yy-(25*escala_y),escala_x,escala_y,0,c_white,alfa)    break
+		case 37: draw_sprite_ext(spr_gorro37,0,xx-(2*escala_x),yy-(35*escala_y),escala_x,escala_y,0,c_white,alfa)    break
+		case 38: draw_sprite_ext(spr_gorro38,0,xx+(3*escala_x),yy-(40*escala_y),escala_x,escala_y,0,c_white,alfa)    break
+		case 39: draw_sprite_ext(spr_gorro39,0,xx,yy-(25*escala_y),escala_x,escala_y,0,c_white,alfa)    break
 	}
 
 

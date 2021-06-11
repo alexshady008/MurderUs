@@ -20,19 +20,7 @@ else
 		global.mostrar_mapa = false
 		global.estadoJuego = "intro"
 		global.jugabilidad = false
-		//global.tipoDesconexion = noone
-		//global.numPaquete = -1
-		//global.tiempoServidor = 0.016
-		//global.tiempoCliente = 0
-		//global.servidorDatos = ds_list_create()
 		if !(ds_exists(global.nombre_habitaciones,ds_type_list)) global.nombre_habitaciones = ds_list_create()
-		//intervaloPasadoMs = 50
-		//vecesPorSegundo = 22
-		//numPaquete = 0
-		//segundos_totales_votacion = 90
-		//datosNuevos = 1
-		//datosAnteriores = 0
-		//global.latencia = room_speed/vecesPorSegundo
 		global.direccion = noone
 		global.accion = false
 		global.tiempoEsperaAsesinar = 20
@@ -43,8 +31,6 @@ else
 		global.ver_minimapa = false
 		global.ver_minimapa_jugadores = false
 		global.ver_camaras = false
-		//global.investigando = false
-		//global.limpiando = false
 		global.jugador = noone
 		global.muerto = false
 		global.tarea_saboteada = noone
@@ -55,26 +41,12 @@ else
 		global.cant_infectados = 0
 		global.alfaFondo = 0.75
 		global.oxigeno = 100
-		//global.id_jugador_reportado = noone  //Jugador que fue reportado como muerto
-		//global.id_jugador_informador = noone  //Jugador que reporto un cuerpo o presiono el boton de emergencia
-		//global.contadorDiscusion = global.tiempo_votacion
-		//global.comenzarVotacion = 30
 		global.cambiarVestimenta = false
-		//id_jugador_elegido = noone
-		//tipo_jugador_elegido = noone
-		//nombre_jugador_elegido = noone
-		//skin_jugador_elegido = noone
 		partidaPorCrearse = false
 		temp = 10
 		bordes1 = make_color_rgb(178, 0, 0)
-		//max_pers_online = 10
-		//index_anim_btn_emergencia = 0
-		//contr_alarma_anim_btn_emergencia = 5
-		//contr_alarma_anim_reportar_cuerpo = 5
-		//escala_anim_reportar_cuerpo = 1
-		//skin_jugador_reportado = noone
 		mensaje_juego_finalizado = false
-		//comprobarConexionDelServidor = room_speed*2
+		ganador = false
 		mostrarPantallaFinal = false
 		alfaFinal = 0
 		alfaFondo = 0
@@ -83,14 +55,6 @@ else
 		mostrarSpawn = false
 		tipoObjeto = 0
 		tiempo_pasar_escena = room_speed*4
-	
-	
-		// Listas de jugadores locales
-		//lista_id_jugadores = noone
-		//lista_jugadores = noone
-	
-		// Crea Variables si es el asesino
-		//if (global.jugador_tipo == "IMPOSTOR") global.asesinar = global.tiempoEsperaAsesinar
 	#endregion
 
 

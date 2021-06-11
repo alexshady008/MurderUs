@@ -77,6 +77,24 @@ function scr_dibujar_regalo(_tipo_regalo, _pos_x, _pos_y, _numero_premio){
 				case 14: _sprite_regalo = spr_skin14_parado; break;
 				case 15: _sprite_regalo = spr_skin15_parado; break;
 				case 16: _sprite_regalo = spr_skin16_parado; break;
+				case 17: _sprite_regalo = spr_skin17_parado; break;
+				case 18: _sprite_regalo = spr_skin18_parado; break;
+				case 19: _sprite_regalo = spr_skin19_parado; break;
+				case 20: _sprite_regalo = spr_skin20_parado; break;
+				case 21: _sprite_regalo = spr_skin21_parado; break;
+				case 22: _sprite_regalo = spr_skin22_parado; break;
+				case 23: _sprite_regalo = spr_skin23_parado; break;
+				case 24: _sprite_regalo = spr_skin24_parado; break;
+				case 25: _sprite_regalo = spr_skin25_parado; break;
+				case 26: _sprite_regalo = spr_skin26_parado; break;
+				case 27: _sprite_regalo = spr_skin27_parado; break;
+				case 28: _sprite_regalo = spr_skin28_parado; break;
+				case 29: _sprite_regalo = spr_skin29_parado; break;
+				case 30: _sprite_regalo = spr_skin30_parado; break;
+				case 31: _sprite_regalo = spr_skin31_parado; break;
+				case 32: _sprite_regalo = spr_skin32_parado; break;
+				case 33: _sprite_regalo = spr_skin33_parado; break;
+				
 			}
 			break;
 		case "Sombrero":
@@ -116,6 +134,11 @@ function scr_dibujar_regalo(_tipo_regalo, _pos_x, _pos_y, _numero_premio){
 				case 32: _sprite_regalo = spr_gorro32; break;
 				case 33: _sprite_regalo = spr_gorro33; break;
 				case 34: _sprite_regalo = spr_gorro34; break;
+				case 35: _sprite_regalo = spr_gorro35; break;
+				case 36: _sprite_regalo = spr_gorro36; break;
+				case 37: _sprite_regalo = spr_gorro37; break;
+				case 38: _sprite_regalo = spr_gorro38; break;
+				case 39: _sprite_regalo = spr_gorro39; break;
 			}
 	        break;
 		case "10 Diamantes":
@@ -160,6 +183,11 @@ function scr_dibujar_regalo(_tipo_regalo, _pos_x, _pos_y, _numero_premio){
 				case 31: _sprite_regalo = spr_mascota31_corriendo; break;
 				case 32: _sprite_regalo = spr_mascota32_corriendo; break;
 				case 33: _sprite_regalo = spr_mascota33_corriendo; break;
+				case 34: _sprite_regalo = spr_mascota34_corriendo; break;
+				case 35: _sprite_regalo = spr_mascota35_corriendo; break;
+				case 36: _sprite_regalo = spr_mascota36_corriendo; break;
+				case 37: _sprite_regalo = spr_mascota37_corriendo; break;
+				case 38: _sprite_regalo = spr_mascota38_corriendo; break;
 			}
 	        break;
 		case "Skin":

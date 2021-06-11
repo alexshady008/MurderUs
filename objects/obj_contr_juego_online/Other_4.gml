@@ -20,7 +20,7 @@ else
 
 	#region Variables
 		//global.tilemap_colision = layer_tilemap_get_id("Colision")
-	
+		global.enviar_datos_ranking = false
 		global.mostrar_mapa = false
 		global.estadoJuego = "intro"
 		global.jugabilidad = false
@@ -145,29 +145,6 @@ else
 			//alarm[0] = global.tiempoComprobarConexion/global.step_delta
 			scr_aviso_de_conexion()
 		}
-	#endregion
-
-
-	#region SOnido inicial   //////
-		/*audio_stop_all()
-		if (global.jugador_tipo == "IMPOSTOR"){
-			if (global.musica==true) {
-				audio_stop_all()
-				audio_play_sound(snd_asesino_elegido,100,false)
-			}
-		}
-		else if (global.jugador_tipo = "DETECTIVE"){
-			if (global.musica==true) {
-				audio_stop_all()
-				audio_play_sound(snd_tripulante_elegido,100,false)
-			}
-		}
-		else if (global.jugador_tipo = "TRIPULANTE"){
-			if (global.musica==true) {
-				audio_stop_all()
-				audio_play_sound(snd_tripulante_elegido,100,false)
-			}
-		}*/
 	#endregion
 
 

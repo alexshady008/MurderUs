@@ -26,6 +26,10 @@ if (seleccion_correcta){
 		//alarm[0] = 100
 		if (global.step_delta>=1) alarm[0] = 100/global.step_delta
 		else alarm[0] = 100
+		
+		// Guarda la cantidad de tareas completadas
+		global.tareas_jugador_completadas += 1
+		scr_guardar_datos("tareas_jugador_completadas", global.tareas_jugador_completadas)
 	}
 }
 

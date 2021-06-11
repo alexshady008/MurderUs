@@ -45,6 +45,11 @@ function scr_dibujar_sombrero_btn(argument0, argument1, argument2, argument3) {
 		case 32: draw_sprite_ext(spr_gorro32,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 33: draw_sprite_ext(spr_gorro33,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 34: draw_sprite_ext(spr_gorro34,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 35: draw_sprite_ext(spr_gorro35,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 36: draw_sprite_ext(spr_gorro36,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 37: draw_sprite_ext(spr_gorro37,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 38: draw_sprite_ext(spr_gorro38,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 39: draw_sprite_ext(spr_gorro39,0, posX, posY,escala,escala,0,c_white,1)  break
 	}
 
 

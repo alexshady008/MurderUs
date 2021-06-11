@@ -6,4 +6,7 @@ global.jugabilidad = true
 global.estadoJuego = "jugando"
 alarm[2] = room_speed
 
-show_debug_message("Comienza el juego")
+#region COntrola las partidas offline jugadas 
+	global.partidas_offline_jugadas += 1
+	scr_guardar_datos("partidas_offline_jugadas", global.partidas_offline_jugadas)
+#endregion

@@ -46,6 +46,9 @@ switch(tipo){
 						global.estadoJuego = "jugando"
 						if (global.step_delta>=1) alarm[2] = room_speed/global.step_delta;
 						else alarm[2] = room_speed;
+						// Guarda la cantidad total de las partidas jugadas
+						global.partidas_online_jugadas += 1
+						scr_guardar_datos("partidas_online_jugadas", global.partidas_online_jugadas)
 					#endregion
 				break
 				
@@ -217,7 +220,7 @@ switch(tipo){
 							}
 						#endregion
 						
-						#region Crea el personaje muerto y la animacion
+						#region Crea el personaje muerto, la animacion y los puntos online del asesino
 						for(i=0 ; i<ds_list_size(global.jugadores_lista) ; i++)
 						{
 							var jugador = ds_list_find_value(global.jugadores_lista,i)
@@ -235,6 +238,17 @@ switch(tipo){
 										}
 									}
 								}	
+								#endregion
+								
+								#region COntr la puntuacion online del asesino
+								else if (id_jugador_asesino == global.idLocal) {
+									// Guarda la cantidad de asesinatos online
+									global.asesinatos_online += 1
+									scr_guardar_datos("asesinatos_online", global.asesinatos_online)
+									// Guarda los puntos online
+									global.puntuacion_online += global.puntos_al_asesinar
+									scr_guardar_datos("puntuacion_online", global.puntuacion_online)
+								}
 								#endregion
 								
 								#region Contr la animacion
@@ -313,11 +327,11 @@ switch(tipo){
 								if (id_obj!=noone and instance_exists(id_obj)){
 									if (limpiar==true and id_obj.limpiando_rastro==false) {
 										id_obj.limpiando_rastro = true
-										show_debug_message("El jugador esta limpiando!")
+										//show_debug_message("El jugador esta limpiando!")
 									}	
 									else if (limpiar==false and id_obj.limpiando_rastro==true) {
 										id_obj.limpiando_rastro = false
-										show_debug_message("El jugador deja de limpiar!")
+										//show_debug_message("El jugador deja de limpiar!")
 									}	
 								}
 								#endregion
@@ -344,6 +358,13 @@ switch(tipo){
 						
 						// Contr la interfaz de cuando se reporta un cuerpo
 						scr_contr_interfaz_cuerpo_reportado()
+						
+						#region Contr la cantidad de cuerpos reportados del jugador
+							/*if (global.id_jugador_informador == global.idLocal) {
+								global.cuerpos_reportados_online += 1
+								scr_guardar_datos("cuerpos_reportados_online", global.cuerpos_reportados_online)
+							}*/
+						#endregion
 					}
 					#endregion
 				break
@@ -692,7 +713,18 @@ switch(tipo){
 						}
 						
 						//Contr la cantidad de monedas a ganar
-						if (global.jugador_tipo == "IMPOSTOR" or global.jugador_tipo == "COMPLICE") global.contr_monedas_ganadas = 2
+						if (global.jugador_tipo == "IMPOSTOR" or global.jugador_tipo == "COMPLICE") {
+							global.contr_monedas_ganadas = 2
+							#region COntrola la puntuacion y las partidas ganadas
+								// Guarda la cantidad de partidas ganadas
+								global.partidas_online_ganadas += 1
+								scr_guardar_datos("partidas_online_ganadas", global.partidas_online_ganadas)
+								// Guarda los puntos online
+								global.puntuacion_online += global.puntos_al_ganar_partida
+								scr_guardar_datos("puntuacion_online", global.puntuacion_online)
+								global.enviar_datos_ranking = true
+							#endregion
+						}
 						else global.contr_monedas_ganadas = 1
 					#endregion
 				break
@@ -726,7 +758,18 @@ switch(tipo){
 						}
 						
 						//Contr la cantidad de monedas a ganar
-						if (global.jugador_tipo == "TRIPULANTE" or global.jugador_tipo == "DETECTIVE") global.contr_monedas_ganadas = 2
+						if (global.jugador_tipo == "TRIPULANTE" or global.jugador_tipo == "DETECTIVE"){
+							global.contr_monedas_ganadas = 2
+							#region COntrola la puntuacion y las partidas ganadas 
+								// Guarda la cantidad de partidas ganadas
+								global.partidas_online_ganadas += 1
+								scr_guardar_datos("partidas_online_ganadas", global.partidas_online_ganadas)
+								// Guarda los puntos online
+								global.puntuacion_online += global.puntos_al_ganar_partida
+								scr_guardar_datos("puntuacion_online", global.puntuacion_online)
+								global.enviar_datos_ranking = true
+							#endregion
+						}	
 						else global.contr_monedas_ganadas = 1
 					#endregion
 				break

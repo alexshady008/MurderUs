@@ -25,6 +25,24 @@ function scr_dibuja_prenda_jug_fantasma(argument0, argument1, argument2, argumen
 		case 14: draw_sprite_ext(spr_skin14_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
 		case 15: draw_sprite_ext(spr_skin15_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
 		case 16: draw_sprite_ext(spr_skin16_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 17: draw_sprite_ext(spr_skin17_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 18: draw_sprite_ext(spr_skin18_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 19: draw_sprite_ext(spr_skin19_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 20: draw_sprite_ext(spr_skin20_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 21: draw_sprite_ext(spr_skin21_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 22: draw_sprite_ext(spr_skin22_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 23: draw_sprite_ext(spr_skin23_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 24: draw_sprite_ext(spr_skin24_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 25: draw_sprite_ext(spr_skin25_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 26: draw_sprite_ext(spr_skin26_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 27: draw_sprite_ext(spr_skin27_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 28: draw_sprite_ext(spr_skin28_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 29: draw_sprite_ext(spr_skin29_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 30: draw_sprite_ext(spr_skin30_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 31: draw_sprite_ext(spr_skin31_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 32: draw_sprite_ext(spr_skin32_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		case 33: draw_sprite_ext(spr_skin33_fantasma,subimg,posX,posY,escalaX,escalaY,0,c_white,alfa)  break
+		
 	}
 
 

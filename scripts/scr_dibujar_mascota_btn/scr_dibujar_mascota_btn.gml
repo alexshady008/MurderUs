@@ -44,6 +44,11 @@ function scr_dibujar_mascota_btn(argument0, argument1, argument2, argument3) {
 		case 31: draw_sprite_ext(spr_mascota31_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 32: draw_sprite_ext(spr_mascota32_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
 		case 33: draw_sprite_ext(spr_mascota33_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 34: draw_sprite_ext(spr_mascota34_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 35: draw_sprite_ext(spr_mascota35_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 36: draw_sprite_ext(spr_mascota36_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 37: draw_sprite_ext(spr_mascota37_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
+		case 38: draw_sprite_ext(spr_mascota38_corriendo,0, posX, posY,escala,escala,0,c_white,1)  break
 	}
 
 

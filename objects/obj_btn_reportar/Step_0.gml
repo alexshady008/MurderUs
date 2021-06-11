@@ -45,6 +45,10 @@ if (global.jugabilidad)
 							
 							// Envia el mensaje al servidor
 							scr_reportar_muerto(global.id_jugador_reportado,global.id_jugador_informador)
+							
+							//Guarda los datos cuando reporta
+							global.cuerpos_reportados_online += 1
+							scr_guardar_datos("cuerpos_reportados_online", global.cuerpos_reportados_online)
 						#endregion
 					}
 				} 

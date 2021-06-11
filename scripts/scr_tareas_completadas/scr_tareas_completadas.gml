@@ -1,6 +1,11 @@
 function scr_tareas_completadas() {
 	if (global.modo_jugabilidad==1)
 	{
+		// Guarda los puntos online
+		global.puntuacion_online += global.puntos_al_completar_todas_tareas
+		scr_guardar_datos("puntuacion_online", global.puntuacion_online)
+								
+		// Envio el dato al servidor
 		var mapaDatos = ds_map_create()
 		var bufferDatos = buffer_create(32, buffer_grow, 1)
 		ds_map_add(mapaDatos,"mensaje","TareasCompletadas")
@@ -13,6 +18,8 @@ function scr_tareas_completadas() {
 	}
 	else if (global.modo_jugabilidad==2)
 	{
-		///CODIFICAR
+		// Guarda los puntos offline
+		global.puntuacion_offline += global.puntos_al_completar_todas_tareas
+		scr_guardar_datos("puntuacion_offline", global.puntuacion_offline)
 	}
 }

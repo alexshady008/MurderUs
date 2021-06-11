@@ -57,6 +57,14 @@ if (global.jugabilidad)
 							with(pers_asesinar) scr_asesinar_bot()
 							// Controla el oxigeno
 							global.oxigeno = 100
+							#region COntrola la puntuacion y los tripulantes infectados
+								// Guarda la cantidad de partidas ganadas
+								global.tripulantes_infectados_offline += 1
+								scr_guardar_datos("tripulantes_infectados_offline", global.tripulantes_infectados_offline)
+								// Guarda los puntos online
+								global.puntuacion_offline += global.puntos_al_infectar
+								scr_guardar_datos("puntuacion_offline", global.puntuacion_offline)
+							#endregion
 						}
 						#endregion
 						

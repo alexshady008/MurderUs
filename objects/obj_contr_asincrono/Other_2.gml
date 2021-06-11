@@ -1,6 +1,11 @@
 /// @description Variables
 // Puede escribir su código en este editor
+global.mostrarDatosJug = false  /// Borrar desp
 global.step_delta = 1
+
+#region Inicia variables del ranking 
+	global.tipo_ranking = "historico"
+#endregion
 
 #region Inicia Variables de Anuncios
 	global.app_id = "ca-app-pub-9015194457145068~2137918490";  //Id de la app de Admob
@@ -11,7 +16,6 @@ global.step_delta = 1
 		GoogleMobileAds_LoadInterstitial();
 	#endregion
 #endregion	
-
 
 #region Inicia Variables de las IAP
 
@@ -54,7 +58,6 @@ global.step_delta = 1
 		global.desbl_skins_vestimentas_anuncios_precio = 4.99 //1
 	#endregion
 #endregion
-
 
 // Intenta conectarte a la tienda
 GPBilling_ConnectToStore();

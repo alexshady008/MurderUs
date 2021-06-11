@@ -31,6 +31,24 @@ function scr_dibuja_prenda_jug_parado(prenda, subimg, posX, posY, alfa, escalaX,
 		case 14: draw_sprite_ext(spr_skin14_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
 		case 15: draw_sprite_ext(spr_skin15_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
 		case 16: draw_sprite_ext(spr_skin16_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 17: draw_sprite_ext(spr_skin17_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 18: draw_sprite_ext(spr_skin18_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 19: draw_sprite_ext(spr_skin19_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 20: draw_sprite_ext(spr_skin20_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 21: draw_sprite_ext(spr_skin21_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break	
+		case 22: draw_sprite_ext(spr_skin22_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 23: draw_sprite_ext(spr_skin23_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 24: draw_sprite_ext(spr_skin24_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 25: draw_sprite_ext(spr_skin25_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 26: draw_sprite_ext(spr_skin26_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 27: draw_sprite_ext(spr_skin27_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 28: draw_sprite_ext(spr_skin28_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 29: draw_sprite_ext(spr_skin29_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 30: draw_sprite_ext(spr_skin30_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 31: draw_sprite_ext(spr_skin31_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 32: draw_sprite_ext(spr_skin32_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break
+		case 33: draw_sprite_ext(spr_skin33_parado,subimg,posX,posY,escalaX,escalaY,rotacion,color,alfa)  break	
+		
 	}
 
 

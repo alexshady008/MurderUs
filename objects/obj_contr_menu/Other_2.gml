@@ -23,14 +23,15 @@
 		global.slider_presionado=false //Controla si se esta deslizando el dedo
 		global.historia = false //controla si se esta mostrando la historia
 		global.veces_jugado_offline = 0
+		global.enviar_datos_ranking = false
 	#endregion
 	
 	#region Vestimentas (skins, prendas, sombreros, accesorios), mascotas y monedas/diamantes
 		global.max_skins = 36  //Cantidad totales de skins
-		global.max_prendas = 16 //Cantidad maxima de prendas
+		global.max_prendas = 33 //Cantidad maxima de prendas
 		global.max_accesorios = 48  //Cantidad maxima de accesorios
-		global.max_sombreros = 34  //Cantidad maxima de sombreros
-		global.max_mascotas = 33  //Cantidad maxima de mascotas
+		global.max_sombreros = 39  //Cantidad maxima de sombreros
+		global.max_mascotas = 38  //Cantidad maxima de mascotas
 		global.precio_skins = 25 //Cantidad de diamantes de cada skin  
 		global.precio_prendas = 15 //Cantidad de diamantes de cada prenda  
 		global.precio_accesorios = 10 //Cantidad de diamantes de cada accesorio  
@@ -68,7 +69,7 @@
 		global.servidor2Brasil = "18.228.157.144"; // Ip del servidor de Brasil 
 		global.servidorEuropa = "18.159.135.227"; // Ip del servidor de Europa
 		global.servidorLocal = "localhost"; // Ip del servidor de Europa
-		global.puerto = 7006 //Puerto del servidor del multijugador
+		global.puerto = 7006 //Puerto del servidor del multijugador //7006
 		global.cliente = network_create_socket(network_socket_udp);  //Creacion del socket udp
 	
 		//global.servidorUSA = "18.189.22.92"; // Ip del servidor de USA
@@ -136,6 +137,10 @@
 			global.tutorial_editor =ini_read_real("editor","tutorial_editor",0) //Controla si ya se mostro el tutorial del editor
 			global.tutorial_historia_juego =ini_read_real("jugadorDatos","tutorial_historia_juego",false) //Controla si ya se mostro el tutorial de la historia
 			global.ruleta_usada = ini_read_real("jugadorDatos", "ruleta_usada", false);
+		#endregion
+		
+		#region Variables de Estadisticas 
+			scr_variables_estadisticas_ranking()
 		#endregion
 	
 		#region Configura el nombre
