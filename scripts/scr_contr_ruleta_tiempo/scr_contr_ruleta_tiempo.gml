@@ -23,4 +23,5 @@ function scr_contr_ruleta_tiempo(n_alarma){
 	if (global.ruleta_usada) alarm[n_alarma] = room_speed;
 
 	ini_close();
+	//show_debug_message("ggggggggg")
 }

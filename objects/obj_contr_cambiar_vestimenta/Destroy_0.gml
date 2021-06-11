@@ -47,7 +47,7 @@ ini_close()
 
 if (room==rm_lobby) { scr_cambiar_vestimenta_jugador() }
 else {
-	obj_contr_menu.alarm[4] = 5   //Alarma que desbloquea el menu
+	if (instance_exists(obj_contr_menu)) obj_contr_menu.alarm[4] = 5   //Alarma que desbloquea el menu
 	/*if (global.skinElegido!=skin_elegido_inicialmente or global.prendaElegida!=prenda_elegida_inicialmente
 		or global.accesorioElegido!=accesorio_elegido_inicialmente or global.sombreroElegido!=sombrero_elegido_inicialmente
 			or global.mascotaElegida!=mascota_elegida_inicialmente) {
